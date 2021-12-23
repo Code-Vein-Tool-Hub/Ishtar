@@ -82,6 +82,8 @@ namespace Ishtar
             {
                 if (Directory.Exists("Temp"))
                     Directory.Delete("Temp", true);
+                if (Path.GetFileName(pak) == "ZZZZZ-MergePatch_P.pak")
+                    continue;
 
                 richTextBox1.AppendText($"Checking {Path.GetFileName(pak)} for Data Tables...\n");
                 string[] list = ListPak(pak);
