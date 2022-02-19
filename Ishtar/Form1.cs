@@ -13,6 +13,7 @@ using Microsoft.WindowsAPICodePack.Dialogs;
 using Newtonsoft.Json;
 using QueenIO;
 using QueenIO.Tables;
+using QueenIO.Structs;
 
 namespace Ishtar
 {
@@ -30,6 +31,41 @@ namespace Ishtar
                 settings = new Settings();
         }
         static Settings settings;
+
+        private void MakeTables(object sender, EventArgs e)
+        {
+            using (CommonOpenFileDialog ofd = new CommonOpenFileDialog())
+            {
+                ofd.IsFolderPicker = true;
+
+                if (ofd.ShowDialog() == CommonFileDialogResult.Ok)
+                {
+                    string[] files = Directory.GetFiles(ofd.FileName, "*.uasset");
+                    foreach (string file in files)
+                    {
+                        if (file.Contains("DT_AccessoryPreset"))
+                        {
+                            Relic relic = Blood.Open(file);
+                            AccessoryListData accessoryList = new AccessoryListData();
+                            accessoryList.Read(relic.GetDataTable());
+
+                            string json = JsonConvert.SerializeObject(accessoryList);
+                            File.WriteAllText($"Output\\{Path.GetFileNameWithoutExtension(file)}.json", json);
+                            relic.WriteDataTable(accessoryList.Make());
+                        }
+                        else if (file.Contains("DT_InnerPartsVisibilityByOuter"))
+                        {
+                            Relic relic = Blood.Open(file);
+                            InnerPartsVisibilityByOuter innerPartsVisibility = new InnerPartsVisibilityByOuter();
+                            innerPartsVisibility.Read(relic.GetDataTable());
+
+                            string json = JsonConvert.SerializeObject(innerPartsVisibility);
+                            File.WriteAllText($"Output\\{Path.GetFileNameWithoutExtension(file)}.json", json);
+                        }
+                    }
+                }
+            }
+        }
 
         private void B_GetModsPath_Click(object sender, EventArgs e)
         {

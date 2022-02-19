@@ -172,6 +172,9 @@
     <None Include="Tables\DT_InnerList_Male.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Tables\DT_InnerPartsVisibilityByOuter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Tables\DT_OuterMaskList_Female.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
