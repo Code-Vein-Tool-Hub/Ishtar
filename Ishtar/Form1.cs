@@ -13,6 +13,7 @@ using Microsoft.WindowsAPICodePack.Dialogs;
 using Newtonsoft.Json;
 using QueenIO;
 using QueenIO.Tables;
+using QueenIO.Structs;
 
 namespace Ishtar
 {
@@ -30,6 +31,41 @@ namespace Ishtar
                 settings = new Settings();
         }
         static Settings settings;
+
+        private void MakeTables(object sender, EventArgs e)
+        {
+            using (CommonOpenFileDialog ofd = new CommonOpenFileDialog())
+            {
+                ofd.IsFolderPicker = true;
+
+                if (ofd.ShowDialog() == CommonFileDialogResult.Ok)
+                {
+                    string[] files = Directory.GetFiles(ofd.FileName, "*.uasset");
+                    foreach (string file in files)
+                    {
+                        if (file.Contains("DT_AccessoryPreset"))
+                        {
+                            Relic relic = Blood.Open(file);
+                            AccessoryListData accessoryList = new AccessoryListData();
+                            accessoryList.Read(relic.GetDataTable());
+
+                            string json = JsonConvert.SerializeObject(accessoryList);
+                            File.WriteAllText($"Output\\{Path.GetFileNameWithoutExtension(file)}.json", json);
+                            relic.WriteDataTable(accessoryList.Make());
+                        }
+                        else if (file.Contains("DT_InnerPartsVisibilityByOuter"))
+                        {
+                            Relic relic = Blood.Open(file);
+                            InnerPartsVisibilityByOuter innerPartsVisibility = new InnerPartsVisibilityByOuter();
+                            innerPartsVisibility.Read(relic.GetDataTable());
+
+                            string json = JsonConvert.SerializeObject(innerPartsVisibility);
+                            File.WriteAllText($"Output\\{Path.GetFileNameWithoutExtension(file)}.json", json);
+                        }
+                    }
+                }
+            }
+        }
 
         private void B_GetModsPath_Click(object sender, EventArgs e)
         {
@@ -212,6 +248,23 @@ namespace Ishtar
                 string json = JsonConvert.SerializeObject(maskListData);
                 File.WriteAllText(outname, json);
                 relic.WriteDataTable(maskListData.Make());
+            }
+            else if (basetable.Contains("DT_InnerPartsVisibilityByOuter"))
+            {
+                InnerPartsVisibilityByOuter visibilityByOuter = new InnerPartsVisibilityByOuter();
+                InnerPartsVisibilityByOuter visibilityByOuter1 = new InnerPartsVisibilityByOuter();
+                visibilityByOuter = JsonConvert.DeserializeObject<InnerPartsVisibilityByOuter>(File.ReadAllText(basetable));
+                visibilityByOuter1 = new InnerPartsVisibilityByOuter();
+                visibilityByOuter1.Read(relic.GetDataTable());
+                foreach (var inner in visibilityByOuter1.partsVisibilities)
+                {
+                    if (!visibilityByOuter.partsVisibilities.Contains(visibilityByOuter.partsVisibilities.FirstOrDefault(x => x.Name == inner.Name)))
+                        visibilityByOuter.partsVisibilities.Add(inner);
+                }
+                string outname = $"Merged\\{Path.GetFileName(basetable)}";
+                string json = JsonConvert.SerializeObject(visibilityByOuter);
+                File.WriteAllText(outname, json);
+                relic.WriteDataTable(visibilityByOuter.Make());
             }
             else
             {
