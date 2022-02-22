@@ -40,12 +40,12 @@ namespace Ishtar.IO
             return result.ToArray();
         }
 
-        internal static void ExtractPak(string infile)
+        internal static void ExtractPak(string infile, string outpath = "Temp")
         {
             using (Process process = new Process())
             {
                 process.StartInfo.FileName = "ExtractPak.bat";
-                process.StartInfo.Arguments = $"\"{infile}\"";
+                process.StartInfo.Arguments = $"\"{infile}\" \"{outpath}\"";
                 process.StartInfo.UseShellExecute = false;
                 process.StartInfo.CreateNoWindow = true;
                 //process.StartInfo.RedirectStandardOutput = true;
