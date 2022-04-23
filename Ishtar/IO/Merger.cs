@@ -177,21 +177,27 @@ namespace Ishtar.IO
                 {
                     case MergeFile.types.Accessory:
                         file.relic.WriteDataTable(((AccessoryListData)file.Table).Make());
+                        file.Path = $"ZZZZZ-MergePatch\\CodeVein\\Content\\Costumes\\Accessories\\{Path.GetFileName(file.Path)}";
                         break;
                     case MergeFile.types.Inner:
                         file.relic.WriteDataTable(((InnerList)file.Table).Make());
+                        file.Path = $"ZZZZZ-MergePatch\\CodeVein\\Content\\Costumes\\Inners\\{Path.GetFileName(file.Path)}";
                         break;
                     case MergeFile.types.FacePaint:
                         file.relic.WriteDataTable(((FacePaintList)file.Table).Make());
+                        file.Path = $"ZZZZZ-MergePatch\\CodeVein\\Content\\Costumes\\FacePaints\\{Path.GetFileName(file.Path)}";
                         break;
                     case MergeFile.types.Hair:
                         file.relic.WriteDataTable(((HairListData)file.Table).Make());
+                        file.Path = $"ZZZZZ-MergePatch\\CodeVein\\Content\\Costumes\\Hairs\\{Path.GetFileName(file.Path)}";
                         break;
                     case MergeFile.types.Mask:
                         file.relic.WriteDataTable(((MaskListData)file.Table).Make());
+                        file.Path = $"ZZZZZ-MergePatch\\CodeVein\\Content\\Costumes\\Mask\\{Path.GetFileName(file.Path)}";
                         break;
                     case MergeFile.types.Visibility:
                         file.relic.WriteDataTable(((InnerPartsVisibilityByOuter)file.Table).Make());
+                        file.Path = $"ZZZZZ-MergePatch\\CodeVein\\Content\\Costumes\\Inners\\{Path.GetFileName(file.Path)}";
                         break;
                     case MergeFile.types.Common:
                         file.relic.WriteDataTable(((BasicCustomizationListData)file.Table).Make());
