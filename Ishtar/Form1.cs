@@ -132,8 +132,8 @@ namespace Ishtar
             if (Directory.Exists("ZZZZZ-MergePatch"))
                 Directory.Delete("ZZZZZ-MergePatch", true);
             Helpers.LogClear("richTextBox1");
-            Merger.Merge(paks, MergableFiles);
             Merger.ListMergeablePaks(paks, MergableFiles);
+            Merger.Merge(paks, MergableFiles, checkBox1.Checked);
 
             if (Directory.Exists("ZZZZZ-MergePatch"))
             {
@@ -156,6 +156,19 @@ namespace Ishtar
                 process.WaitForExit();
             }
             File.Delete("filelist.txt");
+        }
+
+        private void Testing(object sender, EventArgs e)
+        {
+            using (OpenFileDialog ofd = new OpenFileDialog())
+            {
+                if (ofd.ShowDialog() == DialogResult.OK)
+                {
+                    Relic relic = Blood.Open(ofd.FileName);
+                    SortedDictionary<int, Import> imports = relic.GetImports();
+                    Console.WriteLine();
+                }
+            }
         }
     }
 }

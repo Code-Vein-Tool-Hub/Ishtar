@@ -95,71 +95,71 @@ namespace Ishtar.IO
                     {
                         if (!MergeFiles.ContainsKey(name))
                         {
-                            Accessory((AccessoryListData)MergeFiles[name].Table, (AccessoryListData)MergeFiles[name].VanillaTable, relic);
                             AccessoryListData data = JsonConvert.DeserializeObject<AccessoryListData>(File.ReadAllText(tbl));
                             AccessoryListData vanilla = JsonConvert.DeserializeObject<AccessoryListData>(File.ReadAllText(tbl));
                             MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)0 });
                         }
+                        Accessory((AccessoryListData)MergeFiles[name].Table, (AccessoryListData)MergeFiles[name].VanillaTable, relic, PartialMerge);
                     }
                     else if (tbl.Contains("DT_InnerList"))
                     {
                         if (!MergeFiles.ContainsKey(name))
                         {
-                            Inner((InnerList)MergeFiles[name].Table, (InnerList)MergeFiles[name].VanillaTable, relic);
                             InnerList data = JsonConvert.DeserializeObject<InnerList>(File.ReadAllText(tbl));
                             InnerList vanilla = JsonConvert.DeserializeObject<InnerList>(File.ReadAllText(tbl));
                             MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)1 });
                         }
+                        Inner((InnerList)MergeFiles[name].Table, (InnerList)MergeFiles[name].VanillaTable, relic, PartialMerge);
                     }
                     else if (tbl.Contains("DT_FacePaintMask"))
                     {
                         if (!MergeFiles.ContainsKey(name))
                         {
-                            FacePaint((FacePaintList)MergeFiles[name].Table, (FacePaintList)MergeFiles[name].VanillaTable, relic);
                             FacePaintList data = JsonConvert.DeserializeObject<FacePaintList>(File.ReadAllText(tbl));
                             FacePaintList vanilla = JsonConvert.DeserializeObject<FacePaintList>(File.ReadAllText(tbl));
                             MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)2 });
                         }
+                        FacePaint((FacePaintList)MergeFiles[name].Table, (FacePaintList)MergeFiles[name].VanillaTable, relic, PartialMerge);
                     }
                     else if (tbl.Contains("DT_HairList"))
                     {
                         if (!MergeFiles.ContainsKey(name))
                         {
-                            Hair((HairListData)MergeFiles[name].Table, (HairListData)MergeFiles[name].VanillaTable, relic);
                             HairListData data = JsonConvert.DeserializeObject<HairListData>(File.ReadAllText(tbl));
                             HairListData vanilla = JsonConvert.DeserializeObject<HairListData>(File.ReadAllText(tbl));
                             MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)3 });
                         }
+                        Hair((HairListData)MergeFiles[name].Table, (HairListData)MergeFiles[name].VanillaTable, relic, PartialMerge);
                     }
                     else if (tbl.Contains("DT_InnerFrame") || tbl.Contains("DT_OuterMask"))
                     {
                         if (!MergeFiles.ContainsKey(name))
                         {
-                            Mask((MaskListData)MergeFiles[name].Table, (MaskListData)MergeFiles[name].VanillaTable, relic);
                             MaskListData data = JsonConvert.DeserializeObject<MaskListData>(File.ReadAllText(tbl));
                             MaskListData vanilla = JsonConvert.DeserializeObject<MaskListData>(File.ReadAllText(tbl));
                             MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)4 });
                         }
+                        Mask((MaskListData)MergeFiles[name].Table, (MaskListData)MergeFiles[name].VanillaTable, relic, PartialMerge);
                     }
                     else if (tbl.Contains("DT_InnerPartsVisibilityByOuter"))
                     {
                         if (!MergeFiles.ContainsKey(name))
                         {
-                            Visibility((InnerPartsVisibilityByOuter)MergeFiles[name].Table, (InnerPartsVisibilityByOuter)MergeFiles[name].VanillaTable, relic);
                             InnerPartsVisibilityByOuter data = JsonConvert.DeserializeObject<InnerPartsVisibilityByOuter>(File.ReadAllText(tbl));
                             InnerPartsVisibilityByOuter vanilla = JsonConvert.DeserializeObject<InnerPartsVisibilityByOuter>(File.ReadAllText(tbl));
                             MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)5 });
                         }
+                        Visibility((InnerPartsVisibilityByOuter)MergeFiles[name].Table, (InnerPartsVisibilityByOuter)MergeFiles[name].VanillaTable, relic, PartialMerge);
                     }
                     else
                     {
                         if (!MergeFiles.ContainsKey(name))
                         {
-                            Common((BasicCustomizationListData)MergeFiles[name].Table, (BasicCustomizationListData)MergeFiles[name].VanillaTable, relic);
                             BasicCustomizationListData data = JsonConvert.DeserializeObject<BasicCustomizationListData>(File.ReadAllText(tbl));
                             BasicCustomizationListData vanilla = JsonConvert.DeserializeObject<BasicCustomizationListData>(File.ReadAllText(tbl));
                             MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)6 });
                         }
+                        Common((BasicCustomizationListData)MergeFiles[name].Table, (BasicCustomizationListData)MergeFiles[name].VanillaTable, relic, PartialMerge);
                     }
 
                 }
@@ -209,7 +209,7 @@ namespace Ishtar.IO
             });
         }
 
-        private static void Accessory(AccessoryListData accessoryList, AccessoryListData Vanilla, Relic relic)
+        private static void Accessory(AccessoryListData accessoryList, AccessoryListData Vanilla, Relic relic, bool PartialMerge = false)
         {
             AccessoryListData accessoryList1 = new AccessoryListData();
             accessoryList1.Read(relic.GetDataTable());
@@ -221,7 +221,7 @@ namespace Ishtar.IO
                 {
                     accessoryList.Accessories.Add(accessory);
                 }
-                else if (!Temp.Equals(accessory) && !Temp2.Equals(accessory))
+                else if (!PartialMerge && !Temp.Equals(accessory) && !Temp2.Equals(accessory))
                 {
                     int i = accessoryList.Accessories.IndexOf(Temp);
                     accessoryList.Accessories[i] = accessory;
@@ -229,7 +229,7 @@ namespace Ishtar.IO
             }
         }
 
-        private static void Inner(InnerList innerList, InnerList Vanilla, Relic relic)
+        private static void Inner(InnerList innerList, InnerList Vanilla, Relic relic, bool PartialMerge = false)
         {
             InnerList innerList1 = new InnerList();
             innerList1.Read(relic.GetDataTable());
@@ -239,7 +239,7 @@ namespace Ishtar.IO
                 InnerData Temp2 = Vanilla.Inners.FirstOrDefault(x => x.Name == inner.Name);
                 if (!innerList.Inners.Contains(Temp))
                     innerList.Inners.Add(inner);
-                else if (!Temp.Equals(inner) && !Temp2.Equals(inner))
+                else if (!PartialMerge && !Temp.Equals(inner) && !Temp2.Equals(inner))
                 {
                     int i = innerList.Inners.IndexOf(Temp);
                     innerList.Inners[i] = inner;
@@ -247,7 +247,7 @@ namespace Ishtar.IO
             }
         }
 
-        private static void FacePaint(FacePaintList facePaintList, FacePaintList Vanilla, Relic relic)
+        private static void FacePaint(FacePaintList facePaintList, FacePaintList Vanilla, Relic relic, bool PartialMerge = false)
         {
             FacePaintList facePaintList1 = new FacePaintList();
             facePaintList1.Read(relic.GetDataTable());
@@ -257,7 +257,7 @@ namespace Ishtar.IO
                 FacePaintData Temp2 = Vanilla.FacePaints.FirstOrDefault(x => x.Name == facepaint.Name);
                 if (!facePaintList.FacePaints.Contains(Temp))
                     facePaintList.FacePaints.Add(facepaint);
-                else if (!Temp.Equals(facepaint) && !Temp2.Equals(facepaint))
+                else if (!PartialMerge && !Temp.Equals(facepaint) && !Temp2.Equals(facepaint))
                 {
                     int i = facePaintList.FacePaints.IndexOf(Temp);
                     facePaintList.FacePaints[i] = facepaint;
@@ -265,7 +265,7 @@ namespace Ishtar.IO
             }
         }
 
-        private static void Hair(HairListData hairListData, HairListData Vanilla, Relic relic)
+        private static void Hair(HairListData hairListData, HairListData Vanilla, Relic relic, bool PartialMerge = false)
         {
             HairListData hairListData1 = new HairListData();
             hairListData1.Read(relic.GetDataTable());
@@ -275,7 +275,7 @@ namespace Ishtar.IO
                 HairData Temp2 = Vanilla.HairDataList.FirstOrDefault(x => x.Name == hair.Name);
                 if (!hairListData.HairDataList.Contains(Temp))
                     hairListData.HairDataList.Add(hair);
-                else if (!Temp.Equals(hair) && !Temp2.Equals(hair))
+                else if (!PartialMerge && !Temp.Equals(hair) && !Temp2.Equals(hair))
                 {
                     int i = hairListData.HairDataList.IndexOf(Temp);
                     hairListData.HairDataList[i] = hair;
@@ -283,7 +283,7 @@ namespace Ishtar.IO
             }
         }
 
-        private static void Mask(MaskListData maskListData, MaskListData Vanilla, Relic relic)
+        private static void Mask(MaskListData maskListData, MaskListData Vanilla, Relic relic, bool PartialMerge = false)
         {
             MaskListData maskListData1 = new MaskListData();
             maskListData1.Read(relic.GetDataTable());
@@ -295,7 +295,7 @@ namespace Ishtar.IO
                 {
                     maskListData.Masks.Add(mask);
                 }
-                else if (!Temp.Equals(mask) && !Temp2.Equals(mask))
+                else if (!PartialMerge && !Temp.Equals(mask) && !Temp2.Equals(mask))
                 {
                     int i = maskListData.Masks.IndexOf(Temp);
                     maskListData.Masks[i] = mask;
@@ -303,7 +303,7 @@ namespace Ishtar.IO
             }
         }
 
-        private static void Visibility(InnerPartsVisibilityByOuter visibilityByOuter, InnerPartsVisibilityByOuter Vanilla, Relic relic)
+        private static void Visibility(InnerPartsVisibilityByOuter visibilityByOuter, InnerPartsVisibilityByOuter Vanilla, Relic relic, bool PartialMerge = false)
         {
             InnerPartsVisibilityByOuter visibilityByOuter1 = new InnerPartsVisibilityByOuter();
             visibilityByOuter1.Read(relic.GetDataTable());
@@ -313,7 +313,7 @@ namespace Ishtar.IO
                 PartsVisibilityByOuter Temp2 = Vanilla.partsVisibilities.FirstOrDefault(x => x.Name == inner.Name);
                 if (!visibilityByOuter.partsVisibilities.Contains(Temp))
                     visibilityByOuter.partsVisibilities.Add(inner);
-                else if (!Temp.Equals(inner) && !Temp2.Equals(inner))
+                else if (!PartialMerge && !Temp.Equals(inner) && !Temp2.Equals(inner))
                 {
                     int i = visibilityByOuter.partsVisibilities.IndexOf(Temp);
                     visibilityByOuter.partsVisibilities[i] = inner;
@@ -321,7 +321,7 @@ namespace Ishtar.IO
             }
         }
 
-        private static void Common(BasicCustomizationListData basicCustomizationListData, BasicCustomizationListData Vanilla, Relic relic)
+        private static void Common(BasicCustomizationListData basicCustomizationListData, BasicCustomizationListData Vanilla, Relic relic, bool PartialMerge = false)
         {
             BasicCustomizationListData basicCustomizationListData1 = new BasicCustomizationListData();
             basicCustomizationListData1.Read(relic.GetDataTable());
@@ -331,7 +331,7 @@ namespace Ishtar.IO
                 BasicCustomizationData Temp2 = Vanilla.basicCustomizationDatas.FirstOrDefault(x => x.Name == basic.Name);
                 if (!basicCustomizationListData.basicCustomizationDatas.Contains(Temp))
                     basicCustomizationListData.basicCustomizationDatas.Add(basic);
-                else if (!Temp.Equals(basic) && !Temp2.Equals(basic))
+                else if (!PartialMerge && !Temp.Equals(basic) && !Temp2.Equals(basic))
                 {
                     int i = basicCustomizationListData.basicCustomizationDatas.IndexOf(Temp);
                     basicCustomizationListData.basicCustomizationDatas[i] = basic;
