@@ -35,11 +35,32 @@ namespace Ishtar.IO
         }
 
         private static ConcurrentDictionary<string, MergeFile> MergeFiles = new ConcurrentDictionary<string, MergeFile>();
+        private static ConcurrentDictionary<string, string> LoggedPaks = new ConcurrentDictionary<string, string>();
 
-        public static void Merge(string[] infiles, string[] Tables)
+        public static void ListMergeablePaks(string[] infiles, string[] Tables)
+        {
+            Helpers.Log("richTextBox1", $"Checking Paks for mergeable files...");
+            Parallel.ForEach(infiles, pak =>
+            {
+                string[] list = Helpers.ListPak(pak);
+                if (list.Any(x => Tables.Any(y => Path.GetFileNameWithoutExtension(y) == Path.GetFileNameWithoutExtension(x))))
+                {
+                    bool added = LoggedPaks.TryAdd(Path.GetFileNameWithoutExtension(pak), pak);
+                    if (added)
+                    {
+                        //Helpers.Log("richTextBox1", $"Meragable files found in {Path.GetFileNameWithoutExtension(pak)}");
+                    }
+                }
+            });
+            Helpers.Log("richTextBox1", $"Found {LoggedPaks.Count} paks for merging");
+        }
+
+
+
+        public static void Merge(string[] infiles, string[] Tables, bool PartialMerge = false)
         {
 
-            foreach (string pak in infiles)
+            foreach (string pak in LoggedPaks.Values)
             {
                 string staging = Path.GetFileNameWithoutExtension(pak);
                 if (Directory.Exists(staging))
@@ -47,109 +68,102 @@ namespace Ishtar.IO
                 if (Path.GetFileName(pak) == "ZZZZZ-MergePatch_P.pak")
                     continue;
 
-                Helpers.Log("richTextBox1", $"Checking {Path.GetFileName(pak)} for Data Tables...");
-                string[] list = Helpers.ListPak(pak);
-                if (list.Any(x => Tables.Any(y => Path.GetFileNameWithoutExtension(y) == Path.GetFileNameWithoutExtension(x))))
-                {
-                    var uassetList = list.Where(x => Tables.Any(y => Path.GetFileName(y).Replace(".json", ".uasset") == Path.GetFileName(x))).ToList();
+                Helpers.ExtractPak(pak, staging);
+                Helpers.Log("richTextBox1", $"Merging Pak {staging}:");
 
-                    Helpers.ExtractPak(pak, staging);
-                    foreach (string file in uassetList)
+                string[] list = Directory.GetFiles(staging, "*.*", SearchOption.AllDirectories);
+                var uassetList = list.Where(x => Tables.Any(y => Path.GetFileName(y).Replace(".json", ".uasset") == Path.GetFileName(x))).ToList();
+
+                foreach (string file in uassetList)
+                {
+                    if (!Directory.Exists("Merged"))
+                        Directory.CreateDirectory("Merged");
+
+                    Helpers.Log("richTextBox1", $"    Merging {Path.GetFileName(file)}...");
+                    string fullpath = $"{Directory.GetCurrentDirectory()}\\{file}";
+                    Relic relic = new Relic();
+                    relic = Blood.Open(fullpath);
+                    string outpath = $"ZZZZZ-MergePatch\\CodeVein\\Content\\{fullpath.Substring(fullpath.LastIndexOf($"{staging}\\")).Replace($"{staging}\\", "")}";
+                    if (!Directory.Exists(Path.GetDirectoryName(outpath)))
+                        Directory.CreateDirectory(Path.GetDirectoryName(outpath));
+
+                    //check if existing merge exist, use that for the base table instead if so
+                    string tbl = $"Tables\\{Path.GetFileNameWithoutExtension(file)}.json";
+                    string name = Path.GetFileNameWithoutExtension(file);
+
+                    if (tbl.Contains("DT_AccessoryPreset"))
                     {
-                        if (!Directory.Exists("Merged"))
-                            Directory.CreateDirectory("Merged");
-
-                        Helpers.Log("richTextBox1", $"Merging {Path.GetFileName(file)}...");
-                        string fullpath = $"{Directory.GetCurrentDirectory()}\\{staging}\\{file}";
-                        Relic relic = new Relic();
-                        relic = Blood.Open(fullpath);
-                        string outpath = $"ZZZZZ-MergePatch\\CodeVein\\Content\\{fullpath.Substring(fullpath.LastIndexOf($"{staging}\\")).Replace($"{staging}\\", "")}";
-                        if (!Directory.Exists(Path.GetDirectoryName(outpath)))
-                            Directory.CreateDirectory(Path.GetDirectoryName(outpath));
-
-                        //check if existing merge exist, use that for the base table instead if so
-                        string tbl = $"Tables\\{Path.GetFileNameWithoutExtension(file)}.json";
-                        string name = Path.GetFileNameWithoutExtension(file);
-
-                        if (tbl.Contains("DT_AccessoryPreset"))
+                        if (!MergeFiles.ContainsKey(name))
                         {
-                            if (!MergeFiles.ContainsKey(name))
-                            {
-                                AccessoryListData data = JsonConvert.DeserializeObject<AccessoryListData>(File.ReadAllText(tbl));
-                                AccessoryListData vanilla = JsonConvert.DeserializeObject<AccessoryListData>(File.ReadAllText(tbl));
-                                MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)0 });
-                            }
                             Accessory((AccessoryListData)MergeFiles[name].Table, (AccessoryListData)MergeFiles[name].VanillaTable, relic);
+                            AccessoryListData data = JsonConvert.DeserializeObject<AccessoryListData>(File.ReadAllText(tbl));
+                            AccessoryListData vanilla = JsonConvert.DeserializeObject<AccessoryListData>(File.ReadAllText(tbl));
+                            MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)0 });
                         }
-                        else if (tbl.Contains("DT_InnerList"))
-                        {
-                            if (!MergeFiles.ContainsKey(name))
-                            {
-                                InnerList data = JsonConvert.DeserializeObject<InnerList>(File.ReadAllText(tbl));
-                                InnerList vanilla = JsonConvert.DeserializeObject<InnerList>(File.ReadAllText(tbl));
-                                MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)1 });
-                            }
-                            Inner((InnerList)MergeFiles[name].Table, (InnerList)MergeFiles[name].VanillaTable, relic);
-                        }
-                        else if (tbl.Contains("DT_FacePaintMask"))
-                        {
-                            if (!MergeFiles.ContainsKey(name))
-                            {
-                                FacePaintList data = JsonConvert.DeserializeObject<FacePaintList>(File.ReadAllText(tbl));
-                                FacePaintList vanilla = JsonConvert.DeserializeObject<FacePaintList>(File.ReadAllText(tbl));
-                                MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)2 });
-                            }
-                            FacePaint((FacePaintList)MergeFiles[name].Table, (FacePaintList)MergeFiles[name].VanillaTable, relic);
-                        }
-                        else if (tbl.Contains("DT_HairList"))
-                        {
-                            if (!MergeFiles.ContainsKey(name))
-                            {
-                                HairListData data = JsonConvert.DeserializeObject<HairListData>(File.ReadAllText(tbl));
-                                HairListData vanilla = JsonConvert.DeserializeObject<HairListData>(File.ReadAllText(tbl));
-                                MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)3 });
-                            }
-                            Hair((HairListData)MergeFiles[name].Table, (HairListData)MergeFiles[name].VanillaTable, relic);
-                        }
-                        else if (tbl.Contains("DT_InnerFrame") || tbl.Contains("DT_OuterMask"))
-                        {
-                            if (!MergeFiles.ContainsKey(name))
-                            {
-                                MaskListData data = JsonConvert.DeserializeObject<MaskListData>(File.ReadAllText(tbl));
-                                MaskListData vanilla = JsonConvert.DeserializeObject<MaskListData>(File.ReadAllText(tbl));
-                                MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)4 });
-                            }
-                            Mask((MaskListData)MergeFiles[name].Table, (MaskListData)MergeFiles[name].VanillaTable, relic);
-                        }
-                        else if (tbl.Contains("DT_InnerPartsVisibilityByOuter"))
-                        {
-                            if (!MergeFiles.ContainsKey(name))
-                            {
-                                InnerPartsVisibilityByOuter data = JsonConvert.DeserializeObject<InnerPartsVisibilityByOuter>(File.ReadAllText(tbl));
-                                InnerPartsVisibilityByOuter vanilla = JsonConvert.DeserializeObject<InnerPartsVisibilityByOuter>(File.ReadAllText(tbl));
-                                MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)5 });
-                            }
-                            Visibility((InnerPartsVisibilityByOuter)MergeFiles[name].Table, (InnerPartsVisibilityByOuter)MergeFiles[name].VanillaTable, relic);
-                        }
-                        else
-                        {
-                            if (!MergeFiles.ContainsKey(name))
-                            {
-                                BasicCustomizationListData data = JsonConvert.DeserializeObject<BasicCustomizationListData>(File.ReadAllText(tbl));
-                                BasicCustomizationListData vanilla = JsonConvert.DeserializeObject<BasicCustomizationListData>(File.ReadAllText(tbl));
-                                MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)6 });
-                            }
-                            Common((BasicCustomizationListData)MergeFiles[name].Table, (BasicCustomizationListData)MergeFiles[name].VanillaTable, relic);
-                        }
-
                     }
-                    Directory.Delete(staging, true);
-                    continue;
+                    else if (tbl.Contains("DT_InnerList"))
+                    {
+                        if (!MergeFiles.ContainsKey(name))
+                        {
+                            Inner((InnerList)MergeFiles[name].Table, (InnerList)MergeFiles[name].VanillaTable, relic);
+                            InnerList data = JsonConvert.DeserializeObject<InnerList>(File.ReadAllText(tbl));
+                            InnerList vanilla = JsonConvert.DeserializeObject<InnerList>(File.ReadAllText(tbl));
+                            MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)1 });
+                        }
+                    }
+                    else if (tbl.Contains("DT_FacePaintMask"))
+                    {
+                        if (!MergeFiles.ContainsKey(name))
+                        {
+                            FacePaint((FacePaintList)MergeFiles[name].Table, (FacePaintList)MergeFiles[name].VanillaTable, relic);
+                            FacePaintList data = JsonConvert.DeserializeObject<FacePaintList>(File.ReadAllText(tbl));
+                            FacePaintList vanilla = JsonConvert.DeserializeObject<FacePaintList>(File.ReadAllText(tbl));
+                            MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)2 });
+                        }
+                    }
+                    else if (tbl.Contains("DT_HairList"))
+                    {
+                        if (!MergeFiles.ContainsKey(name))
+                        {
+                            Hair((HairListData)MergeFiles[name].Table, (HairListData)MergeFiles[name].VanillaTable, relic);
+                            HairListData data = JsonConvert.DeserializeObject<HairListData>(File.ReadAllText(tbl));
+                            HairListData vanilla = JsonConvert.DeserializeObject<HairListData>(File.ReadAllText(tbl));
+                            MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)3 });
+                        }
+                    }
+                    else if (tbl.Contains("DT_InnerFrame") || tbl.Contains("DT_OuterMask"))
+                    {
+                        if (!MergeFiles.ContainsKey(name))
+                        {
+                            Mask((MaskListData)MergeFiles[name].Table, (MaskListData)MergeFiles[name].VanillaTable, relic);
+                            MaskListData data = JsonConvert.DeserializeObject<MaskListData>(File.ReadAllText(tbl));
+                            MaskListData vanilla = JsonConvert.DeserializeObject<MaskListData>(File.ReadAllText(tbl));
+                            MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)4 });
+                        }
+                    }
+                    else if (tbl.Contains("DT_InnerPartsVisibilityByOuter"))
+                    {
+                        if (!MergeFiles.ContainsKey(name))
+                        {
+                            Visibility((InnerPartsVisibilityByOuter)MergeFiles[name].Table, (InnerPartsVisibilityByOuter)MergeFiles[name].VanillaTable, relic);
+                            InnerPartsVisibilityByOuter data = JsonConvert.DeserializeObject<InnerPartsVisibilityByOuter>(File.ReadAllText(tbl));
+                            InnerPartsVisibilityByOuter vanilla = JsonConvert.DeserializeObject<InnerPartsVisibilityByOuter>(File.ReadAllText(tbl));
+                            MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)5 });
+                        }
+                    }
+                    else
+                    {
+                        if (!MergeFiles.ContainsKey(name))
+                        {
+                            Common((BasicCustomizationListData)MergeFiles[name].Table, (BasicCustomizationListData)MergeFiles[name].VanillaTable, relic);
+                            BasicCustomizationListData data = JsonConvert.DeserializeObject<BasicCustomizationListData>(File.ReadAllText(tbl));
+                            BasicCustomizationListData vanilla = JsonConvert.DeserializeObject<BasicCustomizationListData>(File.ReadAllText(tbl));
+                            MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)6 });
+                        }
+                    }
+
                 }
-                else
-                {
-                    continue;
-                }
+                Directory.Delete(staging, true);
             }
             Export();
         }

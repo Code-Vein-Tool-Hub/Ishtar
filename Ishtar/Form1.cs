@@ -133,6 +133,7 @@ namespace Ishtar
                 Directory.Delete("ZZZZZ-MergePatch", true);
             Helpers.LogClear("richTextBox1");
             Merger.Merge(paks, MergableFiles);
+            Merger.ListMergeablePaks(paks, MergableFiles);
 
             if (Directory.Exists("ZZZZZ-MergePatch"))
             {
