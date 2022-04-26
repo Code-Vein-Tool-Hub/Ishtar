@@ -102,7 +102,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "button1";
             this.button1.Visible = false;
-            this.button1.Click += new System.EventHandler(this.Testing);
+            this.button1.Click += new System.EventHandler(this.MakeTables);
             // 
             // checkBox1
             // 

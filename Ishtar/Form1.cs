@@ -31,6 +31,9 @@ namespace Ishtar
             }
             else
                 settings = new Settings();
+#if DEBUG
+            button1.Visible = true;
+#endif
         }
         static Settings settings;
         private volatile int threads;
@@ -63,6 +66,51 @@ namespace Ishtar
                             innerPartsVisibility.Read(relic.GetDataTable());
 
                             string json = JsonConvert.SerializeObject(innerPartsVisibility);
+                            File.WriteAllText($"Output\\{Path.GetFileNameWithoutExtension(file)}.json", json);
+                        }
+                        else if (file.Contains("DT_FacePaint"))
+                        {
+                            Relic relic = Blood.Open(file);
+                            FacePaintList data = new FacePaintList();
+                            data.Read(relic.GetDataTable());
+
+                            string json = JsonConvert.SerializeObject(data);
+                            File.WriteAllText($"Output\\{Path.GetFileNameWithoutExtension(file)}.json", json);
+                        }
+                        else if (file.Contains("DT_InnerList"))
+                        {
+                            Relic relic = Blood.Open(file);
+                            InnerList data = new InnerList();
+                            data.Read(relic.GetDataTable());
+
+                            string json = JsonConvert.SerializeObject(data);
+                            File.WriteAllText($"Output\\{Path.GetFileNameWithoutExtension(file)}.json", json);
+                        }
+                        else if (file.Contains("DT_Hair"))
+                        {
+                            Relic relic = Blood.Open(file);
+                            HairListData data = new HairListData();
+                            data.Read(relic.GetDataTable());
+
+                            string json = JsonConvert.SerializeObject(data);
+                            File.WriteAllText($"Output\\{Path.GetFileNameWithoutExtension(file)}.json", json);
+                        }
+                        else if (file.Contains("DT_InnerFrame") || file.Contains("DT_OuterMask"))
+                        {
+                            Relic relic = Blood.Open(file);
+                            MaskListData data = new MaskListData();
+                            data.Read(relic.GetDataTable());
+
+                            string json = JsonConvert.SerializeObject(data);
+                            File.WriteAllText($"Output\\{Path.GetFileNameWithoutExtension(file)}.json", json);
+                        }
+                        else
+                        {
+                            Relic relic = Blood.Open(file);
+                            BasicCustomizationListData basicCustomizationData = new BasicCustomizationListData();
+                            basicCustomizationData.Read(relic.GetDataTable());
+
+                            string json = JsonConvert.SerializeObject(basicCustomizationData);
                             File.WriteAllText($"Output\\{Path.GetFileNameWithoutExtension(file)}.json", json);
                         }
                     }
