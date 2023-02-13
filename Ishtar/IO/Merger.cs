@@ -2,13 +2,11 @@
 using QueenIO;
 using QueenIO.Tables;
 using QueenIO.Structs;
-using System;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
+using QueenIO.Mods;
 
 namespace Ishtar.IO
 {
@@ -31,6 +29,7 @@ namespace Ishtar.IO
                 Mask,
                 Visibility,
                 Common,
+                Mod,
             }
         }
 
@@ -39,6 +38,7 @@ namespace Ishtar.IO
 
         public static void ListMergeablePaks(string[] infiles, string[] Tables)
         {
+            Global.settings.Paks.Clear();
             Helpers.Log("richTextBox1", $"Checking Paks for mergeable files...");
             Parallel.ForEach(infiles, pak =>
             {
@@ -48,11 +48,13 @@ namespace Ishtar.IO
                     bool added = LoggedPaks.TryAdd(Path.GetFileNameWithoutExtension(pak), pak);
                     if (added)
                     {
+                        Global.settings.Paks.Add(Helpers.HashFile(File.ReadAllBytes(pak)), Path.GetFileName(pak));
                         //Helpers.Log("richTextBox1", $"Meragable files found in {Path.GetFileNameWithoutExtension(pak)}");
                     }
                 }
             });
             Helpers.Log("richTextBox1", $"Found {LoggedPaks.Count} paks for merging");
+            Global.Settings.Save();
         }
 
 
@@ -151,6 +153,16 @@ namespace Ishtar.IO
                         }
                         Visibility((InnerPartsVisibilityByOuter)MergeFiles[name].Table, (InnerPartsVisibilityByOuter)MergeFiles[name].VanillaTable, relic, PartialMerge);
                     }
+                    else if (tbl.Contains("DT_SpawnerList"))
+                    {
+                        if (!MergeFiles.ContainsKey(name))
+                        {
+                            ModControlFrameworkListData data = JsonConvert.DeserializeObject<ModControlFrameworkListData>(File.ReadAllText(tbl));
+                            ModControlFrameworkListData vanilla = JsonConvert.DeserializeObject<ModControlFrameworkListData>(File.ReadAllText(tbl));
+                            MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)7 });
+                        }
+                        ModControl((ModControlFrameworkListData)MergeFiles[name].Table, (ModControlFrameworkListData)MergeFiles[name].VanillaTable, relic, PartialMerge);
+                    }
                     else
                     {
                         if (!MergeFiles.ContainsKey(name))
@@ -201,6 +213,10 @@ namespace Ishtar.IO
                         break;
                     case MergeFile.types.Common:
                         file.relic.WriteDataTable(((BasicCustomizationListData)file.Table).Make());
+                        break;
+                    case MergeFile.types.Mod:
+                        file.relic.WriteDataTable(((ModControlFrameworkListData)file.Table).Make());
+                        file.Path = $"ZZZZZ-MergePatch\\CodeVein\\Content\\Characters\\Blueprints\\Player\\Core\\ModControlFramework\\{Path.GetFileName(file.Path)}";
                         break;
                     default:
                         return;
@@ -335,6 +351,24 @@ namespace Ishtar.IO
                 {
                     int i = basicCustomizationListData.basicCustomizationDatas.IndexOf(Temp);
                     basicCustomizationListData.basicCustomizationDatas[i] = basic;
+                }
+            }
+        }
+
+        private static void ModControl(ModControlFrameworkListData modControlFrameworkListData, ModControlFrameworkListData Vanilla, Relic relic, bool PartialMerge = false)
+        {
+            ModControlFrameworkListData modControlFrameworkListData1 = new ModControlFrameworkListData();
+            modControlFrameworkListData1.Read(relic.GetDataTable());
+            foreach(var modcontrol in modControlFrameworkListData1.SpawnerList)
+            {
+                ModControlFrameworkData mod = modControlFrameworkListData.SpawnerList.FirstOrDefault(x => x.Name == modcontrol.Name);
+                ModControlFrameworkData mod2 = Vanilla.SpawnerList.FirstOrDefault(x => x.Name == modcontrol.Name);
+                if (!modControlFrameworkListData.SpawnerList.Contains(mod))
+                    modControlFrameworkListData.SpawnerList.Add(modcontrol);
+                else if (!PartialMerge && !mod.Equals(modcontrol) && !mod2.Equals(modcontrol))
+                {
+                    int i = modControlFrameworkListData.SpawnerList.IndexOf(mod);
+                    modControlFrameworkListData.SpawnerList[i] = modcontrol;
                 }
             }
         }

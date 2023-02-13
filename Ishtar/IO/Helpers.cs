@@ -6,12 +6,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.WebRequestMethods;
 
 namespace Ishtar.IO
 {
-    internal class Helpers
+    public class Helpers
     {
-        internal static string[] ListPak(string infile)
+        public static string[] ListPak(string infile)
         {
             string[] list;
             using (Process process = new Process())
@@ -40,7 +41,7 @@ namespace Ishtar.IO
             return result.ToArray();
         }
 
-        internal static void ExtractPak(string infile, string outpath = "Temp")
+        public static void ExtractPak(string infile, string outpath = "Temp")
         {
             using (Process process = new Process())
             {
@@ -74,6 +75,21 @@ namespace Ishtar.IO
                 RTB.Invoke(new Action(() => RTB.Clear()));
             else
                 RTB.Clear();
+        }
+
+        public static string HashFile(byte[] infile)
+        {
+            using (var md5 = System.Security.Cryptography.MD5.Create())
+            {
+                var hash = md5.ComputeHash(infile);
+                string s = BitConverter.ToString(hash).Replace("-", "");
+                return s;
+            }
+        }
+
+        public static string HashString(string s)
+        {
+            return HashFile(Encoding.UTF8.GetBytes(s));
         }
     }
 }

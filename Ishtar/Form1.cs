@@ -16,6 +16,7 @@ using QueenIO.Tables;
 using QueenIO.Structs;
 using Ishtar.IO;
 using System.Threading;
+using QueenIO.Mods;
 
 namespace Ishtar
 {
@@ -26,16 +27,16 @@ namespace Ishtar
             InitializeComponent();
             if (File.Exists("Settings.json"))
             {
-                Settings.Read("Settings.json");
-                TB_ModsPath.Text = settings.Mods_Path;
+                Global.Settings.Read("Settings.json");
+                TB_ModsPath.Text = Global.settings.Mods_Path;
             }
             else
-                settings = new Settings();
+                Global.settings = new Global.Settings();
 #if DEBUG
             button1.Visible = true;
 #endif
         }
-        static Settings settings;
+        
         private volatile int threads;
 
         private void MakeTables(object sender, EventArgs e)
@@ -104,6 +105,14 @@ namespace Ishtar
                             string json = JsonConvert.SerializeObject(data);
                             File.WriteAllText($"Output\\{Path.GetFileNameWithoutExtension(file)}.json", json);
                         }
+                        else if (file.Contains("DT_SpawnerList"))
+                        {
+                            Relic relic = Blood.Open(file);
+                            ModControlFrameworkListData data = new ModControlFrameworkListData();
+                            data.Read(relic.GetDataTable());
+                            string json = JsonConvert.SerializeObject(data);
+                            File.WriteAllText($"Output\\{Path.GetFileNameWithoutExtension(file)}.json", json);
+                        }
                         else
                         {
                             Relic relic = Blood.Open(file);
@@ -128,30 +137,13 @@ namespace Ishtar
                 if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
                 {
                     TB_ModsPath.Text = dialog.FileName;
-                    settings.Mods_Path = dialog.FileName;
-                    Settings.Save();
+                    Global.settings.Mods_Path = dialog.FileName;
+                    Global.Settings.Save();
                 }
             }
         }
 
-        class Settings
-        {
-            public string Mods_Path { get; set; }
-
-            public static void Read(string infile)
-            {
-                string json = File.ReadAllText(infile);
-                settings = JsonConvert.DeserializeObject<Settings>(json);
-            }
-
-            public static void Save()
-            {
-                string json = JsonConvert.SerializeObject(settings);
-                if (File.Exists("Settings.json"))
-                    File.Delete("Settings.json");
-                File.WriteAllText("Settings.json", json);
-            }
-        }
+        
 
         private void Merge_Tables_Click(object sender, EventArgs e)
         {
@@ -175,8 +167,8 @@ namespace Ishtar
             string[] MergableFiles = Directory.GetFiles("Tables", "*.json");
             Helpers.Log("richTextBox1", $"Found {paks.Length} pak files");
             Helpers.Log("richTextBox1", $"Found {MergableFiles.Length} base tables for mergeing");
-            if (Directory.Exists("Merged"))
-                Directory.Delete("Merged", true);
+            //if (Directory.Exists("Merged"))
+            //    Directory.Delete("Merged", true);
             if (Directory.Exists("ZZZZZ-MergePatch"))
                 Directory.Delete("ZZZZZ-MergePatch", true);
             Helpers.LogClear("richTextBox1");
