@@ -38,6 +38,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.nestedPak = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // TB_ModsPath
@@ -102,7 +103,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "button1";
             this.button1.Visible = false;
-            this.button1.Click += new System.EventHandler(this.MakeTables);
+            this.button1.Click += new System.EventHandler(this.Testing);
             // 
             // checkBox1
             // 

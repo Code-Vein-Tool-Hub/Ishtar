@@ -64,6 +64,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="IO\AssetRegistryMerger.cs" />
     <Compile Include="IO\Helpers.cs" />
     <Compile Include="IO\Merger.cs" />
     <Compile Include="Program.cs" />
@@ -96,6 +97,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Tables\AssetRegistry.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Tables\DT_AccessoryPresetBag.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

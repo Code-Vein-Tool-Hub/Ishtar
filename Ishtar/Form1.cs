@@ -143,8 +143,6 @@ namespace Ishtar
             }
         }
 
-        
-
         private void Merge_Tables_Click(object sender, EventArgs e)
         {
             if (threads > 0)
@@ -175,6 +173,11 @@ namespace Ishtar
             Merger.ListMergeablePaks(paks, MergableFiles);
             Merger.Merge(paks, MergableFiles, checkBox1.Checked);
 
+            //AssetRegister Merge
+            Helpers.Log("richTextBox1", $"Starting AssetRegistryMerge");
+            AssetRegistryMerger.ListMergeablePaks(paks);
+            AssetRegistryMerger.Merge(paks);
+
             if (Directory.Exists("ZZZZZ-MergePatch"))
             {
                 MakePak("ZZZZZ-MergePatch");
@@ -204,8 +207,16 @@ namespace Ishtar
             {
                 if (ofd.ShowDialog() == DialogResult.OK)
                 {
-                    Relic relic = Blood.Open(ofd.FileName);
-                    SortedDictionary<int, Import> imports = relic.GetImports();
+                    AssetRegistry assetRegistry = new AssetRegistry();
+                    //assetRegistry.Read(File.ReadAllBytes(ofd.FileName));
+                    assetRegistry = JsonConvert.DeserializeObject<AssetRegistry>(File.ReadAllText(ofd.FileName));
+
+                    //string json = JsonConvert.SerializeObject(assetRegistry, Formatting.Indented);
+                    //File.WriteAllText($"AssetRegistry.json", json);
+
+                    File.WriteAllBytes("AssetRegistry_out.bin", assetRegistry.Make());
+
+                    Helpers.Log("richTextBox1", "\r\nDone");
                     Console.WriteLine();
                 }
             }
