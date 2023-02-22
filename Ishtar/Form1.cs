@@ -188,11 +188,17 @@ namespace Ishtar
 
         public void MakePak(string outfile)
         {
+            string outpath = $"{TB_ModsPath.Text}\\ZZZZZ-MergedPatch\\{outfile}_P";
+            if (!nestedPak.Checked)
+            {
+                outpath = $"{TB_ModsPath.Text}\\{outfile}_P";
+            }
+
             using (Process process = new Process())
             {
                 process.StartInfo.UseShellExecute = false;
                 process.StartInfo.FileName = "MakePak.bat";
-                process.StartInfo.Arguments = $"\"{outfile}\" \"{TB_ModsPath.Text}\\ZZZZZ-MergedPatch\\{outfile}_P\"";
+                process.StartInfo.Arguments = $"\"{outfile}\" \"{outpath}\"";
                 process.StartInfo.CreateNoWindow = true;
                 process.Start();
 

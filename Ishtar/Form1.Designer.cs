@@ -117,11 +117,26 @@
         "lla ones.\r\n");
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
+            // nestedPak
+            // 
+            this.nestedPak.AutoSize = true;
+            this.nestedPak.Checked = true;
+            this.nestedPak.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.nestedPak.Location = new System.Drawing.Point(12, 386);
+            this.nestedPak.Name = "nestedPak";
+            this.nestedPak.Size = new System.Drawing.Size(115, 17);
+            this.nestedPak.TabIndex = 8;
+            this.nestedPak.Text = "Nested Merge Pak";
+            this.toolTip1.SetToolTip(this.nestedPak, "Enables Partial Merging which only merges new\r\nentries while ignoring edited vani" +
+        "lla ones.\r\n");
+            this.nestedPak.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(486, 411);
+            this.Controls.Add(this.nestedPak);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
@@ -148,6 +163,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.CheckBox nestedPak;
     }
 }
 
