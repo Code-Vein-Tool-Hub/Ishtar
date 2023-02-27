@@ -86,8 +86,8 @@ namespace Ishtar.IO
                     Relic relic = new Relic();
                     relic = Blood.Open(fullpath);
                     string outpath = $"ZZZZZ-MergePatch\\CodeVein\\Content\\{fullpath.Substring(fullpath.LastIndexOf($"{staging}\\")).Replace($"{staging}\\", "")}";
-                    if (!Directory.Exists(Path.GetDirectoryName(outpath)))
-                        Directory.CreateDirectory(Path.GetDirectoryName(outpath));
+                    //if (!Directory.Exists(Path.GetDirectoryName(outpath)))
+                    //    Directory.CreateDirectory(Path.GetDirectoryName(outpath));
 
                     //check if existing merge exist, use that for the base table instead if so
                     string tbl = $"Tables\\{Path.GetFileNameWithoutExtension(file)}.json";
@@ -221,6 +221,8 @@ namespace Ishtar.IO
                     default:
                         return;
                 }
+                if (!Directory.Exists(Path.GetDirectoryName(file.Path)))
+                    Directory.CreateDirectory(Path.GetDirectoryName(file.Path));
                 Blood.Save(file.relic, file.Path);
             });
         }

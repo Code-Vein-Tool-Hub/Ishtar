@@ -52,7 +52,7 @@ namespace Ishtar.IO
 
             Helpers.Log("richTextBox1", $"{RegisteredAssets.ToArray().Length} Base assets registered...");
 
-            string outpath = $"ZZZZZ-MergePatch\\CodeVein\\Content\\AssetRegistry.bin";
+            string outpath = $"ZZZZZ-MergePatch\\CodeVein\\AssetRegistry.bin";
             if (!Directory.Exists(Path.GetDirectoryName(outpath)))
                 Directory.CreateDirectory(Path.GetDirectoryName(outpath));
 
