@@ -130,6 +130,7 @@
             this.toolTip1.SetToolTip(this.nestedPak, "Enables Partial Merging which only merges new\r\nentries while ignoring edited vani" +
         "lla ones.\r\n");
             this.nestedPak.UseVisualStyleBackColor = true;
+            this.nestedPak.CheckedChanged += new System.EventHandler(this.nestedPak_CheckedChanged);
             // 
             // Form1
             // 

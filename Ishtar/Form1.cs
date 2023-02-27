@@ -29,6 +29,7 @@ namespace Ishtar
             {
                 Global.Settings.Read("Settings.json");
                 TB_ModsPath.Text = Global.settings.Mods_Path;
+                nestedPak.Checked = Global.settings.Nest;
             }
             else
                 Global.settings = new Global.Settings();
@@ -226,6 +227,12 @@ namespace Ishtar
                     Console.WriteLine();
                 }
             }
+        }
+
+        private void nestedPak_CheckedChanged(object sender, EventArgs e)
+        {
+            Global.settings.Nest = nestedPak.Checked;
+            Global.Settings.Save();
         }
     }
 }
