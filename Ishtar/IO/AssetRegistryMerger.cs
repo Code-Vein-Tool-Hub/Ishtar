@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UAssetAPI;
+using static QueenIO.AssetRegistry;
 
 namespace Ishtar.IO
 {
@@ -89,6 +90,7 @@ namespace Ishtar.IO
                 Directory.Delete(staging, true);
             }
 
+            Helpers.Log("richTextBox1", $"Writing AssetRegisty to file...");
             File.WriteAllBytes(outpath, assestRegistry.Make());
             return;
         }
