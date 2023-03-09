@@ -7,6 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using QueenIO.Mods;
+using System;
 
 namespace Ishtar.IO
 {
@@ -30,6 +31,7 @@ namespace Ishtar.IO
                 Visibility,
                 Common,
                 Mod,
+                ProgressSymbols,
             }
         }
 
@@ -163,6 +165,16 @@ namespace Ishtar.IO
                         }
                         ModControl((ModControlFrameworkListData)MergeFiles[name].Table, (ModControlFrameworkListData)MergeFiles[name].VanillaTable, relic, PartialMerge);
                     }
+                    else if (tbl.Contains("DT_ProgressSymbol"))
+                    {
+                        if (!MergeFiles.ContainsKey(name))
+                        {
+                            ProgressSymbol data = JsonConvert.DeserializeObject<ProgressSymbol>(File.ReadAllText(tbl));
+                            ProgressSymbol vanilla = JsonConvert.DeserializeObject<ProgressSymbol>(File.ReadAllText(tbl));
+                            MergeFiles.TryAdd(name, new MergeFile() { Path = outpath, relic = relic, Table = data, VanillaTable = vanilla, Type = (MergeFile.types)8 });
+                        }
+                        ProgressSymbols((ProgressSymbol)MergeFiles[name].Table, (ProgressSymbol)MergeFiles[name].VanillaTable, relic, pak, PartialMerge);
+                    }
                     else
                     {
                         if (!MergeFiles.ContainsKey(name))
@@ -217,6 +229,10 @@ namespace Ishtar.IO
                     case MergeFile.types.Mod:
                         file.relic.WriteDataTable(((ModControlFrameworkListData)file.Table).Make());
                         file.Path = $"ZZZZZ-MergePatch\\CodeVein\\Content\\Characters\\Blueprints\\Player\\Core\\ModControlFramework\\{Path.GetFileName(file.Path)}";
+                        break;
+                    case MergeFile.types.ProgressSymbols:
+                        file.relic.WriteDataTable(((ProgressSymbol)file.Table).Make());
+                        file.Path = $"ZZZZZ-MergePatch\\CodeVein\\Content\\Modes\\{Path.GetFileName(file.Path)}";
                         break;
                     default:
                         return;
@@ -371,6 +387,24 @@ namespace Ishtar.IO
                 {
                     int i = modControlFrameworkListData.SpawnerList.IndexOf(mod);
                     modControlFrameworkListData.SpawnerList[i] = modcontrol;
+                }
+            }
+        }
+
+        private static void ProgressSymbols(ProgressSymbol progressSymbol, ProgressSymbol Vanilla, Relic relic, string pakname, bool PartialMerge = false)
+        {
+            ProgressSymbol progressSymbol1 = new ProgressSymbol();
+            progressSymbol1.Read(relic.GetDataTable());
+            foreach (var basic in progressSymbol1.progressFlags)
+            {
+                var Temp = progressSymbol.progressFlags.FirstOrDefault(x => x.Name == basic.Name);
+                var Temp2 = Vanilla.progressFlags.FirstOrDefault(x => x.Name == basic.Name);
+                if (!progressSymbol.progressFlags.Contains(Temp))
+                    progressSymbol.progressFlags.Add(basic);
+                else if (!PartialMerge && !Temp.Equals(basic) && !Temp2.Equals(basic))
+                {
+                    int i = progressSymbol.progressFlags.IndexOf(Temp);
+                    progressSymbol.progressFlags[i] = basic;
                 }
             }
         }

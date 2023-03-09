@@ -214,16 +214,13 @@ namespace Ishtar
             {
                 if (ofd.ShowDialog() == DialogResult.OK)
                 {
-                    AssetRegistry assetRegistry = new AssetRegistry();
-                    //assetRegistry.Read(File.ReadAllBytes(ofd.FileName));
-                    assetRegistry = JsonConvert.DeserializeObject<AssetRegistry>(File.ReadAllText(ofd.FileName));
+                    Relic relic = Blood.Open(ofd.FileName);
 
-                    //string json = JsonConvert.SerializeObject(assetRegistry, Formatting.Indented);
-                    //File.WriteAllText($"AssetRegistry.json", json);
+                    ProgressSymbol flags = new ProgressSymbol();
+                    flags.Read(relic.GetDataTable());
 
-                    File.WriteAllBytes("AssetRegistry_out.bin", assetRegistry.Make());
+                    File.WriteAllText("DT_ProgressSymbol.json", JsonConvert.SerializeObject(flags));
 
-                    Helpers.Log("richTextBox1", "\r\nDone");
                     Console.WriteLine();
                 }
             }
