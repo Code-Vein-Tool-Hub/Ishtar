@@ -1,0 +1,2146 @@
+{
+  "$type": "QueenIO.Relic, QueenIO",
+  "Info": "Serialized with UAssetAPI 1.0.0.0",
+  "UseSeparateBulkDataFiles": true,
+  "EngineVersion": "VER_UE4_ADDED_SOFT_OBJECT_PATH",
+  "LegacyFileVersion": -7,
+  "IsUnversioned": true,
+  "FileVersionLicenseeUE4": 0,
+  "CustomVersionContainer": [],
+  "Imports": [
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "ObjectName": "DataTable",
+      "OuterIndex": -3
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "DataTable",
+      "ObjectName": "Default__DataTable",
+      "OuterIndex": -3
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine",
+      "OuterIndex": 0
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Extensions",
+      "OuterIndex": 0
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "ScriptStruct",
+      "ObjectName": "AvatarCustomizeDataTableTextureList",
+      "OuterIndex": -4
+    }
+  ],
+  "Exports": [
+    {
+      "$type": "UAssetAPI.DataTableExport, UAssetAPI",
+      "Table": {
+        "$type": "UAssetAPI.UDataTable, UAssetAPI",
+        "Data": [
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_None",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_None.T_Thumb_AvatarCustomize_FaceScar_None"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar_None.T_FaceScar_None"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_R_EyeSlash1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_001.T_Thumb_AvatarCustomize_FaceScar_001"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar1.T_FaceScar1"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_L_EyeSlash2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_003.T_Thumb_AvatarCustomize_FaceScar_003"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar3.T_FaceScar3"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_L_CheekSlash1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_004.T_Thumb_AvatarCustomize_FaceScar_004"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar4.T_FaceScar4"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_L_CheekSlash2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_005.T_Thumb_AvatarCustomize_FaceScar_005"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar5.T_FaceScar5"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_L_CheekCross1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_006.T_Thumb_AvatarCustomize_FaceScar_006"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar6.T_FaceScar6"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_L_BrowSlach1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_002.T_Thumb_AvatarCustomize_FaceScar_002"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar2.T_FaceScar2"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_Many",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_008.T_Thumb_AvatarCustomize_FaceScar_008"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar8.T_FaceScar8"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_ManyMany",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_009.T_Thumb_AvatarCustomize_FaceScar_009"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar9.T_FaceScar9"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_L_BroadSlash3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_011.T_Thumb_AvatarCustomize_FaceScar_011"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar20.T_FaceScar20"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_L_BroadSlash5",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_027.T_Thumb_AvatarCustomize_FaceScar_027"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar27.T_FaceScar27"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_L_BroadSlash1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_007.T_Thumb_AvatarCustomize_FaceScar_007"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar7.T_FaceScar7"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_L_BroadSlash4",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_023.T_Thumb_AvatarCustomize_FaceScar_023"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar23.T_FaceScar23"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_L_BroadSlashCross",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_024.T_Thumb_AvatarCustomize_FaceScar_024"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar24.T_FaceScar24"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_L_BroadSlash2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_012.T_Thumb_AvatarCustomize_FaceScar_012"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar19.T_FaceScar19"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_R_CheekSlash3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_010.T_Thumb_AvatarCustomize_FaceScar_010"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar10.T_FaceScar10"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_Nose_CheekSlash1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_013.T_Thumb_AvatarCustomize_FaceScar_013"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar13.T_FaceScar13"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_Nose_CheekSlash3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_021.T_Thumb_AvatarCustomize_FaceScar_021"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar21.T_FaceScar21"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_LR_CheekSlash1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_014.T_Thumb_AvatarCustomize_FaceScar_014"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar11.T_FaceScar11"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_LR_CheekSlash2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_015.T_Thumb_AvatarCustomize_FaceScar_015"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar12.T_FaceScar12"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_LR_CheekSlash3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_016.T_Thumb_AvatarCustomize_FaceScar_016"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar18.T_FaceScar18"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_Forehead_Slash",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_017.T_Thumb_AvatarCustomize_FaceScar_017"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar15.T_FaceScar15"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_Forehead_Cross1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_018.T_Thumb_AvatarCustomize_FaceScar_018"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar17.T_FaceScar17"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_Forehead_Cross2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_022.T_Thumb_AvatarCustomize_FaceScar_022"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar22.T_FaceScar22"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_Forehead_Zigzag1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_019.T_Thumb_AvatarCustomize_FaceScar_019"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar14.T_FaceScar14"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_Forehead_Zigzag2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_020.T_Thumb_AvatarCustomize_FaceScar_020"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar16.T_FaceScar16"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_Forehead_Zigzag3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_026.T_Thumb_AvatarCustomize_FaceScar_026"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar26.T_FaceScar26"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ScarMakeMole004",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_020.T_Thumb_AvatarCustomize_FaceWrinkle_020"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle20.T_FaceWrinkle20"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ScarMakeMole002",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_015.T_Thumb_AvatarCustomize_FaceWrinkle_015"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle16.T_FaceWrinkle16"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceScar_Nose_CheekSlash2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_025.T_Thumb_AvatarCustomize_FaceScar_025"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceScar25.T_FaceScar25"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ScarMakeMole001",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_016.T_Thumb_AvatarCustomize_FaceWrinkle_016"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle15.T_FaceWrinkle15"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ScarMakeMole003",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_021.T_Thumb_AvatarCustomize_FaceWrinkle_021"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle21.T_FaceWrinkle21"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceWrinkle_L_Mouth1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_001.T_Thumb_AvatarCustomize_FaceWrinkle_001"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle1.T_FaceWrinkle1"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Freckles1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_012.T_Thumb_AvatarCustomize_FaceWrinkle_012"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle12.T_FaceWrinkle12"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Freckles2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_013.T_Thumb_AvatarCustomize_FaceWrinkle_013"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle13.T_FaceWrinkle13"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Freckles3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_017.T_Thumb_AvatarCustomize_FaceWrinkle_017"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle17.T_FaceWrinkle17"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceWrinkle_Eye1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_002.T_Thumb_AvatarCustomize_FaceWrinkle_002"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle2.T_FaceWrinkle2"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceWrinkle_Eye2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_003.T_Thumb_AvatarCustomize_FaceWrinkle_003"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle3.T_FaceWrinkle3"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceWrinkle_Eye3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_004.T_Thumb_AvatarCustomize_FaceWrinkle_004"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle4.T_FaceWrinkle4"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceWrinkle_Eye5",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_006.T_Thumb_AvatarCustomize_FaceWrinkle_006"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle6.T_FaceWrinkle6"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceWrinkle_Eye4",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_005.T_Thumb_AvatarCustomize_FaceWrinkle_005"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle5.T_FaceWrinkle5"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceWrinkle_Eye6",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_008.T_Thumb_AvatarCustomize_FaceWrinkle_008"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle8.T_FaceWrinkle8"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceWrinkle_Face3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_010.T_Thumb_AvatarCustomize_FaceWrinkle_010"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle10.T_FaceWrinkle10"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceWrinkle_Face2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_009.T_Thumb_AvatarCustomize_FaceWrinkle_009"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle9.T_FaceWrinkle9"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceWrinkle_Face5",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_014.T_Thumb_AvatarCustomize_FaceWrinkle_014"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle14.T_FaceWrinkle14"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceBeastWrinkles",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_018.T_Thumb_AvatarCustomize_FaceWrinkle_018"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle18.T_FaceWrinkle18"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceBeastWrinkles2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_019.T_Thumb_AvatarCustomize_FaceWrinkle_019"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle19.T_FaceWrinkle19"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceWrinkle_Face4",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_011.T_Thumb_AvatarCustomize_FaceWrinkle_011"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle11.T_FaceWrinkle11"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceWrinkle_Blood2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_023.T_Thumb_AvatarCustomize_FaceWrinkle_023"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle23.T_FaceWrinkle23"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceWrinkle_Blood1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_022.T_Thumb_AvatarCustomize_FaceWrinkle_022"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle22.T_FaceWrinkle22"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "FaceWrinkle_Face1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_007.T_Thumb_AvatarCustomize_FaceWrinkle_007"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FaceScars/T_FaceWrinkle7.T_FaceWrinkle7"
+              }
+            ]
+          }
+        ]
+      },
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+          "Name": "RowStruct",
+          "DuplicationIndex": 0,
+          "Value": -5
+        }
+      ],
+      "ClassIndex": -1,
+      "SuperIndex": 0,
+      "TemplateIndex": -2,
+      "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
+      "SerialSize": 6165,
+      "SerialOffset": 21065,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "00000000-0000-0000-0000-000000000000",
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": true,
+      "bIsAsset": true,
+      "SerializationBeforeSerializationDependencies": [
+        -5
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -1,
+        -2
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": {
+        "$type": "System.Byte[], mscorlib",
+        "$value": ""
+      },
+      "ObjectName": "DT_FaceScarList",
+      "OuterIndex": 0
+    }
+  ],
+  "DependsMap": [
+    []
+  ],
+  "SoftPackageReferenceList": [],
+  "AssetRegistryData": [],
+  "WorldTileInfo": null,
+  "Generations": [
+    {
+      "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
+      "ExportCount": 1,
+      "NameCount": 274
+    }
+  ],
+  "PackageGuid": "5c60a1f8-c5b5-4d0d-a295-542c54d09803",
+  "RecordedEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "RecordedCompatibleWithEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "ChunkIDs": [],
+  "PackageFlags": "PKG_FilterEditorOnly",
+  "PackageSource": 1985167496,
+  "FolderName": "None",
+  "GatherableTextDataCount": 0,
+  "GatherableTextDataOffset": 0,
+  "SearchableNamesOffset": 0,
+  "ThumbnailTableOffset": 0,
+  "CompressionFlags": 0,
+  "doWeHaveDependsMap": true,
+  "doWeHaveSoftPackageReferences": false,
+  "doWeHaveAssetRegistryData": true,
+  "doWeHaveWorldTileInfo": false,
+  "NameMap": [
+    "/Game/Costumes/FaceScars/DT_FaceScarList",
+    "/Game/Costumes/FaceScars/T_FaceScar1",
+    "/Game/Costumes/FaceScars/T_FaceScar1.T_FaceScar1",
+    "/Game/Costumes/FaceScars/T_FaceScar10",
+    "/Game/Costumes/FaceScars/T_FaceScar10.T_FaceScar10",
+    "/Game/Costumes/FaceScars/T_FaceScar11",
+    "/Game/Costumes/FaceScars/T_FaceScar11.T_FaceScar11",
+    "/Game/Costumes/FaceScars/T_FaceScar12",
+    "/Game/Costumes/FaceScars/T_FaceScar12.T_FaceScar12",
+    "/Game/Costumes/FaceScars/T_FaceScar13",
+    "/Game/Costumes/FaceScars/T_FaceScar13.T_FaceScar13",
+    "/Game/Costumes/FaceScars/T_FaceScar14",
+    "/Game/Costumes/FaceScars/T_FaceScar14.T_FaceScar14",
+    "/Game/Costumes/FaceScars/T_FaceScar15",
+    "/Game/Costumes/FaceScars/T_FaceScar15.T_FaceScar15",
+    "/Game/Costumes/FaceScars/T_FaceScar16",
+    "/Game/Costumes/FaceScars/T_FaceScar16.T_FaceScar16",
+    "/Game/Costumes/FaceScars/T_FaceScar17",
+    "/Game/Costumes/FaceScars/T_FaceScar17.T_FaceScar17",
+    "/Game/Costumes/FaceScars/T_FaceScar18",
+    "/Game/Costumes/FaceScars/T_FaceScar18.T_FaceScar18",
+    "/Game/Costumes/FaceScars/T_FaceScar19",
+    "/Game/Costumes/FaceScars/T_FaceScar19.T_FaceScar19",
+    "/Game/Costumes/FaceScars/T_FaceScar2",
+    "/Game/Costumes/FaceScars/T_FaceScar2.T_FaceScar2",
+    "/Game/Costumes/FaceScars/T_FaceScar20",
+    "/Game/Costumes/FaceScars/T_FaceScar20.T_FaceScar20",
+    "/Game/Costumes/FaceScars/T_FaceScar21",
+    "/Game/Costumes/FaceScars/T_FaceScar21.T_FaceScar21",
+    "/Game/Costumes/FaceScars/T_FaceScar22",
+    "/Game/Costumes/FaceScars/T_FaceScar22.T_FaceScar22",
+    "/Game/Costumes/FaceScars/T_FaceScar23",
+    "/Game/Costumes/FaceScars/T_FaceScar23.T_FaceScar23",
+    "/Game/Costumes/FaceScars/T_FaceScar24",
+    "/Game/Costumes/FaceScars/T_FaceScar24.T_FaceScar24",
+    "/Game/Costumes/FaceScars/T_FaceScar25",
+    "/Game/Costumes/FaceScars/T_FaceScar25.T_FaceScar25",
+    "/Game/Costumes/FaceScars/T_FaceScar26",
+    "/Game/Costumes/FaceScars/T_FaceScar26.T_FaceScar26",
+    "/Game/Costumes/FaceScars/T_FaceScar27",
+    "/Game/Costumes/FaceScars/T_FaceScar27.T_FaceScar27",
+    "/Game/Costumes/FaceScars/T_FaceScar3",
+    "/Game/Costumes/FaceScars/T_FaceScar3.T_FaceScar3",
+    "/Game/Costumes/FaceScars/T_FaceScar4",
+    "/Game/Costumes/FaceScars/T_FaceScar4.T_FaceScar4",
+    "/Game/Costumes/FaceScars/T_FaceScar5",
+    "/Game/Costumes/FaceScars/T_FaceScar5.T_FaceScar5",
+    "/Game/Costumes/FaceScars/T_FaceScar6",
+    "/Game/Costumes/FaceScars/T_FaceScar6.T_FaceScar6",
+    "/Game/Costumes/FaceScars/T_FaceScar7",
+    "/Game/Costumes/FaceScars/T_FaceScar7.T_FaceScar7",
+    "/Game/Costumes/FaceScars/T_FaceScar8",
+    "/Game/Costumes/FaceScars/T_FaceScar8.T_FaceScar8",
+    "/Game/Costumes/FaceScars/T_FaceScar9",
+    "/Game/Costumes/FaceScars/T_FaceScar9.T_FaceScar9",
+    "/Game/Costumes/FaceScars/T_FaceScar_None",
+    "/Game/Costumes/FaceScars/T_FaceScar_None.T_FaceScar_None",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle1",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle1.T_FaceWrinkle1",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle10",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle10.T_FaceWrinkle10",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle11",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle11.T_FaceWrinkle11",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle12",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle12.T_FaceWrinkle12",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle13",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle13.T_FaceWrinkle13",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle14",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle14.T_FaceWrinkle14",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle15",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle15.T_FaceWrinkle15",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle16",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle16.T_FaceWrinkle16",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle17",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle17.T_FaceWrinkle17",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle18",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle18.T_FaceWrinkle18",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle19",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle19.T_FaceWrinkle19",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle2",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle2.T_FaceWrinkle2",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle20",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle20.T_FaceWrinkle20",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle21",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle21.T_FaceWrinkle21",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle22",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle22.T_FaceWrinkle22",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle23",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle23.T_FaceWrinkle23",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle3",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle3.T_FaceWrinkle3",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle4",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle4.T_FaceWrinkle4",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle5",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle5.T_FaceWrinkle5",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle6",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle6.T_FaceWrinkle6",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle7",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle7.T_FaceWrinkle7",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle8",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle8.T_FaceWrinkle8",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle9",
+    "/Game/Costumes/FaceScars/T_FaceWrinkle9.T_FaceWrinkle9",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_001",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_001.T_Thumb_AvatarCustomize_FaceScar_001",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_002",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_002.T_Thumb_AvatarCustomize_FaceScar_002",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_003",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_003.T_Thumb_AvatarCustomize_FaceScar_003",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_004",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_004.T_Thumb_AvatarCustomize_FaceScar_004",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_005",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_005.T_Thumb_AvatarCustomize_FaceScar_005",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_006",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_006.T_Thumb_AvatarCustomize_FaceScar_006",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_007",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_007.T_Thumb_AvatarCustomize_FaceScar_007",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_008",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_008.T_Thumb_AvatarCustomize_FaceScar_008",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_009",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_009.T_Thumb_AvatarCustomize_FaceScar_009",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_010",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_010.T_Thumb_AvatarCustomize_FaceScar_010",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_011",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_011.T_Thumb_AvatarCustomize_FaceScar_011",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_012",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_012.T_Thumb_AvatarCustomize_FaceScar_012",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_013",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_013.T_Thumb_AvatarCustomize_FaceScar_013",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_014",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_014.T_Thumb_AvatarCustomize_FaceScar_014",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_015",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_015.T_Thumb_AvatarCustomize_FaceScar_015",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_016",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_016.T_Thumb_AvatarCustomize_FaceScar_016",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_017",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_017.T_Thumb_AvatarCustomize_FaceScar_017",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_018",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_018.T_Thumb_AvatarCustomize_FaceScar_018",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_019",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_019.T_Thumb_AvatarCustomize_FaceScar_019",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_020",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_020.T_Thumb_AvatarCustomize_FaceScar_020",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_021",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_021.T_Thumb_AvatarCustomize_FaceScar_021",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_022",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_022.T_Thumb_AvatarCustomize_FaceScar_022",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_023",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_023.T_Thumb_AvatarCustomize_FaceScar_023",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_024",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_024.T_Thumb_AvatarCustomize_FaceScar_024",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_025",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_025.T_Thumb_AvatarCustomize_FaceScar_025",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_026",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_026.T_Thumb_AvatarCustomize_FaceScar_026",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_027",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_027.T_Thumb_AvatarCustomize_FaceScar_027",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_None",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceScar_None.T_Thumb_AvatarCustomize_FaceScar_None",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_001",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_001.T_Thumb_AvatarCustomize_FaceWrinkle_001",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_002",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_002.T_Thumb_AvatarCustomize_FaceWrinkle_002",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_003",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_003.T_Thumb_AvatarCustomize_FaceWrinkle_003",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_004",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_004.T_Thumb_AvatarCustomize_FaceWrinkle_004",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_005",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_005.T_Thumb_AvatarCustomize_FaceWrinkle_005",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_006",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_006.T_Thumb_AvatarCustomize_FaceWrinkle_006",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_007",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_007.T_Thumb_AvatarCustomize_FaceWrinkle_007",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_008",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_008.T_Thumb_AvatarCustomize_FaceWrinkle_008",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_009",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_009.T_Thumb_AvatarCustomize_FaceWrinkle_009",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_010",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_010.T_Thumb_AvatarCustomize_FaceWrinkle_010",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_011",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_011.T_Thumb_AvatarCustomize_FaceWrinkle_011",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_012",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_012.T_Thumb_AvatarCustomize_FaceWrinkle_012",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_013",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_013.T_Thumb_AvatarCustomize_FaceWrinkle_013",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_014",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_014.T_Thumb_AvatarCustomize_FaceWrinkle_014",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_015",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_015.T_Thumb_AvatarCustomize_FaceWrinkle_015",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_016",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_016.T_Thumb_AvatarCustomize_FaceWrinkle_016",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_017",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_017.T_Thumb_AvatarCustomize_FaceWrinkle_017",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_018",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_018.T_Thumb_AvatarCustomize_FaceWrinkle_018",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_019",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_019.T_Thumb_AvatarCustomize_FaceWrinkle_019",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_020",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_020.T_Thumb_AvatarCustomize_FaceWrinkle_020",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_021",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_021.T_Thumb_AvatarCustomize_FaceWrinkle_021",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_022",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_022.T_Thumb_AvatarCustomize_FaceWrinkle_022",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_023",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/FaceScar/T_Thumb_AvatarCustomize_FaceWrinkle_023.T_Thumb_AvatarCustomize_FaceWrinkle_023",
+    "/Script/CoreUObject",
+    "/Script/Engine",
+    "/Script/Extensions",
+    "AvatarCustomizeDataTableTextureList",
+    "Class",
+    "DataTable",
+    "Default__DataTable",
+    "DT_FaceScarList",
+    "FaceBeastWrinkles",
+    "FaceBeastWrinkles2",
+    "FaceScar_Forehead_Cross1",
+    "FaceScar_Forehead_Cross2",
+    "FaceScar_Forehead_Slash",
+    "FaceScar_Forehead_Zigzag1",
+    "FaceScar_Forehead_Zigzag2",
+    "FaceScar_Forehead_Zigzag3",
+    "FaceScar_L_BroadSlash1",
+    "FaceScar_L_BroadSlash2",
+    "FaceScar_L_BroadSlash3",
+    "FaceScar_L_BroadSlash4",
+    "FaceScar_L_BroadSlash5",
+    "FaceScar_L_BroadSlashCross",
+    "FaceScar_L_BrowSlach1",
+    "FaceScar_L_CheekCross1",
+    "FaceScar_L_CheekSlash1",
+    "FaceScar_L_CheekSlash2",
+    "FaceScar_L_EyeSlash2",
+    "FaceScar_LR_CheekSlash1",
+    "FaceScar_LR_CheekSlash2",
+    "FaceScar_LR_CheekSlash3",
+    "FaceScar_Many",
+    "FaceScar_ManyMany",
+    "FaceScar_None",
+    "FaceScar_Nose_CheekSlash1",
+    "FaceScar_Nose_CheekSlash2",
+    "FaceScar_Nose_CheekSlash3",
+    "FaceScar_R_CheekSlash3",
+    "FaceScar_R_EyeSlash1",
+    "FaceWrinkle_Blood1",
+    "FaceWrinkle_Blood2",
+    "FaceWrinkle_Eye1",
+    "FaceWrinkle_Eye2",
+    "FaceWrinkle_Eye3",
+    "FaceWrinkle_Eye4",
+    "FaceWrinkle_Eye5",
+    "FaceWrinkle_Eye6",
+    "FaceWrinkle_Face1",
+    "FaceWrinkle_Face2",
+    "FaceWrinkle_Face3",
+    "FaceWrinkle_Face4",
+    "FaceWrinkle_Face5",
+    "FaceWrinkle_L_Mouth1",
+    "Freckles1",
+    "Freckles2",
+    "Freckles3",
+    "Name",
+    "None",
+    "ObjectProperty",
+    "Package",
+    "RowStruct",
+    "ScarMakeMole001",
+    "ScarMakeMole002",
+    "ScarMakeMole003",
+    "ScarMakeMole004",
+    "ScriptStruct",
+    "SoftObjectProperty",
+    "TextProperty",
+    "Texture",
+    "Thumbnail"
+  ]
+}

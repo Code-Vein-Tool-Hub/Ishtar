@@ -31,7 +31,12 @@ namespace Ishtar
         {
             public string Mods_Path { get; set; }
             public Dictionary<string, string> Paks { get; set; } = new Dictionary<string, string>();
+            public bool partial { get; set; }
             public bool Nest { get; set; }
+            public bool patchMerge { get; set; }
+            public bool scanMerge { get; set; }
+            public bool parallel { get; set; }
+            public bool MakePatch { get; set; }
 
             public static void Read(string infile)
             {

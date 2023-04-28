@@ -1,0 +1,2847 @@
+{
+  "$type": "QueenIO.Relic, QueenIO",
+  "Info": "Serialized with UAssetAPI 1.0.0.0",
+  "UseSeparateBulkDataFiles": true,
+  "EngineVersion": "VER_UE4_ADDED_SOFT_OBJECT_PATH",
+  "LegacyFileVersion": -7,
+  "IsUnversioned": true,
+  "FileVersionLicenseeUE4": 0,
+  "CustomVersionContainer": [],
+  "Imports": [
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "ObjectName": "DataTable",
+      "OuterIndex": -3
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "DataTable",
+      "ObjectName": "Default__DataTable",
+      "OuterIndex": -3
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine",
+      "OuterIndex": 0
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Extensions",
+      "OuterIndex": 0
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "ScriptStruct",
+      "ObjectName": "AvatarCustomizeDataTableTextureList",
+      "OuterIndex": -4
+    }
+  ],
+  "Exports": [
+    {
+      "$type": "UAssetAPI.DataTableExport, UAssetAPI",
+      "Table": {
+        "$type": "UAssetAPI.UDataTable, UAssetAPI",
+        "Data": [
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight11UU",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_031.T_Thumb_AvatarCustomize_EyeHighLight_031"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight31.T_EyeHighlight31"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight11U",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_032.T_Thumb_AvatarCustomize_EyeHighLight_032"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight32.T_EyeHighlight32"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight11",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_011.T_Thumb_AvatarCustomize_EyeHighLight_011"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight11.T_EyeHighlight11"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight19U",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_059.T_Thumb_AvatarCustomize_EyeHighLight_059"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight59.T_EyeHighlight59"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight19",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_060.T_Thumb_AvatarCustomize_EyeHighLight_060"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight60.T_EyeHighlight60"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight19D",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_061.T_Thumb_AvatarCustomize_EyeHighLight_061"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight61.T_EyeHighlight61"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight9U",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_038.T_Thumb_AvatarCustomize_EyeHighLight_038"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight38.T_EyeHighlight38"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight9",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_009.T_Thumb_AvatarCustomize_EyeHighLight_009"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight9.T_EyeHighlight9"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight9D",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_039.T_Thumb_AvatarCustomize_EyeHighLight_039"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight39.T_EyeHighlight39"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight18",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_018.T_Thumb_AvatarCustomize_EyeHighLight_018"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight18.T_EyeHighlight18"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight18D",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_019.T_Thumb_AvatarCustomize_EyeHighLight_019"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight19.T_EyeHighlight19"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight18DD",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_020.T_Thumb_AvatarCustomize_EyeHighLight_020"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight20.T_EyeHighlight20"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight5",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_005.T_Thumb_AvatarCustomize_EyeHighLight_005"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight5.T_EyeHighlight5"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight5D",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_023.T_Thumb_AvatarCustomize_EyeHighLight_023"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight23.T_EyeHighlight23"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight5DD",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_024.T_Thumb_AvatarCustomize_EyeHighLight_024"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight24.T_EyeHighlight24"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight4U",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_040.T_Thumb_AvatarCustomize_EyeHighLight_040"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight40.T_EyeHighlight40"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight4",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_004.T_Thumb_AvatarCustomize_EyeHighLight_004"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight4.T_EyeHighlight4"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight4D",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_041.T_Thumb_AvatarCustomize_EyeHighLight_041"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight41.T_EyeHighlight41"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "SideE_Br_U",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_033.T_Thumb_AvatarCustomize_EyeHighLight_033"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight33.T_EyeHighlight33"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "SideE_Br",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_034.T_Thumb_AvatarCustomize_EyeHighLight_034"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight34.T_EyeHighlight34"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "SideE_Br_D",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_035.T_Thumb_AvatarCustomize_EyeHighLight_035"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight35.T_EyeHighlight35"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "SideE_Br_2_U",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_067.T_Thumb_AvatarCustomize_EyeHighLight_067"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight67.T_EyeHighlight67"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "SideE_Br_2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_068.T_Thumb_AvatarCustomize_EyeHighLight_068"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight68.T_EyeHighlight68"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "SideE_Br_2_D",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_069.T_Thumb_AvatarCustomize_EyeHighLight_069"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight69.T_EyeHighlight69"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight16U",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_021.T_Thumb_AvatarCustomize_EyeHighLight_021"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight21.T_EyeHighlight21"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight16",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_016.T_Thumb_AvatarCustomize_EyeHighLight_016"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight16.T_EyeHighlight16"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight16D",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_022.T_Thumb_AvatarCustomize_EyeHighLight_022"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight22.T_EyeHighlight22"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight_Slash1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_062.T_Thumb_AvatarCustomize_EyeHighLight_062"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight62.T_EyeHighlight62"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight_Slash2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_063.T_Thumb_AvatarCustomize_EyeHighLight_063"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight63.T_EyeHighlight63"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight_Slash3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_064.T_Thumb_AvatarCustomize_EyeHighLight_064"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight64.T_EyeHighlight64"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight12U",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_025.T_Thumb_AvatarCustomize_EyeHighLight_025"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight25.T_EyeHighlight25"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight12",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_012.T_Thumb_AvatarCustomize_EyeHighLight_012"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight12.T_EyeHighlight12"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight12D",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_026.T_Thumb_AvatarCustomize_EyeHighLight_026"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight26.T_EyeHighlight26"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight1U",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_027.T_Thumb_AvatarCustomize_EyeHighLight_027"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight27.T_EyeHighlight27"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_001.T_Thumb_AvatarCustomize_EyeHighLight_001"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight1.T_EyeHighlight1"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight1D",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_028.T_Thumb_AvatarCustomize_EyeHighLight_028"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight28.T_EyeHighlight28"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight13U",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_049.T_Thumb_AvatarCustomize_EyeHighLight_049"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight49.T_EyeHighlight49"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight13",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_013.T_Thumb_AvatarCustomize_EyeHighLight_013"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight13.T_EyeHighlight13"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight13D",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_050.T_Thumb_AvatarCustomize_EyeHighLight_050"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight50.T_EyeHighlight50"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight3U",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_029.T_Thumb_AvatarCustomize_EyeHighLight_029"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight29.T_EyeHighlight29"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_003.T_Thumb_AvatarCustomize_EyeHighLight_003"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight3.T_EyeHighlight3"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight3D",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_030.T_Thumb_AvatarCustomize_EyeHighLight_030"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight30.T_EyeHighlight30"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight8U",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_045.T_Thumb_AvatarCustomize_EyeHighLight_045"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight45.T_EyeHighlight45"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight8",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_008.T_Thumb_AvatarCustomize_EyeHighLight_008"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight8.T_EyeHighlight8"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight8D",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_046.T_Thumb_AvatarCustomize_EyeHighLight_046"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight46.T_EyeHighlight46"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight10UU",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_037.T_Thumb_AvatarCustomize_EyeHighLight_037"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight37.T_EyeHighlight37"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight10U",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_036.T_Thumb_AvatarCustomize_EyeHighLight_036"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight36.T_EyeHighlight36"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight10",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_010.T_Thumb_AvatarCustomize_EyeHighLight_010"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight10.T_EyeHighlight10"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "UnderHilit",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_042.T_Thumb_AvatarCustomize_EyeHighLight_042"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight42.T_EyeHighlight42"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "UnderHilitD",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_043.T_Thumb_AvatarCustomize_EyeHighLight_043"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight43.T_EyeHighlight43"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "UnderHilitDD",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_044.T_Thumb_AvatarCustomize_EyeHighLight_044"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight44.T_EyeHighlight44"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight7U",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_047.T_Thumb_AvatarCustomize_EyeHighLight_047"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight47.T_EyeHighlight47"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight7",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_007.T_Thumb_AvatarCustomize_EyeHighLight_007"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight7.T_EyeHighlight7"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight7D",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_048.T_Thumb_AvatarCustomize_EyeHighLight_048"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight48.T_EyeHighlight48"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight2U",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_051.T_Thumb_AvatarCustomize_EyeHighLight_051"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight51.T_EyeHighlight51"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_002.T_Thumb_AvatarCustomize_EyeHighLight_002"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight2.T_EyeHighlight2"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight2D",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_052.T_Thumb_AvatarCustomize_EyeHighLight_052"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight52.T_EyeHighlight52"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight14_Ring2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_053.T_Thumb_AvatarCustomize_EyeHighLight_053"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight53.T_EyeHighlight53"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight14",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_014.T_Thumb_AvatarCustomize_EyeHighLight_014"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight14.T_EyeHighlight14"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight14_Ring3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_054.T_Thumb_AvatarCustomize_EyeHighLight_054"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight54.T_EyeHighlight54"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight_Heart2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_055.T_Thumb_AvatarCustomize_EyeHighLight_055"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight55.T_EyeHighlight55"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight_Heart",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_015.T_Thumb_AvatarCustomize_EyeHighLight_015"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight15.T_EyeHighlight15"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight_Heart3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_056.T_Thumb_AvatarCustomize_EyeHighLight_056"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight56.T_EyeHighlight56"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight_Star2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_057.T_Thumb_AvatarCustomize_EyeHighLight_057"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight57.T_EyeHighlight57"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight_Star",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_017.T_Thumb_AvatarCustomize_EyeHighLight_017"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight17.T_EyeHighlight17"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight_Star3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_058.T_Thumb_AvatarCustomize_EyeHighLight_058"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight58.T_EyeHighlight58"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight_Star_Sextet",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_006.T_Thumb_AvatarCustomize_EyeHighLight_006"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight6.T_EyeHighlight6"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight_Star_Sextet2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_065.T_Thumb_AvatarCustomize_EyeHighLight_065"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight65.T_EyeHighlight65"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeHighlight_Star_Sextet3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_066.T_Thumb_AvatarCustomize_EyeHighLight_066"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeHighlight66.T_EyeHighlight66"
+              }
+            ]
+          }
+        ]
+      },
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+          "Name": "RowStruct",
+          "DuplicationIndex": 0,
+          "Value": -5
+        }
+      ],
+      "ClassIndex": -1,
+      "SuperIndex": 0,
+      "TemplateIndex": -2,
+      "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
+      "SerialSize": 8325,
+      "SerialOffset": 28862,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "00000000-0000-0000-0000-000000000000",
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": true,
+      "bIsAsset": true,
+      "SerializationBeforeSerializationDependencies": [
+        -5
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -1,
+        -2
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": {
+        "$type": "System.Byte[], mscorlib",
+        "$value": ""
+      },
+      "ObjectName": "DT_EyeHighLightList",
+      "OuterIndex": 0
+    }
+  ],
+  "DependsMap": [
+    []
+  ],
+  "SoftPackageReferenceList": [],
+  "AssetRegistryData": [],
+  "WorldTileInfo": null,
+  "Generations": [
+    {
+      "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
+      "ExportCount": 1,
+      "NameCount": 363
+    }
+  ],
+  "PackageGuid": "21f485b3-4986-47fc-979c-cf3b2d74f670",
+  "RecordedEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "RecordedCompatibleWithEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "ChunkIDs": [],
+  "PackageFlags": "PKG_FilterEditorOnly",
+  "PackageSource": 2640633078,
+  "FolderName": "None",
+  "GatherableTextDataCount": 0,
+  "GatherableTextDataOffset": 0,
+  "SearchableNamesOffset": 0,
+  "ThumbnailTableOffset": 0,
+  "CompressionFlags": 0,
+  "doWeHaveDependsMap": true,
+  "doWeHaveSoftPackageReferences": false,
+  "doWeHaveAssetRegistryData": true,
+  "doWeHaveWorldTileInfo": false,
+  "NameMap": [
+    "/Game/Costumes/Eyes/DT_EyeHighLightList",
+    "/Game/Costumes/Eyes/T_EyeHighlight1",
+    "/Game/Costumes/Eyes/T_EyeHighlight1.T_EyeHighlight1",
+    "/Game/Costumes/Eyes/T_EyeHighlight10",
+    "/Game/Costumes/Eyes/T_EyeHighlight10.T_EyeHighlight10",
+    "/Game/Costumes/Eyes/T_EyeHighlight11",
+    "/Game/Costumes/Eyes/T_EyeHighlight11.T_EyeHighlight11",
+    "/Game/Costumes/Eyes/T_EyeHighlight12",
+    "/Game/Costumes/Eyes/T_EyeHighlight12.T_EyeHighlight12",
+    "/Game/Costumes/Eyes/T_EyeHighlight13",
+    "/Game/Costumes/Eyes/T_EyeHighlight13.T_EyeHighlight13",
+    "/Game/Costumes/Eyes/T_EyeHighlight14",
+    "/Game/Costumes/Eyes/T_EyeHighlight14.T_EyeHighlight14",
+    "/Game/Costumes/Eyes/T_EyeHighlight15",
+    "/Game/Costumes/Eyes/T_EyeHighlight15.T_EyeHighlight15",
+    "/Game/Costumes/Eyes/T_EyeHighlight16",
+    "/Game/Costumes/Eyes/T_EyeHighlight16.T_EyeHighlight16",
+    "/Game/Costumes/Eyes/T_EyeHighlight17",
+    "/Game/Costumes/Eyes/T_EyeHighlight17.T_EyeHighlight17",
+    "/Game/Costumes/Eyes/T_EyeHighlight18",
+    "/Game/Costumes/Eyes/T_EyeHighlight18.T_EyeHighlight18",
+    "/Game/Costumes/Eyes/T_EyeHighlight19",
+    "/Game/Costumes/Eyes/T_EyeHighlight19.T_EyeHighlight19",
+    "/Game/Costumes/Eyes/T_EyeHighlight2",
+    "/Game/Costumes/Eyes/T_EyeHighlight2.T_EyeHighlight2",
+    "/Game/Costumes/Eyes/T_EyeHighlight20",
+    "/Game/Costumes/Eyes/T_EyeHighlight20.T_EyeHighlight20",
+    "/Game/Costumes/Eyes/T_EyeHighlight21",
+    "/Game/Costumes/Eyes/T_EyeHighlight21.T_EyeHighlight21",
+    "/Game/Costumes/Eyes/T_EyeHighlight22",
+    "/Game/Costumes/Eyes/T_EyeHighlight22.T_EyeHighlight22",
+    "/Game/Costumes/Eyes/T_EyeHighlight23",
+    "/Game/Costumes/Eyes/T_EyeHighlight23.T_EyeHighlight23",
+    "/Game/Costumes/Eyes/T_EyeHighlight24",
+    "/Game/Costumes/Eyes/T_EyeHighlight24.T_EyeHighlight24",
+    "/Game/Costumes/Eyes/T_EyeHighlight25",
+    "/Game/Costumes/Eyes/T_EyeHighlight25.T_EyeHighlight25",
+    "/Game/Costumes/Eyes/T_EyeHighlight26",
+    "/Game/Costumes/Eyes/T_EyeHighlight26.T_EyeHighlight26",
+    "/Game/Costumes/Eyes/T_EyeHighlight27",
+    "/Game/Costumes/Eyes/T_EyeHighlight27.T_EyeHighlight27",
+    "/Game/Costumes/Eyes/T_EyeHighlight28",
+    "/Game/Costumes/Eyes/T_EyeHighlight28.T_EyeHighlight28",
+    "/Game/Costumes/Eyes/T_EyeHighlight29",
+    "/Game/Costumes/Eyes/T_EyeHighlight29.T_EyeHighlight29",
+    "/Game/Costumes/Eyes/T_EyeHighlight3",
+    "/Game/Costumes/Eyes/T_EyeHighlight3.T_EyeHighlight3",
+    "/Game/Costumes/Eyes/T_EyeHighlight30",
+    "/Game/Costumes/Eyes/T_EyeHighlight30.T_EyeHighlight30",
+    "/Game/Costumes/Eyes/T_EyeHighlight31",
+    "/Game/Costumes/Eyes/T_EyeHighlight31.T_EyeHighlight31",
+    "/Game/Costumes/Eyes/T_EyeHighlight32",
+    "/Game/Costumes/Eyes/T_EyeHighlight32.T_EyeHighlight32",
+    "/Game/Costumes/Eyes/T_EyeHighlight33",
+    "/Game/Costumes/Eyes/T_EyeHighlight33.T_EyeHighlight33",
+    "/Game/Costumes/Eyes/T_EyeHighlight34",
+    "/Game/Costumes/Eyes/T_EyeHighlight34.T_EyeHighlight34",
+    "/Game/Costumes/Eyes/T_EyeHighlight35",
+    "/Game/Costumes/Eyes/T_EyeHighlight35.T_EyeHighlight35",
+    "/Game/Costumes/Eyes/T_EyeHighlight36",
+    "/Game/Costumes/Eyes/T_EyeHighlight36.T_EyeHighlight36",
+    "/Game/Costumes/Eyes/T_EyeHighlight37",
+    "/Game/Costumes/Eyes/T_EyeHighlight37.T_EyeHighlight37",
+    "/Game/Costumes/Eyes/T_EyeHighlight38",
+    "/Game/Costumes/Eyes/T_EyeHighlight38.T_EyeHighlight38",
+    "/Game/Costumes/Eyes/T_EyeHighlight39",
+    "/Game/Costumes/Eyes/T_EyeHighlight39.T_EyeHighlight39",
+    "/Game/Costumes/Eyes/T_EyeHighlight4",
+    "/Game/Costumes/Eyes/T_EyeHighlight4.T_EyeHighlight4",
+    "/Game/Costumes/Eyes/T_EyeHighlight40",
+    "/Game/Costumes/Eyes/T_EyeHighlight40.T_EyeHighlight40",
+    "/Game/Costumes/Eyes/T_EyeHighlight41",
+    "/Game/Costumes/Eyes/T_EyeHighlight41.T_EyeHighlight41",
+    "/Game/Costumes/Eyes/T_EyeHighlight42",
+    "/Game/Costumes/Eyes/T_EyeHighlight42.T_EyeHighlight42",
+    "/Game/Costumes/Eyes/T_EyeHighlight43",
+    "/Game/Costumes/Eyes/T_EyeHighlight43.T_EyeHighlight43",
+    "/Game/Costumes/Eyes/T_EyeHighlight44",
+    "/Game/Costumes/Eyes/T_EyeHighlight44.T_EyeHighlight44",
+    "/Game/Costumes/Eyes/T_EyeHighlight45",
+    "/Game/Costumes/Eyes/T_EyeHighlight45.T_EyeHighlight45",
+    "/Game/Costumes/Eyes/T_EyeHighlight46",
+    "/Game/Costumes/Eyes/T_EyeHighlight46.T_EyeHighlight46",
+    "/Game/Costumes/Eyes/T_EyeHighlight47",
+    "/Game/Costumes/Eyes/T_EyeHighlight47.T_EyeHighlight47",
+    "/Game/Costumes/Eyes/T_EyeHighlight48",
+    "/Game/Costumes/Eyes/T_EyeHighlight48.T_EyeHighlight48",
+    "/Game/Costumes/Eyes/T_EyeHighlight49",
+    "/Game/Costumes/Eyes/T_EyeHighlight49.T_EyeHighlight49",
+    "/Game/Costumes/Eyes/T_EyeHighlight5",
+    "/Game/Costumes/Eyes/T_EyeHighlight5.T_EyeHighlight5",
+    "/Game/Costumes/Eyes/T_EyeHighlight50",
+    "/Game/Costumes/Eyes/T_EyeHighlight50.T_EyeHighlight50",
+    "/Game/Costumes/Eyes/T_EyeHighlight51",
+    "/Game/Costumes/Eyes/T_EyeHighlight51.T_EyeHighlight51",
+    "/Game/Costumes/Eyes/T_EyeHighlight52",
+    "/Game/Costumes/Eyes/T_EyeHighlight52.T_EyeHighlight52",
+    "/Game/Costumes/Eyes/T_EyeHighlight53",
+    "/Game/Costumes/Eyes/T_EyeHighlight53.T_EyeHighlight53",
+    "/Game/Costumes/Eyes/T_EyeHighlight54",
+    "/Game/Costumes/Eyes/T_EyeHighlight54.T_EyeHighlight54",
+    "/Game/Costumes/Eyes/T_EyeHighlight55",
+    "/Game/Costumes/Eyes/T_EyeHighlight55.T_EyeHighlight55",
+    "/Game/Costumes/Eyes/T_EyeHighlight56",
+    "/Game/Costumes/Eyes/T_EyeHighlight56.T_EyeHighlight56",
+    "/Game/Costumes/Eyes/T_EyeHighlight57",
+    "/Game/Costumes/Eyes/T_EyeHighlight57.T_EyeHighlight57",
+    "/Game/Costumes/Eyes/T_EyeHighlight58",
+    "/Game/Costumes/Eyes/T_EyeHighlight58.T_EyeHighlight58",
+    "/Game/Costumes/Eyes/T_EyeHighlight59",
+    "/Game/Costumes/Eyes/T_EyeHighlight59.T_EyeHighlight59",
+    "/Game/Costumes/Eyes/T_EyeHighlight6",
+    "/Game/Costumes/Eyes/T_EyeHighlight6.T_EyeHighlight6",
+    "/Game/Costumes/Eyes/T_EyeHighlight60",
+    "/Game/Costumes/Eyes/T_EyeHighlight60.T_EyeHighlight60",
+    "/Game/Costumes/Eyes/T_EyeHighlight61",
+    "/Game/Costumes/Eyes/T_EyeHighlight61.T_EyeHighlight61",
+    "/Game/Costumes/Eyes/T_EyeHighlight62",
+    "/Game/Costumes/Eyes/T_EyeHighlight62.T_EyeHighlight62",
+    "/Game/Costumes/Eyes/T_EyeHighlight63",
+    "/Game/Costumes/Eyes/T_EyeHighlight63.T_EyeHighlight63",
+    "/Game/Costumes/Eyes/T_EyeHighlight64",
+    "/Game/Costumes/Eyes/T_EyeHighlight64.T_EyeHighlight64",
+    "/Game/Costumes/Eyes/T_EyeHighlight65",
+    "/Game/Costumes/Eyes/T_EyeHighlight65.T_EyeHighlight65",
+    "/Game/Costumes/Eyes/T_EyeHighlight66",
+    "/Game/Costumes/Eyes/T_EyeHighlight66.T_EyeHighlight66",
+    "/Game/Costumes/Eyes/T_EyeHighlight67",
+    "/Game/Costumes/Eyes/T_EyeHighlight67.T_EyeHighlight67",
+    "/Game/Costumes/Eyes/T_EyeHighlight68",
+    "/Game/Costumes/Eyes/T_EyeHighlight68.T_EyeHighlight68",
+    "/Game/Costumes/Eyes/T_EyeHighlight69",
+    "/Game/Costumes/Eyes/T_EyeHighlight69.T_EyeHighlight69",
+    "/Game/Costumes/Eyes/T_EyeHighlight7",
+    "/Game/Costumes/Eyes/T_EyeHighlight7.T_EyeHighlight7",
+    "/Game/Costumes/Eyes/T_EyeHighlight8",
+    "/Game/Costumes/Eyes/T_EyeHighlight8.T_EyeHighlight8",
+    "/Game/Costumes/Eyes/T_EyeHighlight9",
+    "/Game/Costumes/Eyes/T_EyeHighlight9.T_EyeHighlight9",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_001",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_001.T_Thumb_AvatarCustomize_EyeHighLight_001",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_002",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_002.T_Thumb_AvatarCustomize_EyeHighLight_002",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_003",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_003.T_Thumb_AvatarCustomize_EyeHighLight_003",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_004",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_004.T_Thumb_AvatarCustomize_EyeHighLight_004",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_005",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_005.T_Thumb_AvatarCustomize_EyeHighLight_005",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_006",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_006.T_Thumb_AvatarCustomize_EyeHighLight_006",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_007",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_007.T_Thumb_AvatarCustomize_EyeHighLight_007",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_008",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_008.T_Thumb_AvatarCustomize_EyeHighLight_008",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_009",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_009.T_Thumb_AvatarCustomize_EyeHighLight_009",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_010",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_010.T_Thumb_AvatarCustomize_EyeHighLight_010",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_011",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_011.T_Thumb_AvatarCustomize_EyeHighLight_011",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_012",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_012.T_Thumb_AvatarCustomize_EyeHighLight_012",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_013",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_013.T_Thumb_AvatarCustomize_EyeHighLight_013",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_014",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_014.T_Thumb_AvatarCustomize_EyeHighLight_014",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_015",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_015.T_Thumb_AvatarCustomize_EyeHighLight_015",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_016",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_016.T_Thumb_AvatarCustomize_EyeHighLight_016",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_017",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_017.T_Thumb_AvatarCustomize_EyeHighLight_017",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_018",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_018.T_Thumb_AvatarCustomize_EyeHighLight_018",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_019",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_019.T_Thumb_AvatarCustomize_EyeHighLight_019",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_020",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_020.T_Thumb_AvatarCustomize_EyeHighLight_020",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_021",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_021.T_Thumb_AvatarCustomize_EyeHighLight_021",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_022",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_022.T_Thumb_AvatarCustomize_EyeHighLight_022",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_023",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_023.T_Thumb_AvatarCustomize_EyeHighLight_023",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_024",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_024.T_Thumb_AvatarCustomize_EyeHighLight_024",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_025",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_025.T_Thumb_AvatarCustomize_EyeHighLight_025",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_026",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_026.T_Thumb_AvatarCustomize_EyeHighLight_026",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_027",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_027.T_Thumb_AvatarCustomize_EyeHighLight_027",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_028",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_028.T_Thumb_AvatarCustomize_EyeHighLight_028",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_029",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_029.T_Thumb_AvatarCustomize_EyeHighLight_029",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_030",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_030.T_Thumb_AvatarCustomize_EyeHighLight_030",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_031",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_031.T_Thumb_AvatarCustomize_EyeHighLight_031",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_032",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_032.T_Thumb_AvatarCustomize_EyeHighLight_032",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_033",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_033.T_Thumb_AvatarCustomize_EyeHighLight_033",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_034",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_034.T_Thumb_AvatarCustomize_EyeHighLight_034",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_035",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_035.T_Thumb_AvatarCustomize_EyeHighLight_035",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_036",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_036.T_Thumb_AvatarCustomize_EyeHighLight_036",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_037",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_037.T_Thumb_AvatarCustomize_EyeHighLight_037",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_038",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_038.T_Thumb_AvatarCustomize_EyeHighLight_038",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_039",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_039.T_Thumb_AvatarCustomize_EyeHighLight_039",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_040",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_040.T_Thumb_AvatarCustomize_EyeHighLight_040",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_041",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_041.T_Thumb_AvatarCustomize_EyeHighLight_041",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_042",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_042.T_Thumb_AvatarCustomize_EyeHighLight_042",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_043",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_043.T_Thumb_AvatarCustomize_EyeHighLight_043",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_044",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_044.T_Thumb_AvatarCustomize_EyeHighLight_044",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_045",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_045.T_Thumb_AvatarCustomize_EyeHighLight_045",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_046",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_046.T_Thumb_AvatarCustomize_EyeHighLight_046",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_047",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_047.T_Thumb_AvatarCustomize_EyeHighLight_047",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_048",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_048.T_Thumb_AvatarCustomize_EyeHighLight_048",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_049",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_049.T_Thumb_AvatarCustomize_EyeHighLight_049",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_050",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_050.T_Thumb_AvatarCustomize_EyeHighLight_050",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_051",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_051.T_Thumb_AvatarCustomize_EyeHighLight_051",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_052",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_052.T_Thumb_AvatarCustomize_EyeHighLight_052",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_053",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_053.T_Thumb_AvatarCustomize_EyeHighLight_053",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_054",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_054.T_Thumb_AvatarCustomize_EyeHighLight_054",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_055",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_055.T_Thumb_AvatarCustomize_EyeHighLight_055",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_056",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_056.T_Thumb_AvatarCustomize_EyeHighLight_056",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_057",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_057.T_Thumb_AvatarCustomize_EyeHighLight_057",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_058",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_058.T_Thumb_AvatarCustomize_EyeHighLight_058",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_059",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_059.T_Thumb_AvatarCustomize_EyeHighLight_059",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_060",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_060.T_Thumb_AvatarCustomize_EyeHighLight_060",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_061",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_061.T_Thumb_AvatarCustomize_EyeHighLight_061",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_062",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_062.T_Thumb_AvatarCustomize_EyeHighLight_062",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_063",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_063.T_Thumb_AvatarCustomize_EyeHighLight_063",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_064",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_064.T_Thumb_AvatarCustomize_EyeHighLight_064",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_065",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_065.T_Thumb_AvatarCustomize_EyeHighLight_065",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_066",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_066.T_Thumb_AvatarCustomize_EyeHighLight_066",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_067",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_067.T_Thumb_AvatarCustomize_EyeHighLight_067",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_068",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_068.T_Thumb_AvatarCustomize_EyeHighLight_068",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_069",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeHighLight/T_Thumb_AvatarCustomize_EyeHighLight_069.T_Thumb_AvatarCustomize_EyeHighLight_069",
+    "/Script/CoreUObject",
+    "/Script/Engine",
+    "/Script/Extensions",
+    "AvatarCustomizeDataTableTextureList",
+    "Class",
+    "DataTable",
+    "Default__DataTable",
+    "DT_EyeHighLightList",
+    "EyeHighlight1",
+    "EyeHighlight10",
+    "EyeHighlight10U",
+    "EyeHighlight10UU",
+    "EyeHighlight11",
+    "EyeHighlight11U",
+    "EyeHighlight11UU",
+    "EyeHighlight12",
+    "EyeHighlight12D",
+    "EyeHighlight12U",
+    "EyeHighlight13",
+    "EyeHighlight13D",
+    "EyeHighlight13U",
+    "EyeHighlight14",
+    "EyeHighlight14_Ring2",
+    "EyeHighlight14_Ring3",
+    "EyeHighlight16",
+    "EyeHighlight16D",
+    "EyeHighlight16U",
+    "EyeHighlight18",
+    "EyeHighlight18D",
+    "EyeHighlight18DD",
+    "EyeHighlight19",
+    "EyeHighlight19D",
+    "EyeHighlight19U",
+    "EyeHighlight1D",
+    "EyeHighlight1U",
+    "EyeHighlight2",
+    "EyeHighlight2D",
+    "EyeHighlight2U",
+    "EyeHighlight3",
+    "EyeHighlight3D",
+    "EyeHighlight3U",
+    "EyeHighlight4",
+    "EyeHighlight4D",
+    "EyeHighlight4U",
+    "EyeHighlight5",
+    "EyeHighlight5D",
+    "EyeHighlight5DD",
+    "EyeHighlight7",
+    "EyeHighlight7D",
+    "EyeHighlight7U",
+    "EyeHighlight8",
+    "EyeHighlight8D",
+    "EyeHighlight8U",
+    "EyeHighlight9",
+    "EyeHighlight9D",
+    "EyeHighlight9U",
+    "EyeHighlight_Heart",
+    "EyeHighlight_Heart2",
+    "EyeHighlight_Heart3",
+    "EyeHighlight_Slash1",
+    "EyeHighlight_Slash2",
+    "EyeHighlight_Slash3",
+    "EyeHighlight_Star",
+    "EyeHighlight_Star2",
+    "EyeHighlight_Star3",
+    "EyeHighlight_Star_Sextet",
+    "EyeHighlight_Star_Sextet2",
+    "EyeHighlight_Star_Sextet3",
+    "Name",
+    "None",
+    "ObjectProperty",
+    "Package",
+    "RowStruct",
+    "ScriptStruct",
+    "SideE_Br",
+    "SideE_Br_2_D",
+    "SideE_Br_2_U",
+    "SideE_Br_D",
+    "SideE_Br_U",
+    "SoftObjectProperty",
+    "TextProperty",
+    "Texture",
+    "Thumbnail",
+    "UnderHilit",
+    "UnderHilitD",
+    "UnderHilitDD"
+  ]
+}

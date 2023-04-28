@@ -1,0 +1,2795 @@
+{
+  "$type": "QueenIO.Relic, QueenIO",
+  "Info": "Serialized with UAssetAPI 1.0.0.0",
+  "UseSeparateBulkDataFiles": true,
+  "EngineVersion": "VER_UE4_ADDED_SOFT_OBJECT_PATH",
+  "LegacyFileVersion": -7,
+  "IsUnversioned": true,
+  "FileVersionLicenseeUE4": 0,
+  "CustomVersionContainer": [],
+  "Imports": [
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Game/character/BodyBase/Male/ABP_CopyPoseWithCopyMaterialAndMorph",
+      "ClassName": "ABP_CopyPoseWithCopyMaterialAndMorph_C",
+      "ObjectName": "Default__ABP_CopyPoseWithCopyMaterialAndMorph_C",
+      "OuterIndex": -5
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "AnimBlueprintGeneratedClass",
+      "ObjectName": "ABP_CopyPoseWithCopyMaterialAndMorph_C",
+      "OuterIndex": -5
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "ObjectName": "DataTable",
+      "OuterIndex": -6
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "DataTable",
+      "ObjectName": "Default__DataTable",
+      "OuterIndex": -6
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/character/BodyBase/Male/ABP_CopyPoseWithCopyMaterialAndMorph",
+      "OuterIndex": 0
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine",
+      "OuterIndex": 0
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Extensions",
+      "OuterIndex": 0
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "ScriptStruct",
+      "ObjectName": "AvatarCustomizeDataTableMeshList",
+      "OuterIndex": -7
+    }
+  ],
+  "Exports": [
+    {
+      "$type": "UAssetAPI.DataTableExport, UAssetAPI",
+      "Table": {
+        "$type": "UAssetAPI.UDataTable, UAssetAPI",
+        "Data": [
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ShortHair1Short_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_043.T_Thumb_AvatarCustomize_Hair_Female_043"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male1S_R/Meshes/SK_Hair_Male1S_R.SK_Hair_Male1S_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ShortHair1Short",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_024.T_Thumb_AvatarCustomize_Hair_Female_024"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male1S/Meshes/SK_Hair_Male1S.SK_Hair_Male1S"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ShortHair4",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_011.T_Thumb_AvatarCustomize_Hair_Female_011"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male5/Meshes/SK_Hair_Male5.SK_Hair_Male5"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ShortHair4_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_022.T_Thumb_AvatarCustomize_Hair_Female_022"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male5_R/Meshes/SK_Hair_Male5_R.SK_Hair_Male5_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ShortHair1_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_018.T_Thumb_AvatarCustomize_Hair_Female_018"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male1_R/Meshes/SK_Hair_Male1_R.SK_Hair_Male1_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ShortHair1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_007.T_Thumb_AvatarCustomize_Hair_Female_007"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male1/Meshes/SK_Hair_Male1.SK_Hair_Male1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "SoftMohawkHair",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_025.T_Thumb_AvatarCustomize_Hair_Female_025"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male3S/Meshes/SK_Hair_Male3S.SK_Hair_Male3S"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "SoftMohawkHair_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_044.T_Thumb_AvatarCustomize_Hair_Female_044"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male3S_R/Meshes/SK_Hair_Male3S_R.SK_Hair_Male3S_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ShortHair6_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_055.T_Thumb_AvatarCustomize_Hair_Female_055"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF9_R/Meshes/SK_Hair_MaleF9_R.SK_Hair_MaleF9_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ShortHair6",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_039.T_Thumb_AvatarCustomize_Hair_Female_039"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF9/Meshes/SK_Hair_MaleF9.SK_Hair_MaleF9"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MohawkHair",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_009.T_Thumb_AvatarCustomize_Hair_Female_009"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male3/Meshes/SK_Hair_Male3.SK_Hair_Male3"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MohawkHair_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_020.T_Thumb_AvatarCustomize_Hair_Female_020"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male3_R/Meshes/SK_Hair_Male3_R.SK_Hair_Male3_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ShortHair5",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_026.T_Thumb_AvatarCustomize_Hair_Female_026"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male7/Meshes/SK_Hair_Male7.SK_Hair_Male7"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ShortHair5_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_056.T_Thumb_AvatarCustomize_Hair_Female_056"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male7_R/Meshes/SK_Hair_Male7_R.SK_Hair_Male7_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ShortHair2_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_019.T_Thumb_AvatarCustomize_Hair_Female_019"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male2_R/Meshes/SK_Hair_Male2_R.SK_Hair_Male2_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ShortHair2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_008.T_Thumb_AvatarCustomize_Hair_Female_008"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male2/Meshes/SK_Hair_Male2.SK_Hair_Male2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ShortHair3Short_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_045.T_Thumb_AvatarCustomize_Hair_Female_045"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF5S_R/Meshes/SK_Hair_MaleF5S_R.SK_Hair_MaleF5S_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ShortHair3Short",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_027.T_Thumb_AvatarCustomize_Hair_Female_027"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF5S/Meshes/SK_Hair_MaleF5S.SK_Hair_MaleF5S"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MediumHair9_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_064.T_Thumb_AvatarCustomize_Hair_Female_064"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male8_R/Meshes/SK_Hair_Male8_R.SK_Hair_Male8_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MediumHair9",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_065.T_Thumb_AvatarCustomize_Hair_Female_065"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male8/Meshes/SK_Hair_Male8.SK_Hair_Male8"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ShortHair3_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_016.T_Thumb_AvatarCustomize_Hair_Female_016"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF5_R/Meshes/SK_Hair_MaleF5_R.SK_Hair_MaleF5_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ShortHair3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_005.T_Thumb_AvatarCustomize_Hair_Female_005"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF5/Meshes/SK_Hair_MaleF5.SK_Hair_MaleF5"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MediumHair4_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_057.T_Thumb_AvatarCustomize_Hair_Female_057"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male9_R/Meshes/SK_Hair_Male9_R.SK_Hair_Male9_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MediumHair4",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_028.T_Thumb_AvatarCustomize_Hair_Female_028"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male9/Meshes/SK_Hair_Male9.SK_Hair_Male9"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MediumHair4S3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_040.T_Thumb_AvatarCustomize_Hair_Female_040"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF4S3/Meshes/SK_Hair_MaleF4S3.SK_Hair_MaleF4S3"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MediumHair2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_033.T_Thumb_AvatarCustomize_Hair_Female_033"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF4S/Meshes/SK_Hair_MaleF4S.SK_Hair_MaleF4S"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MediumHair6_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_058.T_Thumb_AvatarCustomize_Hair_Female_058"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF7_R/Meshes/SK_Hair_MaleF7_R.SK_Hair_MaleF7_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MediumHair6",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_029.T_Thumb_AvatarCustomize_Hair_Female_029"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF7/Meshes/SK_Hair_MaleF7.SK_Hair_MaleF7"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MediumHair3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_031.T_Thumb_AvatarCustomize_Hair_Female_031"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF4S2/Meshes/SK_Hair_MaleF4S2.SK_Hair_MaleF4S2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "LongHair2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_004.T_Thumb_AvatarCustomize_Hair_Female_004"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF4/Meshes/SK_Hair_MaleF4.SK_Hair_MaleF4"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MediumHair5",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_030.T_Thumb_AvatarCustomize_Hair_Female_030"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF8/Meshes/SK_Hair_MaleF8.SK_Hair_MaleF8"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MediumHair5_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_059.T_Thumb_AvatarCustomize_Hair_Female_059"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF8_R/Meshes/SK_Hair_MaleF8_R.SK_Hair_MaleF8_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MediumHair8",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_042.T_Thumb_AvatarCustomize_Hair_Female_042"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF2S3/Meshes/SK_Hair_MaleF2S3.SK_Hair_MaleF2S3"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MediumHair7",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_041.T_Thumb_AvatarCustomize_Hair_Female_041"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF2S2/Meshes/SK_Hair_MaleF2S2.SK_Hair_MaleF2S2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MediumHair1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_032.T_Thumb_AvatarCustomize_Hair_Female_032"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male4S/Meshes/SK_Hair_Male4S.SK_Hair_Male4S"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MediumHair1_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_048.T_Thumb_AvatarCustomize_Hair_Female_048"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male4S_R/Meshes/SK_Hair_Male4S_R.SK_Hair_Male4S_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MediumBluntBangsHair",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_023.T_Thumb_AvatarCustomize_Hair_Female_023"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF2S/Meshes/SK_Hair_MaleF2S.SK_Hair_MaleF2S"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "LongBluntBangsHair",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_002.T_Thumb_AvatarCustomize_Hair_Female_002"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF2/Meshes/SK_Hair_MaleF2.SK_Hair_MaleF2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "LongHair1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_010.T_Thumb_AvatarCustomize_Hair_Female_010"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male4/Meshes/SK_Hair_Male4.SK_Hair_Male4"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "LongHair1_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_021.T_Thumb_AvatarCustomize_Hair_Female_021"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male4_R/Meshes/SK_Hair_Male4_R.SK_Hair_Male4_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MediumHairDread",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_038.T_Thumb_AvatarCustomize_Hair_Female_038"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male10/Meshes/SK_Hair_Male10.SK_Hair_Male10"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MediumHairDread_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_060.T_Thumb_AvatarCustomize_Hair_Female_060"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male10_R/Meshes/SK_Hair_Male10_R.SK_Hair_Male10_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "LongHairDread2_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_063.T_Thumb_AvatarCustomize_Hair_Female_063"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF10S_R/Meshes/SK_Hair_MaleF10S_R.SK_Hair_MaleF10S_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "LongHairDread2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_034.T_Thumb_AvatarCustomize_Hair_Female_034"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF10S/Meshes/SK_Hair_MaleF10S.SK_Hair_MaleF10S"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "LowponytailHair_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_012.T_Thumb_AvatarCustomize_Hair_Female_012"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF1_R/Meshes/SK_Hair_MaleF1_R.SK_Hair_MaleF1_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "LowponytailHair",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_001.T_Thumb_AvatarCustomize_Hair_Female_001"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF1/Meshes/SK_Hair_MaleF1.SK_Hair_MaleF1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "LongHairDread_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_061.T_Thumb_AvatarCustomize_Hair_Female_061"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF10_R/Meshes/SK_Hair_MaleF10_R.SK_Hair_MaleF10_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "LongHairDread",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_035.T_Thumb_AvatarCustomize_Hair_Female_035"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF10/Meshes/SK_Hair_MaleF10.SK_Hair_MaleF10"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ShortTwintailHair",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_003.T_Thumb_AvatarCustomize_Hair_Female_003"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF3/Meshes/SK_Hair_MaleF3.SK_Hair_MaleF3"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ShortTwintailHair_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_014.T_Thumb_AvatarCustomize_Hair_Female_014"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF3_R/Meshes/SK_Hair_MaleF3_R.SK_Hair_MaleF3_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "LongHair3_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_062.T_Thumb_AvatarCustomize_Hair_Female_062"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF6_R/Meshes/SK_Hair_MaleF6_R.SK_Hair_MaleF6_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "LongHair3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_053.T_Thumb_AvatarCustomize_Hair_Female_053"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF6/Meshes/SK_Hair_MaleF6.SK_Hair_MaleF6"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "BaseHair2TwintailOff1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_036.T_Thumb_AvatarCustomize_Hair_Female_036"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF3S/Meshes/SK_Hair_MaleF3S.SK_Hair_MaleF3S"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "BaseHair2TwintailOff1_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_050.T_Thumb_AvatarCustomize_Hair_Female_050"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF3S_R/Meshes/SK_Hair_MaleF3S_R.SK_Hair_MaleF3S_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "BaseHair1_R",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_017.T_Thumb_AvatarCustomize_Hair_Female_017"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Default/SK_Hair_Male0_R.SK_Hair_Male0_R"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "BaseHair1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_006.T_Thumb_AvatarCustomize_Hair_Female_006"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Default/SK_Hair_Male0.SK_Hair_Male0"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "BaseHair2TwintailOff2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_037.T_Thumb_AvatarCustomize_Hair_Female_037"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_MaleF3S2/Meshes/SK_Hair_MaleF3S2.SK_Hair_MaleF3S2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableMeshList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "ShortHair7",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_054.T_Thumb_AvatarCustomize_Hair_Female_054"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Hairs/Hair_Male6/Meshes/SK_Hair_Male6.SK_Hair_Male6"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              }
+            ]
+          }
+        ]
+      },
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+          "Name": "RowStruct",
+          "DuplicationIndex": 0,
+          "Value": -8
+        }
+      ],
+      "ClassIndex": -3,
+      "SuperIndex": 0,
+      "TemplateIndex": -4,
+      "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
+      "SerialSize": 8687,
+      "SerialOffset": 25733,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "00000000-0000-0000-0000-000000000000",
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": true,
+      "bIsAsset": true,
+      "SerializationBeforeSerializationDependencies": [
+        -8
+      ],
+      "CreateBeforeSerializationDependencies": [
+        -2
+      ],
+      "SerializationBeforeCreateDependencies": [
+        -3,
+        -4
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": {
+        "$type": "System.Byte[], mscorlib",
+        "$value": ""
+      },
+      "ObjectName": "DT_HairList_Male",
+      "OuterIndex": 0
+    }
+  ],
+  "DependsMap": [
+    []
+  ],
+  "SoftPackageReferenceList": [],
+  "AssetRegistryData": [],
+  "WorldTileInfo": null,
+  "Generations": [
+    {
+      "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
+      "ExportCount": 1,
+      "NameCount": 314
+    }
+  ],
+  "PackageGuid": "ba3e4ec7-8f8d-4d94-b591-3a037372ba86",
+  "RecordedEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "RecordedCompatibleWithEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "ChunkIDs": [],
+  "PackageFlags": "PKG_FilterEditorOnly",
+  "PackageSource": 1201551104,
+  "FolderName": "None",
+  "GatherableTextDataCount": 0,
+  "GatherableTextDataOffset": 0,
+  "SearchableNamesOffset": 0,
+  "ThumbnailTableOffset": 0,
+  "CompressionFlags": 0,
+  "doWeHaveDependsMap": true,
+  "doWeHaveSoftPackageReferences": false,
+  "doWeHaveAssetRegistryData": true,
+  "doWeHaveWorldTileInfo": false,
+  "NameMap": [
+    "/Game/character/BodyBase/Male/ABP_CopyPoseWithCopyMaterialAndMorph",
+    "/Game/Costumes/Hairs/Default/SK_Hair_Male0",
+    "/Game/Costumes/Hairs/Default/SK_Hair_Male0.SK_Hair_Male0",
+    "/Game/Costumes/Hairs/Default/SK_Hair_Male0_R",
+    "/Game/Costumes/Hairs/Default/SK_Hair_Male0_R.SK_Hair_Male0_R",
+    "/Game/Costumes/Hairs/DT_HairList_Male",
+    "/Game/Costumes/Hairs/Hair_Male1/Meshes/SK_Hair_Male1",
+    "/Game/Costumes/Hairs/Hair_Male1/Meshes/SK_Hair_Male1.SK_Hair_Male1",
+    "/Game/Costumes/Hairs/Hair_Male10/Meshes/SK_Hair_Male10",
+    "/Game/Costumes/Hairs/Hair_Male10/Meshes/SK_Hair_Male10.SK_Hair_Male10",
+    "/Game/Costumes/Hairs/Hair_Male10_R/Meshes/SK_Hair_Male10_R",
+    "/Game/Costumes/Hairs/Hair_Male10_R/Meshes/SK_Hair_Male10_R.SK_Hair_Male10_R",
+    "/Game/Costumes/Hairs/Hair_Male1_R/Meshes/SK_Hair_Male1_R",
+    "/Game/Costumes/Hairs/Hair_Male1_R/Meshes/SK_Hair_Male1_R.SK_Hair_Male1_R",
+    "/Game/Costumes/Hairs/Hair_Male1S/Meshes/SK_Hair_Male1S",
+    "/Game/Costumes/Hairs/Hair_Male1S/Meshes/SK_Hair_Male1S.SK_Hair_Male1S",
+    "/Game/Costumes/Hairs/Hair_Male1S_R/Meshes/SK_Hair_Male1S_R",
+    "/Game/Costumes/Hairs/Hair_Male1S_R/Meshes/SK_Hair_Male1S_R.SK_Hair_Male1S_R",
+    "/Game/Costumes/Hairs/Hair_Male2/Meshes/SK_Hair_Male2",
+    "/Game/Costumes/Hairs/Hair_Male2/Meshes/SK_Hair_Male2.SK_Hair_Male2",
+    "/Game/Costumes/Hairs/Hair_Male2_R/Meshes/SK_Hair_Male2_R",
+    "/Game/Costumes/Hairs/Hair_Male2_R/Meshes/SK_Hair_Male2_R.SK_Hair_Male2_R",
+    "/Game/Costumes/Hairs/Hair_Male3/Meshes/SK_Hair_Male3",
+    "/Game/Costumes/Hairs/Hair_Male3/Meshes/SK_Hair_Male3.SK_Hair_Male3",
+    "/Game/Costumes/Hairs/Hair_Male3_R/Meshes/SK_Hair_Male3_R",
+    "/Game/Costumes/Hairs/Hair_Male3_R/Meshes/SK_Hair_Male3_R.SK_Hair_Male3_R",
+    "/Game/Costumes/Hairs/Hair_Male3S/Meshes/SK_Hair_Male3S",
+    "/Game/Costumes/Hairs/Hair_Male3S/Meshes/SK_Hair_Male3S.SK_Hair_Male3S",
+    "/Game/Costumes/Hairs/Hair_Male3S_R/Meshes/SK_Hair_Male3S_R",
+    "/Game/Costumes/Hairs/Hair_Male3S_R/Meshes/SK_Hair_Male3S_R.SK_Hair_Male3S_R",
+    "/Game/Costumes/Hairs/Hair_Male4/Meshes/SK_Hair_Male4",
+    "/Game/Costumes/Hairs/Hair_Male4/Meshes/SK_Hair_Male4.SK_Hair_Male4",
+    "/Game/Costumes/Hairs/Hair_Male4_R/Meshes/SK_Hair_Male4_R",
+    "/Game/Costumes/Hairs/Hair_Male4_R/Meshes/SK_Hair_Male4_R.SK_Hair_Male4_R",
+    "/Game/Costumes/Hairs/Hair_Male4S/Meshes/SK_Hair_Male4S",
+    "/Game/Costumes/Hairs/Hair_Male4S/Meshes/SK_Hair_Male4S.SK_Hair_Male4S",
+    "/Game/Costumes/Hairs/Hair_Male4S_R/Meshes/SK_Hair_Male4S_R",
+    "/Game/Costumes/Hairs/Hair_Male4S_R/Meshes/SK_Hair_Male4S_R.SK_Hair_Male4S_R",
+    "/Game/Costumes/Hairs/Hair_Male5/Meshes/SK_Hair_Male5",
+    "/Game/Costumes/Hairs/Hair_Male5/Meshes/SK_Hair_Male5.SK_Hair_Male5",
+    "/Game/Costumes/Hairs/Hair_Male5_R/Meshes/SK_Hair_Male5_R",
+    "/Game/Costumes/Hairs/Hair_Male5_R/Meshes/SK_Hair_Male5_R.SK_Hair_Male5_R",
+    "/Game/Costumes/Hairs/Hair_Male6/Meshes/SK_Hair_Male6",
+    "/Game/Costumes/Hairs/Hair_Male6/Meshes/SK_Hair_Male6.SK_Hair_Male6",
+    "/Game/Costumes/Hairs/Hair_Male7/Meshes/SK_Hair_Male7",
+    "/Game/Costumes/Hairs/Hair_Male7/Meshes/SK_Hair_Male7.SK_Hair_Male7",
+    "/Game/Costumes/Hairs/Hair_Male7_R/Meshes/SK_Hair_Male7_R",
+    "/Game/Costumes/Hairs/Hair_Male7_R/Meshes/SK_Hair_Male7_R.SK_Hair_Male7_R",
+    "/Game/Costumes/Hairs/Hair_Male8/Meshes/SK_Hair_Male8",
+    "/Game/Costumes/Hairs/Hair_Male8/Meshes/SK_Hair_Male8.SK_Hair_Male8",
+    "/Game/Costumes/Hairs/Hair_Male8_R/Meshes/SK_Hair_Male8_R",
+    "/Game/Costumes/Hairs/Hair_Male8_R/Meshes/SK_Hair_Male8_R.SK_Hair_Male8_R",
+    "/Game/Costumes/Hairs/Hair_Male9/Meshes/SK_Hair_Male9",
+    "/Game/Costumes/Hairs/Hair_Male9/Meshes/SK_Hair_Male9.SK_Hair_Male9",
+    "/Game/Costumes/Hairs/Hair_Male9_R/Meshes/SK_Hair_Male9_R",
+    "/Game/Costumes/Hairs/Hair_Male9_R/Meshes/SK_Hair_Male9_R.SK_Hair_Male9_R",
+    "/Game/Costumes/Hairs/Hair_MaleF1/Meshes/SK_Hair_MaleF1",
+    "/Game/Costumes/Hairs/Hair_MaleF1/Meshes/SK_Hair_MaleF1.SK_Hair_MaleF1",
+    "/Game/Costumes/Hairs/Hair_MaleF10/Meshes/SK_Hair_MaleF10",
+    "/Game/Costumes/Hairs/Hair_MaleF10/Meshes/SK_Hair_MaleF10.SK_Hair_MaleF10",
+    "/Game/Costumes/Hairs/Hair_MaleF10_R/Meshes/SK_Hair_MaleF10_R",
+    "/Game/Costumes/Hairs/Hair_MaleF10_R/Meshes/SK_Hair_MaleF10_R.SK_Hair_MaleF10_R",
+    "/Game/Costumes/Hairs/Hair_MaleF10S/Meshes/SK_Hair_MaleF10S",
+    "/Game/Costumes/Hairs/Hair_MaleF10S/Meshes/SK_Hair_MaleF10S.SK_Hair_MaleF10S",
+    "/Game/Costumes/Hairs/Hair_MaleF10S_R/Meshes/SK_Hair_MaleF10S_R",
+    "/Game/Costumes/Hairs/Hair_MaleF10S_R/Meshes/SK_Hair_MaleF10S_R.SK_Hair_MaleF10S_R",
+    "/Game/Costumes/Hairs/Hair_MaleF1_R/Meshes/SK_Hair_MaleF1_R",
+    "/Game/Costumes/Hairs/Hair_MaleF1_R/Meshes/SK_Hair_MaleF1_R.SK_Hair_MaleF1_R",
+    "/Game/Costumes/Hairs/Hair_MaleF2/Meshes/SK_Hair_MaleF2",
+    "/Game/Costumes/Hairs/Hair_MaleF2/Meshes/SK_Hair_MaleF2.SK_Hair_MaleF2",
+    "/Game/Costumes/Hairs/Hair_MaleF2S/Meshes/SK_Hair_MaleF2S",
+    "/Game/Costumes/Hairs/Hair_MaleF2S/Meshes/SK_Hair_MaleF2S.SK_Hair_MaleF2S",
+    "/Game/Costumes/Hairs/Hair_MaleF2S2/Meshes/SK_Hair_MaleF2S2",
+    "/Game/Costumes/Hairs/Hair_MaleF2S2/Meshes/SK_Hair_MaleF2S2.SK_Hair_MaleF2S2",
+    "/Game/Costumes/Hairs/Hair_MaleF2S3/Meshes/SK_Hair_MaleF2S3",
+    "/Game/Costumes/Hairs/Hair_MaleF2S3/Meshes/SK_Hair_MaleF2S3.SK_Hair_MaleF2S3",
+    "/Game/Costumes/Hairs/Hair_MaleF3/Meshes/SK_Hair_MaleF3",
+    "/Game/Costumes/Hairs/Hair_MaleF3/Meshes/SK_Hair_MaleF3.SK_Hair_MaleF3",
+    "/Game/Costumes/Hairs/Hair_MaleF3_R/Meshes/SK_Hair_MaleF3_R",
+    "/Game/Costumes/Hairs/Hair_MaleF3_R/Meshes/SK_Hair_MaleF3_R.SK_Hair_MaleF3_R",
+    "/Game/Costumes/Hairs/Hair_MaleF3S/Meshes/SK_Hair_MaleF3S",
+    "/Game/Costumes/Hairs/Hair_MaleF3S/Meshes/SK_Hair_MaleF3S.SK_Hair_MaleF3S",
+    "/Game/Costumes/Hairs/Hair_MaleF3S2/Meshes/SK_Hair_MaleF3S2",
+    "/Game/Costumes/Hairs/Hair_MaleF3S2/Meshes/SK_Hair_MaleF3S2.SK_Hair_MaleF3S2",
+    "/Game/Costumes/Hairs/Hair_MaleF3S_R/Meshes/SK_Hair_MaleF3S_R",
+    "/Game/Costumes/Hairs/Hair_MaleF3S_R/Meshes/SK_Hair_MaleF3S_R.SK_Hair_MaleF3S_R",
+    "/Game/Costumes/Hairs/Hair_MaleF4/Meshes/SK_Hair_MaleF4",
+    "/Game/Costumes/Hairs/Hair_MaleF4/Meshes/SK_Hair_MaleF4.SK_Hair_MaleF4",
+    "/Game/Costumes/Hairs/Hair_MaleF4S/Meshes/SK_Hair_MaleF4S",
+    "/Game/Costumes/Hairs/Hair_MaleF4S/Meshes/SK_Hair_MaleF4S.SK_Hair_MaleF4S",
+    "/Game/Costumes/Hairs/Hair_MaleF4S2/Meshes/SK_Hair_MaleF4S2",
+    "/Game/Costumes/Hairs/Hair_MaleF4S2/Meshes/SK_Hair_MaleF4S2.SK_Hair_MaleF4S2",
+    "/Game/Costumes/Hairs/Hair_MaleF4S3/Meshes/SK_Hair_MaleF4S3",
+    "/Game/Costumes/Hairs/Hair_MaleF4S3/Meshes/SK_Hair_MaleF4S3.SK_Hair_MaleF4S3",
+    "/Game/Costumes/Hairs/Hair_MaleF5/Meshes/SK_Hair_MaleF5",
+    "/Game/Costumes/Hairs/Hair_MaleF5/Meshes/SK_Hair_MaleF5.SK_Hair_MaleF5",
+    "/Game/Costumes/Hairs/Hair_MaleF5_R/Meshes/SK_Hair_MaleF5_R",
+    "/Game/Costumes/Hairs/Hair_MaleF5_R/Meshes/SK_Hair_MaleF5_R.SK_Hair_MaleF5_R",
+    "/Game/Costumes/Hairs/Hair_MaleF5S/Meshes/SK_Hair_MaleF5S",
+    "/Game/Costumes/Hairs/Hair_MaleF5S/Meshes/SK_Hair_MaleF5S.SK_Hair_MaleF5S",
+    "/Game/Costumes/Hairs/Hair_MaleF5S_R/Meshes/SK_Hair_MaleF5S_R",
+    "/Game/Costumes/Hairs/Hair_MaleF5S_R/Meshes/SK_Hair_MaleF5S_R.SK_Hair_MaleF5S_R",
+    "/Game/Costumes/Hairs/Hair_MaleF6/Meshes/SK_Hair_MaleF6",
+    "/Game/Costumes/Hairs/Hair_MaleF6/Meshes/SK_Hair_MaleF6.SK_Hair_MaleF6",
+    "/Game/Costumes/Hairs/Hair_MaleF6_R/Meshes/SK_Hair_MaleF6_R",
+    "/Game/Costumes/Hairs/Hair_MaleF6_R/Meshes/SK_Hair_MaleF6_R.SK_Hair_MaleF6_R",
+    "/Game/Costumes/Hairs/Hair_MaleF7/Meshes/SK_Hair_MaleF7",
+    "/Game/Costumes/Hairs/Hair_MaleF7/Meshes/SK_Hair_MaleF7.SK_Hair_MaleF7",
+    "/Game/Costumes/Hairs/Hair_MaleF7_R/Meshes/SK_Hair_MaleF7_R",
+    "/Game/Costumes/Hairs/Hair_MaleF7_R/Meshes/SK_Hair_MaleF7_R.SK_Hair_MaleF7_R",
+    "/Game/Costumes/Hairs/Hair_MaleF8/Meshes/SK_Hair_MaleF8",
+    "/Game/Costumes/Hairs/Hair_MaleF8/Meshes/SK_Hair_MaleF8.SK_Hair_MaleF8",
+    "/Game/Costumes/Hairs/Hair_MaleF8_R/Meshes/SK_Hair_MaleF8_R",
+    "/Game/Costumes/Hairs/Hair_MaleF8_R/Meshes/SK_Hair_MaleF8_R.SK_Hair_MaleF8_R",
+    "/Game/Costumes/Hairs/Hair_MaleF9/Meshes/SK_Hair_MaleF9",
+    "/Game/Costumes/Hairs/Hair_MaleF9/Meshes/SK_Hair_MaleF9.SK_Hair_MaleF9",
+    "/Game/Costumes/Hairs/Hair_MaleF9_R/Meshes/SK_Hair_MaleF9_R",
+    "/Game/Costumes/Hairs/Hair_MaleF9_R/Meshes/SK_Hair_MaleF9_R.SK_Hair_MaleF9_R",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_001",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_001.T_Thumb_AvatarCustomize_Hair_Female_001",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_002",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_002.T_Thumb_AvatarCustomize_Hair_Female_002",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_003",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_003.T_Thumb_AvatarCustomize_Hair_Female_003",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_004",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_004.T_Thumb_AvatarCustomize_Hair_Female_004",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_005",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_005.T_Thumb_AvatarCustomize_Hair_Female_005",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_006",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_006.T_Thumb_AvatarCustomize_Hair_Female_006",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_007",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_007.T_Thumb_AvatarCustomize_Hair_Female_007",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_008",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_008.T_Thumb_AvatarCustomize_Hair_Female_008",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_009",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_009.T_Thumb_AvatarCustomize_Hair_Female_009",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_010",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_010.T_Thumb_AvatarCustomize_Hair_Female_010",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_011",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_011.T_Thumb_AvatarCustomize_Hair_Female_011",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_012",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_012.T_Thumb_AvatarCustomize_Hair_Female_012",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_014",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_014.T_Thumb_AvatarCustomize_Hair_Female_014",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_016",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_016.T_Thumb_AvatarCustomize_Hair_Female_016",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_017",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_017.T_Thumb_AvatarCustomize_Hair_Female_017",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_018",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_018.T_Thumb_AvatarCustomize_Hair_Female_018",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_019",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_019.T_Thumb_AvatarCustomize_Hair_Female_019",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_020",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_020.T_Thumb_AvatarCustomize_Hair_Female_020",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_021",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_021.T_Thumb_AvatarCustomize_Hair_Female_021",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_022",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_022.T_Thumb_AvatarCustomize_Hair_Female_022",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_023",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_023.T_Thumb_AvatarCustomize_Hair_Female_023",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_024",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_024.T_Thumb_AvatarCustomize_Hair_Female_024",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_025",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_025.T_Thumb_AvatarCustomize_Hair_Female_025",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_026",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_026.T_Thumb_AvatarCustomize_Hair_Female_026",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_027",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_027.T_Thumb_AvatarCustomize_Hair_Female_027",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_028",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_028.T_Thumb_AvatarCustomize_Hair_Female_028",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_029",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_029.T_Thumb_AvatarCustomize_Hair_Female_029",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_030",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_030.T_Thumb_AvatarCustomize_Hair_Female_030",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_031",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_031.T_Thumb_AvatarCustomize_Hair_Female_031",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_032",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_032.T_Thumb_AvatarCustomize_Hair_Female_032",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_033",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_033.T_Thumb_AvatarCustomize_Hair_Female_033",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_034",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_034.T_Thumb_AvatarCustomize_Hair_Female_034",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_035",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_035.T_Thumb_AvatarCustomize_Hair_Female_035",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_036",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_036.T_Thumb_AvatarCustomize_Hair_Female_036",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_037",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_037.T_Thumb_AvatarCustomize_Hair_Female_037",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_038",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_038.T_Thumb_AvatarCustomize_Hair_Female_038",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_039",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_039.T_Thumb_AvatarCustomize_Hair_Female_039",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_040",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_040.T_Thumb_AvatarCustomize_Hair_Female_040",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_041",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_041.T_Thumb_AvatarCustomize_Hair_Female_041",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_042",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_042.T_Thumb_AvatarCustomize_Hair_Female_042",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_043",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_043.T_Thumb_AvatarCustomize_Hair_Female_043",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_044",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_044.T_Thumb_AvatarCustomize_Hair_Female_044",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_045",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_045.T_Thumb_AvatarCustomize_Hair_Female_045",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_048",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_048.T_Thumb_AvatarCustomize_Hair_Female_048",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_050",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_050.T_Thumb_AvatarCustomize_Hair_Female_050",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_053",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_053.T_Thumb_AvatarCustomize_Hair_Female_053",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_054",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_054.T_Thumb_AvatarCustomize_Hair_Female_054",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_055",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_055.T_Thumb_AvatarCustomize_Hair_Female_055",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_056",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_056.T_Thumb_AvatarCustomize_Hair_Female_056",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_057",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_057.T_Thumb_AvatarCustomize_Hair_Female_057",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_058",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_058.T_Thumb_AvatarCustomize_Hair_Female_058",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_059",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_059.T_Thumb_AvatarCustomize_Hair_Female_059",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_060",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_060.T_Thumb_AvatarCustomize_Hair_Female_060",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_061",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_061.T_Thumb_AvatarCustomize_Hair_Female_061",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_062",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_062.T_Thumb_AvatarCustomize_Hair_Female_062",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_063",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_063.T_Thumb_AvatarCustomize_Hair_Female_063",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_064",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_064.T_Thumb_AvatarCustomize_Hair_Female_064",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_065",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Hair/T_Thumb_AvatarCustomize_Hair_Female_065.T_Thumb_AvatarCustomize_Hair_Female_065",
+    "/Script/CoreUObject",
+    "/Script/Engine",
+    "/Script/Extensions",
+    "ABP_CopyPoseWithCopyMaterialAndMorph_C",
+    "AnimBlueprintGeneratedClass",
+    "AnimClass",
+    "AvatarCustomizeDataTableMeshList",
+    "BaseHair1",
+    "BaseHair1_R",
+    "BaseHair2TwintailOff1",
+    "BaseHair2TwintailOff1_R",
+    "BaseHair2TwintailOff2",
+    "Class",
+    "DataTable",
+    "Default__ABP_CopyPoseWithCopyMaterialAndMorph_C",
+    "Default__DataTable",
+    "DT_HairList_Male",
+    "LongBluntBangsHair",
+    "LongHair1",
+    "LongHair1_R",
+    "LongHair2",
+    "LongHair3",
+    "LongHair3_R",
+    "LongHairDread",
+    "LongHairDread2",
+    "LongHairDread2_R",
+    "LongHairDread_R",
+    "LowponytailHair",
+    "LowponytailHair_R",
+    "MediumBluntBangsHair",
+    "MediumHair1",
+    "MediumHair1_R",
+    "MediumHair2",
+    "MediumHair3",
+    "MediumHair4",
+    "MediumHair4_R",
+    "MediumHair4S3",
+    "MediumHair5",
+    "MediumHair5_R",
+    "MediumHair6",
+    "MediumHair6_R",
+    "MediumHair7",
+    "MediumHair8",
+    "MediumHair9",
+    "MediumHair9_R",
+    "MediumHairDread",
+    "MediumHairDread_R",
+    "Mesh",
+    "MohawkHair",
+    "MohawkHair_R",
+    "Name",
+    "None",
+    "ObjectProperty",
+    "Package",
+    "RowStruct",
+    "ScriptStruct",
+    "ShortHair1",
+    "ShortHair1_R",
+    "ShortHair1Short",
+    "ShortHair1Short_R",
+    "ShortHair2",
+    "ShortHair2_R",
+    "ShortHair3",
+    "ShortHair3_R",
+    "ShortHair3Short",
+    "ShortHair3Short_R",
+    "ShortHair4",
+    "ShortHair4_R",
+    "ShortHair5",
+    "ShortHair5_R",
+    "ShortHair6",
+    "ShortHair6_R",
+    "ShortHair7",
+    "ShortTwintailHair",
+    "ShortTwintailHair_R",
+    "SoftMohawkHair",
+    "SoftMohawkHair_R",
+    "SoftObjectProperty",
+    "TextProperty",
+    "Thumbnail"
+  ]
+}

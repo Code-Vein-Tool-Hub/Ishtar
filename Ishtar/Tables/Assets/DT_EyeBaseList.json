@@ -1,0 +1,625 @@
+{
+  "$type": "QueenIO.Relic, QueenIO",
+  "Info": "Serialized with UAssetAPI 1.0.0.0",
+  "UseSeparateBulkDataFiles": true,
+  "EngineVersion": "VER_UE4_ADDED_SOFT_OBJECT_PATH",
+  "LegacyFileVersion": -7,
+  "IsUnversioned": true,
+  "FileVersionLicenseeUE4": 0,
+  "CustomVersionContainer": [],
+  "Imports": [
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "ObjectName": "DataTable",
+      "OuterIndex": -3
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "DataTable",
+      "ObjectName": "Default__DataTable",
+      "OuterIndex": -3
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine",
+      "OuterIndex": 0
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Extensions",
+      "OuterIndex": 0
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "ScriptStruct",
+      "ObjectName": "AvatarCustomizeDataTableTextureList",
+      "OuterIndex": -4
+    }
+  ],
+  "Exports": [
+    {
+      "$type": "UAssetAPI.DataTableExport, UAssetAPI",
+      "Table": {
+        "$type": "UAssetAPI.UDataTable, UAssetAPI",
+        "Data": [
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeWhite1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White01.T_Thumb_AvatarCustomize_EyeBaseColor_White01"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeWhite1.T_EyeWhite1"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeWhite2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White02.T_Thumb_AvatarCustomize_EyeBaseColor_White02"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeWhite2.T_EyeWhite2"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeWhite3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White03.T_Thumb_AvatarCustomize_EyeBaseColor_White03"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeWhite3.T_EyeWhite3"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeWhite4",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White04.T_Thumb_AvatarCustomize_EyeBaseColor_White04"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeWhite4.T_EyeWhite4"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeWhite_Pearl",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White11.T_Thumb_AvatarCustomize_EyeBaseColor_White11"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeWhite11.T_EyeWhite11"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeWhite_BluePearl",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White12.T_Thumb_AvatarCustomize_EyeBaseColor_White12"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeWhite12.T_EyeWhite12"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeWhite7",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White07.T_Thumb_AvatarCustomize_EyeBaseColor_White07"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeWhite7.T_EyeWhite7"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeWhite6",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White06.T_Thumb_AvatarCustomize_EyeBaseColor_White06"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeWhite6.T_EyeWhite6"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeWhite8",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White08.T_Thumb_AvatarCustomize_EyeBaseColor_White08"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeWhite8.T_EyeWhite8"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeWhite9",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White09.T_Thumb_AvatarCustomize_EyeBaseColor_White09"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeWhite9.T_EyeWhite9"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeWhite5",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White05.T_Thumb_AvatarCustomize_EyeBaseColor_White05"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeWhite5.T_EyeWhite5"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableTextureList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "EyeWhite10",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "None",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "Name": "Name",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White10.T_Thumb_AvatarCustomize_EyeBaseColor_White10"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Eyes/T_EyeWhite10.T_EyeWhite10"
+              }
+            ]
+          }
+        ]
+      },
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+          "Name": "RowStruct",
+          "DuplicationIndex": 0,
+          "Value": -5
+        }
+      ],
+      "ClassIndex": -1,
+      "SuperIndex": 0,
+      "TemplateIndex": -2,
+      "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
+      "SerialSize": 1485,
+      "SerialOffset": 5558,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "00000000-0000-0000-0000-000000000000",
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": true,
+      "bIsAsset": true,
+      "SerializationBeforeSerializationDependencies": [
+        -5
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -1,
+        -2
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": {
+        "$type": "System.Byte[], mscorlib",
+        "$value": ""
+      },
+      "ObjectName": "DT_EyeBaseList",
+      "OuterIndex": 0
+    }
+  ],
+  "DependsMap": [
+    []
+  ],
+  "SoftPackageReferenceList": [],
+  "AssetRegistryData": [],
+  "WorldTileInfo": null,
+  "Generations": [
+    {
+      "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
+      "ExportCount": 1,
+      "NameCount": 79
+    }
+  ],
+  "PackageGuid": "6f9d5605-53b3-4705-866f-5cd41b984952",
+  "RecordedEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "RecordedCompatibleWithEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "ChunkIDs": [],
+  "PackageFlags": "PKG_FilterEditorOnly",
+  "PackageSource": 529245350,
+  "FolderName": "None",
+  "GatherableTextDataCount": 0,
+  "GatherableTextDataOffset": 0,
+  "SearchableNamesOffset": 0,
+  "ThumbnailTableOffset": 0,
+  "CompressionFlags": 0,
+  "doWeHaveDependsMap": true,
+  "doWeHaveSoftPackageReferences": false,
+  "doWeHaveAssetRegistryData": true,
+  "doWeHaveWorldTileInfo": false,
+  "NameMap": [
+    "/Game/Costumes/Eyes/DT_EyeBaseList",
+    "/Game/Costumes/Eyes/T_EyeWhite1",
+    "/Game/Costumes/Eyes/T_EyeWhite1.T_EyeWhite1",
+    "/Game/Costumes/Eyes/T_EyeWhite10",
+    "/Game/Costumes/Eyes/T_EyeWhite10.T_EyeWhite10",
+    "/Game/Costumes/Eyes/T_EyeWhite11",
+    "/Game/Costumes/Eyes/T_EyeWhite11.T_EyeWhite11",
+    "/Game/Costumes/Eyes/T_EyeWhite12",
+    "/Game/Costumes/Eyes/T_EyeWhite12.T_EyeWhite12",
+    "/Game/Costumes/Eyes/T_EyeWhite2",
+    "/Game/Costumes/Eyes/T_EyeWhite2.T_EyeWhite2",
+    "/Game/Costumes/Eyes/T_EyeWhite3",
+    "/Game/Costumes/Eyes/T_EyeWhite3.T_EyeWhite3",
+    "/Game/Costumes/Eyes/T_EyeWhite4",
+    "/Game/Costumes/Eyes/T_EyeWhite4.T_EyeWhite4",
+    "/Game/Costumes/Eyes/T_EyeWhite5",
+    "/Game/Costumes/Eyes/T_EyeWhite5.T_EyeWhite5",
+    "/Game/Costumes/Eyes/T_EyeWhite6",
+    "/Game/Costumes/Eyes/T_EyeWhite6.T_EyeWhite6",
+    "/Game/Costumes/Eyes/T_EyeWhite7",
+    "/Game/Costumes/Eyes/T_EyeWhite7.T_EyeWhite7",
+    "/Game/Costumes/Eyes/T_EyeWhite8",
+    "/Game/Costumes/Eyes/T_EyeWhite8.T_EyeWhite8",
+    "/Game/Costumes/Eyes/T_EyeWhite9",
+    "/Game/Costumes/Eyes/T_EyeWhite9.T_EyeWhite9",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White01",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White01.T_Thumb_AvatarCustomize_EyeBaseColor_White01",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White02",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White02.T_Thumb_AvatarCustomize_EyeBaseColor_White02",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White03",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White03.T_Thumb_AvatarCustomize_EyeBaseColor_White03",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White04",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White04.T_Thumb_AvatarCustomize_EyeBaseColor_White04",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White05",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White05.T_Thumb_AvatarCustomize_EyeBaseColor_White05",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White06",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White06.T_Thumb_AvatarCustomize_EyeBaseColor_White06",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White07",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White07.T_Thumb_AvatarCustomize_EyeBaseColor_White07",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White08",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White08.T_Thumb_AvatarCustomize_EyeBaseColor_White08",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White09",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White09.T_Thumb_AvatarCustomize_EyeBaseColor_White09",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White10",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White10.T_Thumb_AvatarCustomize_EyeBaseColor_White10",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White11",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White11.T_Thumb_AvatarCustomize_EyeBaseColor_White11",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White12",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/EyeBase/T_Thumb_AvatarCustomize_EyeBaseColor_White12.T_Thumb_AvatarCustomize_EyeBaseColor_White12",
+    "/Script/CoreUObject",
+    "/Script/Engine",
+    "/Script/Extensions",
+    "AvatarCustomizeDataTableTextureList",
+    "Class",
+    "DataTable",
+    "Default__DataTable",
+    "DT_EyeBaseList",
+    "EyeWhite1",
+    "EyeWhite10",
+    "EyeWhite2",
+    "EyeWhite3",
+    "EyeWhite4",
+    "EyeWhite5",
+    "EyeWhite6",
+    "EyeWhite7",
+    "EyeWhite8",
+    "EyeWhite9",
+    "EyeWhite_BluePearl",
+    "EyeWhite_Pearl",
+    "Name",
+    "None",
+    "ObjectProperty",
+    "Package",
+    "RowStruct",
+    "ScriptStruct",
+    "SoftObjectProperty",
+    "TextProperty",
+    "Texture",
+    "Thumbnail"
+  ]
+}

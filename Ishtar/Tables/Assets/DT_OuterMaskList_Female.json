@@ -1,0 +1,1507 @@
+{
+  "$type": "QueenIO.Relic, QueenIO",
+  "Info": "Serialized with UAssetAPI 1.0.0.0",
+  "UseSeparateBulkDataFiles": true,
+  "EngineVersion": "VER_UE4_ADDED_SOFT_OBJECT_PATH",
+  "LegacyFileVersion": -7,
+  "IsUnversioned": true,
+  "FileVersionLicenseeUE4": 0,
+  "CustomVersionContainer": [],
+  "Imports": [
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Game/character/BodyBase/Male/ABP_CopyPoseWithCopyMaterialAndMorph",
+      "ClassName": "ABP_CopyPoseWithCopyMaterialAndMorph_C",
+      "ObjectName": "Default__ABP_CopyPoseWithCopyMaterialAndMorph_C",
+      "OuterIndex": -5
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "AnimBlueprintGeneratedClass",
+      "ObjectName": "ABP_CopyPoseWithCopyMaterialAndMorph_C",
+      "OuterIndex": -5
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "ObjectName": "DataTable",
+      "OuterIndex": -6
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "DataTable",
+      "ObjectName": "Default__DataTable",
+      "OuterIndex": -6
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Game/character/BodyBase/Male/ABP_CopyPoseWithCopyMaterialAndMorph",
+      "OuterIndex": 0
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine",
+      "OuterIndex": 0
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Extensions",
+      "OuterIndex": 0
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "ScriptStruct",
+      "ObjectName": "ToxicGuardMaskDataTableMesh",
+      "OuterIndex": -7
+    }
+  ],
+  "Exports": [
+    {
+      "$type": "UAssetAPI.DataTableExport, UAssetAPI",
+      "Table": {
+        "$type": "UAssetAPI.UDataTable, UAssetAPI",
+        "Data": [
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "ToxicGuardMaskDataTableMesh",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "OuterMask1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_001.T_Thumb_AvatarCustomize_ToxicGuard_001"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Mask/Mask_Female1/Meshes/SK_Mask_Female1.SK_Mask_Female1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "Vector",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "ScenarioOffset",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.VectorPropertyData, UAssetAPI",
+                    "Name": "ScenarioOffset",
+                    "DuplicationIndex": 0,
+                    "Value": {
+                      "$type": "UAssetAPI.FVector, UAssetAPI",
+                      "X": "+0",
+                      "Y": "+0",
+                      "Z": -150.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldFaceHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldHairHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "ToxicGuardMaskDataTableMesh",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "OuterMask2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_002.T_Thumb_AvatarCustomize_ToxicGuard_002"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Mask/Mask_Female2/Meshes/SK_Mask_Female2_v2.SK_Mask_Female2_v2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "Vector",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "ScenarioOffset",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.VectorPropertyData, UAssetAPI",
+                    "Name": "ScenarioOffset",
+                    "DuplicationIndex": 0,
+                    "Value": {
+                      "$type": "UAssetAPI.FVector, UAssetAPI",
+                      "X": "+0",
+                      "Y": "+0",
+                      "Z": -150.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldFaceHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldHairHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "ToxicGuardMaskDataTableMesh",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "OuterMask4_Col1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_004.T_Thumb_AvatarCustomize_ToxicGuard_004"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Mask/Mask_Female4/Meshes/SK_Mask_Female4_Col1.SK_Mask_Female4_Col1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "Vector",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "ScenarioOffset",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.VectorPropertyData, UAssetAPI",
+                    "Name": "ScenarioOffset",
+                    "DuplicationIndex": 0,
+                    "Value": {
+                      "$type": "UAssetAPI.FVector, UAssetAPI",
+                      "X": "+0",
+                      "Y": "+0",
+                      "Z": -150.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldFaceHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldHairHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "ToxicGuardMaskDataTableMesh",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "OuterMask4_Col2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "None"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Mask/Mask_Female4/Meshes/SK_Mask_Female4_Col1.SK_Mask_Female4_Col1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "Vector",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "ScenarioOffset",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.VectorPropertyData, UAssetAPI",
+                    "Name": "ScenarioOffset",
+                    "DuplicationIndex": 0,
+                    "Value": {
+                      "$type": "UAssetAPI.FVector, UAssetAPI",
+                      "X": "+0",
+                      "Y": "+0",
+                      "Z": -150.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldFaceHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldHairHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "ToxicGuardMaskDataTableMesh",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "OuterMask6",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_006.T_Thumb_AvatarCustomize_ToxicGuard_006"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Mask/Mask_Female6/Meshes/SK_Mask_Female6.SK_Mask_Female6"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "Vector",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "ScenarioOffset",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.VectorPropertyData, UAssetAPI",
+                    "Name": "ScenarioOffset",
+                    "DuplicationIndex": 0,
+                    "Value": {
+                      "$type": "UAssetAPI.FVector, UAssetAPI",
+                      "X": "+0",
+                      "Y": "+0",
+                      "Z": -150.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldFaceHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldHairHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "ToxicGuardMaskDataTableMesh",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "OuterMask5",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_005.T_Thumb_AvatarCustomize_ToxicGuard_005"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Mask/Mask_Female5/Meshes/SK_Mask_Female5.SK_Mask_Female5"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "Vector",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "ScenarioOffset",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.VectorPropertyData, UAssetAPI",
+                    "Name": "ScenarioOffset",
+                    "DuplicationIndex": 0,
+                    "Value": {
+                      "$type": "UAssetAPI.FVector, UAssetAPI",
+                      "X": "+0",
+                      "Y": "+0",
+                      "Z": -150.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldFaceHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldHairHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "ToxicGuardMaskDataTableMesh",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "OuterMask3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_003.T_Thumb_AvatarCustomize_ToxicGuard_003"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Mask/Mask_Female3/Meshes/SK_Mask_Female3.SK_Mask_Female3"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "Vector",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "ScenarioOffset",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.VectorPropertyData, UAssetAPI",
+                    "Name": "ScenarioOffset",
+                    "DuplicationIndex": 0,
+                    "Value": {
+                      "$type": "UAssetAPI.FVector, UAssetAPI",
+                      "X": "+0",
+                      "Y": "+0",
+                      "Z": -150.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldFaceHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldHairHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "ToxicGuardMaskDataTableMesh",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "OuterMask7",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_007.T_Thumb_AvatarCustomize_ToxicGuard_007"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Mask/Mask_Female7/Meshes/SK_Mask_Female7.SK_Mask_Female7"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "Vector",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "ScenarioOffset",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.VectorPropertyData, UAssetAPI",
+                    "Name": "ScenarioOffset",
+                    "DuplicationIndex": 0,
+                    "Value": {
+                      "$type": "UAssetAPI.FVector, UAssetAPI",
+                      "X": "+0",
+                      "Y": "+0",
+                      "Z": -150.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldFaceHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldHairHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "ToxicGuardMaskDataTableMesh",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "OuterMask8",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_008.T_Thumb_AvatarCustomize_ToxicGuard_008"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Mask/Mask_Female8/Meshes/SK_Mask_Female8.SK_Mask_Female8"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "Vector",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "ScenarioOffset",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.VectorPropertyData, UAssetAPI",
+                    "Name": "ScenarioOffset",
+                    "DuplicationIndex": 0,
+                    "Value": {
+                      "$type": "UAssetAPI.FVector, UAssetAPI",
+                      "X": "+0",
+                      "Y": "+0",
+                      "Z": -150.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldFaceHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldHairHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "ToxicGuardMaskDataTableMesh",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "OuterMask_Louis",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "None"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Characters/Models/Louis/Meshes/SK_Mask_Louis.SK_Mask_Louis"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "Vector",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "ScenarioOffset",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.VectorPropertyData, UAssetAPI",
+                    "Name": "ScenarioOffset",
+                    "DuplicationIndex": 0,
+                    "Value": {
+                      "$type": "UAssetAPI.FVector, UAssetAPI",
+                      "X": "+0",
+                      "Y": "+0",
+                      "Z": -150.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldFaceHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldHairHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "ToxicGuardMaskDataTableMesh",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "OuterMask_Mia",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "None"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Characters/Models/Mia/Meshes/SK_Mask_Mia.SK_Mask_Mia"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "Vector",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "ScenarioOffset",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.VectorPropertyData, UAssetAPI",
+                    "Name": "ScenarioOffset",
+                    "DuplicationIndex": 0,
+                    "Value": {
+                      "$type": "UAssetAPI.FVector, UAssetAPI",
+                      "X": "+0",
+                      "Y": "+0",
+                      "Z": -150.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldFaceHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldHairHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "ToxicGuardMaskDataTableMesh",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "OuterMask_Yakumo",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "None"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Characters/Models/Yakumo/Meshes/SK_Mask_Yakumo.SK_Mask_Yakumo"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "Vector",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "ScenarioOffset",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.VectorPropertyData, UAssetAPI",
+                    "Name": "ScenarioOffset",
+                    "DuplicationIndex": 0,
+                    "Value": {
+                      "$type": "UAssetAPI.FVector, UAssetAPI",
+                      "X": "+0",
+                      "Y": "+0",
+                      "Z": -150.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldFaceHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldHairHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "ToxicGuardMaskDataTableMesh",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "OuterMask_Jack",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "None"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Characters/Models/Jack/Meshes/SK_Mask_Jack.SK_Mask_Jack"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "Vector",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "ScenarioOffset",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.VectorPropertyData, UAssetAPI",
+                    "Name": "ScenarioOffset",
+                    "DuplicationIndex": 0,
+                    "Value": {
+                      "$type": "UAssetAPI.FVector, UAssetAPI",
+                      "X": "+0",
+                      "Y": "+0",
+                      "Z": -150.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldFaceHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldHairHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "ToxicGuardMaskDataTableMesh",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "OuterMask_Eva",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "None"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Characters/Models/Eva/Meshes/SK_Mask_Eva.SK_Mask_Eva"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "Vector",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "ScenarioOffset",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.VectorPropertyData, UAssetAPI",
+                    "Name": "ScenarioOffset",
+                    "DuplicationIndex": 0,
+                    "Value": {
+                      "$type": "UAssetAPI.FVector, UAssetAPI",
+                      "X": "+0",
+                      "Y": "+0",
+                      "Z": -150.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldFaceHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldHairHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "ToxicGuardMaskDataTableMesh",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "OuterMask9",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_010.T_Thumb_AvatarCustomize_ToxicGuard_010"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Mask/Mask_Female9/Meshes/SK_Mask_Female9.SK_Mask_Female9"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "Vector",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "ScenarioOffset",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.VectorPropertyData, UAssetAPI",
+                    "Name": "ScenarioOffset",
+                    "DuplicationIndex": 0,
+                    "Value": {
+                      "$type": "UAssetAPI.FVector, UAssetAPI",
+                      "X": "+0",
+                      "Y": "+0",
+                      "Z": -150.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldFaceHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldHairHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "ToxicGuardMaskDataTableMesh",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "OuterMask10",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_009.T_Thumb_AvatarCustomize_ToxicGuard_009"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Mask/Mask_Female10/Meshes/SK_Mask_Female10.SK_Mask_Female10"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": "BNF_BlackBlood_Mask01"
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "Vector",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "ScenarioOffset",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.VectorPropertyData, UAssetAPI",
+                    "Name": "ScenarioOffset",
+                    "DuplicationIndex": 0,
+                    "Value": {
+                      "$type": "UAssetAPI.FVector, UAssetAPI",
+                      "X": "+0",
+                      "Y": "+0",
+                      "Z": -150.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldFaceHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldHairHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "ToxicGuardMaskDataTableMesh",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "OuterMask_Io",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "None"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Characters/Models/Io/Meshes/SK_Mask_Io.SK_Mask_Io"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "Vector",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "ScenarioOffset",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.VectorPropertyData, UAssetAPI",
+                    "Name": "ScenarioOffset",
+                    "DuplicationIndex": 0,
+                    "Value": {
+                      "$type": "UAssetAPI.FVector, UAssetAPI",
+                      "X": "+0",
+                      "Y": "+0",
+                      "Z": -150.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldFaceHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldHairHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "ToxicGuardMaskDataTableMesh",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "OuterMask11_Gold",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_011.T_Thumb_AvatarCustomize_ToxicGuard_011"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Mask/Mask_Female11/Meshes/SK_Mask_Female11.SK_Mask_Female11"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+                "Name": "AnimClass",
+                "DuplicationIndex": 0,
+                "Value": -2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": "BNF_Mask_Gold"
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "Vector",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "ScenarioOffset",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.VectorPropertyData, UAssetAPI",
+                    "Name": "ScenarioOffset",
+                    "DuplicationIndex": 0,
+                    "Value": {
+                      "$type": "UAssetAPI.FVector, UAssetAPI",
+                      "X": "+0",
+                      "Y": "+0",
+                      "Z": -150.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldFaceHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "bShouldHairHidden",
+                "DuplicationIndex": 0,
+                "Value": false
+              }
+            ]
+          }
+        ]
+      },
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+          "Name": "RowStruct",
+          "DuplicationIndex": 0,
+          "Value": -8
+        }
+      ],
+      "ClassIndex": -3,
+      "SuperIndex": 0,
+      "TemplateIndex": -4,
+      "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
+      "SerialSize": 4779,
+      "SerialOffset": 7033,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "00000000-0000-0000-0000-000000000000",
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": true,
+      "bIsAsset": true,
+      "SerializationBeforeSerializationDependencies": [
+        -8
+      ],
+      "CreateBeforeSerializationDependencies": [
+        -2
+      ],
+      "SerializationBeforeCreateDependencies": [
+        -3,
+        -4
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": {
+        "$type": "System.Byte[], mscorlib",
+        "$value": ""
+      },
+      "ObjectName": "DT_OuterMaskList_Female",
+      "OuterIndex": 0
+    }
+  ],
+  "DependsMap": [
+    []
+  ],
+  "SoftPackageReferenceList": [],
+  "AssetRegistryData": [],
+  "WorldTileInfo": null,
+  "Generations": [
+    {
+      "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
+      "ExportCount": 1,
+      "NameCount": 104
+    }
+  ],
+  "PackageGuid": "d4ee4d93-3461-4734-84ae-09abe5560bd8",
+  "RecordedEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "RecordedCompatibleWithEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "ChunkIDs": [],
+  "PackageFlags": "PKG_FilterEditorOnly",
+  "PackageSource": 1550164499,
+  "FolderName": "None",
+  "GatherableTextDataCount": 0,
+  "GatherableTextDataOffset": 0,
+  "SearchableNamesOffset": 0,
+  "ThumbnailTableOffset": 0,
+  "CompressionFlags": 0,
+  "doWeHaveDependsMap": true,
+  "doWeHaveSoftPackageReferences": false,
+  "doWeHaveAssetRegistryData": true,
+  "doWeHaveWorldTileInfo": false,
+  "NameMap": [
+    "/Game/character/BodyBase/Male/ABP_CopyPoseWithCopyMaterialAndMorph",
+    "/Game/Characters/Models/Eva/Meshes/SK_Mask_Eva",
+    "/Game/Characters/Models/Eva/Meshes/SK_Mask_Eva.SK_Mask_Eva",
+    "/Game/Characters/Models/Io/Meshes/SK_Mask_Io",
+    "/Game/Characters/Models/Io/Meshes/SK_Mask_Io.SK_Mask_Io",
+    "/Game/Characters/Models/Jack/Meshes/SK_Mask_Jack",
+    "/Game/Characters/Models/Jack/Meshes/SK_Mask_Jack.SK_Mask_Jack",
+    "/Game/Characters/Models/Louis/Meshes/SK_Mask_Louis",
+    "/Game/Characters/Models/Louis/Meshes/SK_Mask_Louis.SK_Mask_Louis",
+    "/Game/Characters/Models/Mia/Meshes/SK_Mask_Mia",
+    "/Game/Characters/Models/Mia/Meshes/SK_Mask_Mia.SK_Mask_Mia",
+    "/Game/Characters/Models/Yakumo/Meshes/SK_Mask_Yakumo",
+    "/Game/Characters/Models/Yakumo/Meshes/SK_Mask_Yakumo.SK_Mask_Yakumo",
+    "/Game/Costumes/Mask/DT_OuterMaskList_Female",
+    "/Game/Costumes/Mask/Mask_Female1/Meshes/SK_Mask_Female1",
+    "/Game/Costumes/Mask/Mask_Female1/Meshes/SK_Mask_Female1.SK_Mask_Female1",
+    "/Game/Costumes/Mask/Mask_Female10/Meshes/SK_Mask_Female10",
+    "/Game/Costumes/Mask/Mask_Female10/Meshes/SK_Mask_Female10.SK_Mask_Female10",
+    "/Game/Costumes/Mask/Mask_Female11/Meshes/SK_Mask_Female11",
+    "/Game/Costumes/Mask/Mask_Female11/Meshes/SK_Mask_Female11.SK_Mask_Female11",
+    "/Game/Costumes/Mask/Mask_Female2/Meshes/SK_Mask_Female2_v2",
+    "/Game/Costumes/Mask/Mask_Female2/Meshes/SK_Mask_Female2_v2.SK_Mask_Female2_v2",
+    "/Game/Costumes/Mask/Mask_Female3/Meshes/SK_Mask_Female3",
+    "/Game/Costumes/Mask/Mask_Female3/Meshes/SK_Mask_Female3.SK_Mask_Female3",
+    "/Game/Costumes/Mask/Mask_Female4/Meshes/SK_Mask_Female4_Col1",
+    "/Game/Costumes/Mask/Mask_Female4/Meshes/SK_Mask_Female4_Col1.SK_Mask_Female4_Col1",
+    "/Game/Costumes/Mask/Mask_Female5/Meshes/SK_Mask_Female5",
+    "/Game/Costumes/Mask/Mask_Female5/Meshes/SK_Mask_Female5.SK_Mask_Female5",
+    "/Game/Costumes/Mask/Mask_Female6/Meshes/SK_Mask_Female6",
+    "/Game/Costumes/Mask/Mask_Female6/Meshes/SK_Mask_Female6.SK_Mask_Female6",
+    "/Game/Costumes/Mask/Mask_Female7/Meshes/SK_Mask_Female7",
+    "/Game/Costumes/Mask/Mask_Female7/Meshes/SK_Mask_Female7.SK_Mask_Female7",
+    "/Game/Costumes/Mask/Mask_Female8/Meshes/SK_Mask_Female8",
+    "/Game/Costumes/Mask/Mask_Female8/Meshes/SK_Mask_Female8.SK_Mask_Female8",
+    "/Game/Costumes/Mask/Mask_Female9/Meshes/SK_Mask_Female9",
+    "/Game/Costumes/Mask/Mask_Female9/Meshes/SK_Mask_Female9.SK_Mask_Female9",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_001",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_001.T_Thumb_AvatarCustomize_ToxicGuard_001",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_002",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_002.T_Thumb_AvatarCustomize_ToxicGuard_002",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_003",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_003.T_Thumb_AvatarCustomize_ToxicGuard_003",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_004",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_004.T_Thumb_AvatarCustomize_ToxicGuard_004",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_005",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_005.T_Thumb_AvatarCustomize_ToxicGuard_005",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_006",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_006.T_Thumb_AvatarCustomize_ToxicGuard_006",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_007",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_007.T_Thumb_AvatarCustomize_ToxicGuard_007",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_008",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_008.T_Thumb_AvatarCustomize_ToxicGuard_008",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_009",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_009.T_Thumb_AvatarCustomize_ToxicGuard_009",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_010",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_010.T_Thumb_AvatarCustomize_ToxicGuard_010",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_011",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/ToxicGuard/T_Thumb_AvatarCustomize_ToxicGuard_011.T_Thumb_AvatarCustomize_ToxicGuard_011",
+    "/Script/CoreUObject",
+    "/Script/Engine",
+    "/Script/Extensions",
+    "ABP_CopyPoseWithCopyMaterialAndMorph_C",
+    "AnimBlueprintGeneratedClass",
+    "AnimClass",
+    "BoolProperty",
+    "bShouldFaceHidden",
+    "bShouldHairHidden",
+    "CheckFlagSymbol",
+    "Class",
+    "DataTable",
+    "Default__ABP_CopyPoseWithCopyMaterialAndMorph_C",
+    "Default__DataTable",
+    "DT_OuterMaskList_Female",
+    "Mesh",
+    "None",
+    "ObjectProperty",
+    "OuterMask1",
+    "OuterMask10",
+    "OuterMask11_Gold",
+    "OuterMask2",
+    "OuterMask3",
+    "OuterMask4_Col1",
+    "OuterMask4_Col2",
+    "OuterMask5",
+    "OuterMask6",
+    "OuterMask7",
+    "OuterMask8",
+    "OuterMask9",
+    "OuterMask_Eva",
+    "OuterMask_Io",
+    "OuterMask_Jack",
+    "OuterMask_Louis",
+    "OuterMask_Mia",
+    "OuterMask_Yakumo",
+    "Package",
+    "RowStruct",
+    "ScenarioOffset",
+    "ScriptStruct",
+    "SoftObjectProperty",
+    "StrProperty",
+    "StructProperty",
+    "Thumbnail",
+    "ToxicGuardMaskDataTableMesh",
+    "Vector"
+  ]
+}

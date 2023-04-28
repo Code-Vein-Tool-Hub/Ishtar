@@ -17,6 +17,7 @@ using QueenIO.Structs;
 using Ishtar.IO;
 using System.Threading;
 using QueenIO.Mods;
+using System.Reflection;
 
 namespace Ishtar
 {
@@ -29,13 +30,15 @@ namespace Ishtar
             {
                 Global.Settings.Read("Settings.json");
                 TB_ModsPath.Text = Global.settings.Mods_Path;
-                nestedPak.Checked = Global.settings.Nest;
+                TSB_Nested.Checked = Global.settings.Nest;
+                TSB_PartialMerge.Checked = Global.settings.partial;
+                TSB_Patch.Checked = Global.settings.patchMerge;
+                TSB_Scan.Checked = Global.settings.scanMerge;
+                parallelScaningToolStripMenuItem.Checked = Global.settings.parallel;
+                makeIshtarPatchAfterScanToolStripMenuItem.Checked = Global.settings.MakePatch;
             }
             else
                 Global.settings = new Global.Settings();
-#if DEBUG
-            button1.Visible = true;
-#endif
         }
         
         private volatile int threads;
@@ -155,7 +158,15 @@ namespace Ishtar
             new Thread(() =>
             {
                 threads++;
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
                 Merge();
+                stopWatch.Stop();
+
+                TimeSpan ts = stopWatch.Elapsed;
+                string elapsedTime = String.Format("{0:00}:{1:00}.{2:00}", ts.Minutes, ts.Seconds, ts.Milliseconds / 10);
+                Helpers.Log("richTextBox1", $"Merging took {elapsedTime}");
+
                 threads--;
             }).Start();
         }
@@ -172,7 +183,7 @@ namespace Ishtar
                 Directory.Delete("ZZZZZ-MergePatch", true);
             Helpers.LogClear("richTextBox1");
             Merger.ListMergeablePaks(paks, MergableFiles);
-            Merger.Merge(paks, MergableFiles, checkBox1.Checked);
+            Merger.Merge(paks, MergableFiles, TSB_PartialMerge.Checked);
 
             //AssetRegister Merge
             Helpers.Log("richTextBox1", $"Starting AssetRegistryMerge");
@@ -190,7 +201,7 @@ namespace Ishtar
         public void MakePak(string outfile)
         {
             string outpath = $"{TB_ModsPath.Text}\\ZZZZZ-MergedPatch\\{outfile}_P";
-            if (!nestedPak.Checked)
+            if (!TSB_Nested.Checked)
             {
                 outpath = $"{TB_ModsPath.Text}\\{outfile}_P";
             }
@@ -208,27 +219,64 @@ namespace Ishtar
             File.Delete("filelist.txt");
         }
 
-        private void Testing(object sender, EventArgs e)
+        private void CreateIshtarPatch_Click(object sender, EventArgs e)
         {
             using (OpenFileDialog ofd = new OpenFileDialog())
             {
+                ofd.InitialDirectory = Global.settings.Mods_Path;
+                ofd.Filter = "Unreal Pak|*.pak";
                 if (ofd.ShowDialog() == DialogResult.OK)
                 {
-                    Relic relic = Blood.Open(ofd.FileName);
-
-                    ProgressSymbol flags = new ProgressSymbol();
-                    flags.Read(relic.GetDataTable());
-
-                    File.WriteAllText("DT_ProgressSymbol.json", JsonConvert.SerializeObject(flags));
-
-                    Console.WriteLine();
+                    if (threads > 0)
+                    {
+                        MessageBox.Show("Please wait until all operations are finished.");
+                        return;
+                    }
+                    richTextBox1.Focus();
+                    new Thread(() =>
+                    {
+                        threads++;
+                        Helpers.LogClear("richTextBox1");
+                        IshtarPatch.GenerateIshtarPatch(ofd.FileName);
+                        threads--;
+                    }).Start();
                 }
             }
         }
 
         private void nestedPak_CheckedChanged(object sender, EventArgs e)
         {
-            Global.settings.Nest = nestedPak.Checked;
+            Global.settings.Nest = TSB_Nested.Checked;
+            Global.Settings.Save();
+        }
+
+        private void TSB_PartialMerge_Click(object sender, EventArgs e)
+        {
+            Global.settings.partial = TSB_PartialMerge.Checked;
+            Global.Settings.Save();
+        }
+
+        private void TSB_Patch_Click(object sender, EventArgs e)
+        {
+            Global.settings.patchMerge = TSB_Patch.Checked;
+            Global.Settings.Save();
+        }
+
+        private void TSB_Scan_Click(object sender, EventArgs e)
+        {
+            Global.settings.scanMerge = TSB_Scan.Checked;
+            Global.Settings.Save();
+        }
+
+        private void parallelScaningToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Global.settings.parallel = parallelScaningToolStripMenuItem.Checked;
+            Global.Settings.Save();
+        }
+
+        private void makeIshtarPatchAfterScanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Global.settings.MakePatch = makeIshtarPatchAfterScanToolStripMenuItem.Checked;
             Global.Settings.Save();
         }
     }

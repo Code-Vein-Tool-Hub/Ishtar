@@ -1,0 +1,3354 @@
+{
+  "$type": "QueenIO.Relic, QueenIO",
+  "Info": "Serialized with UAssetAPI 1.0.0.0",
+  "UseSeparateBulkDataFiles": true,
+  "EngineVersion": "VER_UE4_ADDED_SOFT_OBJECT_PATH",
+  "LegacyFileVersion": -7,
+  "IsUnversioned": true,
+  "FileVersionLicenseeUE4": 0,
+  "CustomVersionContainer": [],
+  "Imports": [
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "ObjectName": "DataTable",
+      "OuterIndex": -3
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "DataTable",
+      "ObjectName": "Default__DataTable",
+      "OuterIndex": -3
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine",
+      "OuterIndex": 0
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Extensions",
+      "OuterIndex": 0
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "ScriptStruct",
+      "ObjectName": "AvatarCustomizeDataTableInnerList",
+      "OuterIndex": -4
+    }
+  ],
+  "Exports": [
+    {
+      "$type": "UAssetAPI.DataTableExport, UAssetAPI",
+      "Table": {
+        "$type": "UAssetAPI.UDataTable, UAssetAPI",
+        "Data": [
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableInnerList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Inner_Male1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001.T_Thumb_Inner_Male001"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Inners/Inner_Male1/Meshes/SK_Inner_Male1.SK_Inner_Male1"
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorA"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_A01"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 1,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorA"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_A11"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 2,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorA"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_A21"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 3,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorA"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_A31"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 4,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorA"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_A41"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 5,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorA"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_A51"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 6,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorA"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_A61"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "StructProperty",
+                "Name": "HidePartsInfoDetails",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsA.T_Thumb_Inner_Male001_PartsA"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsA"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsH.T_Thumb_Inner_Male001_PartsH"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsB"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsC.T_Thumb_Inner_Male001_PartsC"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsH"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsE.T_Thumb_Inner_Male001_PartsE"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsD"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsD.T_Thumb_Inner_Male001_PartsD"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsE"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsI.T_Thumb_Inner_Male001_PartsI"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsF"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsF.T_Thumb_Inner_Male001_PartsF"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsG"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsG.T_Thumb_Inner_Male001_PartsG"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsC"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableInnerList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Inner_Male2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003.T_Thumb_Inner_Male003"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Inners/Inner_Male2/Meshes/SK_Inner_Male2.SK_Inner_Male2"
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorB"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_B11"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 1,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": true
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "Plaid2"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "001_01"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 2,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorB"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_B21"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 3,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorB"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_B31"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 4,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorB"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_B41"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 5,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorB"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_B51"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 6,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorB"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_B61"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "StructProperty",
+                "Name": "HidePartsInfoDetails",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsA.T_Thumb_Inner_Male003_PartsA"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsA"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsC.T_Thumb_Inner_Male003_PartsC"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsE"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsB.T_Thumb_Inner_Male003_PartsB"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsF"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsD.T_Thumb_Inner_Male003_PartsD"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsB"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsE.T_Thumb_Inner_Male003_PartsE"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsC"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsF.T_Thumb_Inner_Male003_PartsF"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsD"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsG.T_Thumb_Inner_Male003_PartsG"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsG"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableInnerList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Inner_Male3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002.T_Thumb_Inner_Male002"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Inners/Inner_Male3/Meshes/SK_Inner_Male3.SK_Inner_Male3"
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorC"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_C01"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 1,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorC"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_C11"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 2,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorC"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_C21"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 3,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorC"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_C31"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 4,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorC"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_C41"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 5,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorC"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_C51"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 6,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorC"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_C61"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "StructProperty",
+                "Name": "HidePartsInfoDetails",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsA.T_Thumb_Inner_Male002_PartsA"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsB"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsB.T_Thumb_Inner_Male002_PartsB"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsA"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsD.T_Thumb_Inner_Male002_PartsD"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsC"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsC.T_Thumb_Inner_Male002_PartsC"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsD"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsE.T_Thumb_Inner_Male002_PartsE"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsE"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsF.T_Thumb_Inner_Male002_PartsF"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsF"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsG.T_Thumb_Inner_Male002_PartsG"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsG"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableInnerList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Inner_Male4",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male004.T_Thumb_Inner_Male004"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Inners/Inner_Male4/Meshes/SK_Inner_Male4.SK_Inner_Male4"
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorD"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_D01"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 1,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorD"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_D11"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 2,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorD"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_D21"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 3,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorD"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_D31"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 4,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorD"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_D41"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 5,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorD"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_D41"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 6,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorD"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_D61"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "StructProperty",
+                "Name": "HidePartsInfoDetails",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male004_PartsA.T_Thumb_Inner_Male004_PartsA"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsC"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male004_PartsB.T_Thumb_Inner_Male004_PartsB"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsD"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male004_PartsC.T_Thumb_Inner_Male004_PartsC"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsB"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male004_PartsE.T_Thumb_Inner_Male004_PartsE"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsA"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male004_PartsD.T_Thumb_Inner_Male004_PartsD"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsE"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableInnerList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Inner_Male5",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005.T_Thumb_Inner_Male005"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Inners/Inner_Male5/Meshes/SK_Inner_Male5.SK_Inner_Male5"
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorE"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_E01"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 1,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorE"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_E11"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 2,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorE"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_E21"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 3,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorE"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_E31"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 4,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorE"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_E41"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 5,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorE"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_E51"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 6,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorE"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_E61"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "StructProperty",
+                "Name": "HidePartsInfoDetails",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsA.T_Thumb_Inner_Male005_PartsA"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsA"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsB.T_Thumb_Inner_Male005_PartsB"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsB"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsC.T_Thumb_Inner_Male005_PartsC"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsC"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsD.T_Thumb_Inner_Male005_PartsD"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsD"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsG.T_Thumb_Inner_Male005_PartsG"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsE"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsE.T_Thumb_Inner_Male005_PartsE"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsF"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsF.T_Thumb_Inner_Male005_PartsF"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsG"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableInnerList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Inner_Male7",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007.T_Thumb_AvatarCustomize_Inner_007"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Inners/Inner_Male7/Meshes/SK_Inner_Male7.SK_Inner_Male7"
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorF"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_F02"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 1,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorF"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_F41"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 2,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorF"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_F70"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 3,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorF"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_F31"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 4,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorF"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_F02"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 5,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorF"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_F52"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 6,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "StandardColor_Gray1"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_stg_monotone00"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "StructProperty",
+                "Name": "HidePartsInfoDetails",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007_PartsA.T_Thumb_AvatarCustomize_Inner_007_PartsA"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsA"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007_PartsB.T_Thumb_AvatarCustomize_Inner_007_PartsB"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsB"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007_PartsC.T_Thumb_AvatarCustomize_Inner_007_PartsC"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsC"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007_PartsD.T_Thumb_AvatarCustomize_Inner_007_PartsD"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsD"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007_PartsE.T_Thumb_AvatarCustomize_Inner_007_PartsE"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsE"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007_PartsF.T_Thumb_AvatarCustomize_Inner_007_PartsF"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsF"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableInnerList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Inner_Male8",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008.T_Thumb_AvatarCustomize_Inner_008"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Inners/Inner_Male8/Meshes/SK_Inner_Male8.SK_Inner_Male8"
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorG"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_G61"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 1,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorG"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_G51"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 2,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorG"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_G41"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 3,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorG"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_G12"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 4,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorG"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_G61"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 5,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "InnerColorG"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_preset_inner_G22"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 6,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "StandardColor_Gray1"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_stg_monotone00"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "StructProperty",
+                "Name": "HidePartsInfoDetails",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsA.T_Thumb_AvatarCustomize_Inner_008_PartsA"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsA"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsB.T_Thumb_AvatarCustomize_Inner_008_PartsB"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsB"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsC.T_Thumb_AvatarCustomize_Inner_008_PartsC"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsC"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsD.T_Thumb_AvatarCustomize_Inner_008_PartsD"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsD"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsE.T_Thumb_AvatarCustomize_Inner_008_PartsE"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsE"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsF.T_Thumb_AvatarCustomize_Inner_008_PartsF"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsF"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsG.T_Thumb_AvatarCustomize_Inner_008_PartsG"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsG"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                    "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                    "SerializeNone": true,
+                    "StructGUID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "HidePartsInfoDetails",
+                    "DuplicationIndex": 0,
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                        "ID": 0,
+                        "Name": "Thumbnail",
+                        "DuplicationIndex": 0,
+                        "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsH.T_Thumb_AvatarCustomize_Inner_008_PartsH"
+                      },
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                        "Name": "HidePartsName",
+                        "DuplicationIndex": 0,
+                        "Value": "HidePartsH"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableInnerList",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Inner_Male6",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male006.T_Thumb_Inner_Male006"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Mesh",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/Inners/Inner_Male6/Meshes/SK_Inner_Male6.SK_Inner_Male6"
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 0,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "StandardColor_Gray1"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_stg_monotone00"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 1,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "StandardColor_Yellow3"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_stg_yellowgreen31"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 2,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "StandardColor_Gray1"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "palette_stg_monotone40"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 3,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "None"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 4,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "None"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 5,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "None"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                "StructType": "AvatarCustomizeDataTableInnerColor",
+                "SerializeNone": true,
+                "StructGUID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Colors",
+                "DuplicationIndex": 6,
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                    "Name": "IsSpecialColor",
+                    "DuplicationIndex": 0,
+                    "Value": false
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorPaletteRowName",
+                    "DuplicationIndex": 0,
+                    "Value": "None"
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                    "Name": "ColorName",
+                    "DuplicationIndex": 0,
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "StructProperty",
+                "DummyStruct": {
+                  "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+                  "StructType": "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+                  "SerializeNone": true,
+                  "StructGUID": "00000000-0000-0000-0000-000000000000",
+                  "Name": "HidePartsInfoDetails",
+                  "DuplicationIndex": 0,
+                  "Value": []
+                },
+                "Name": "HidePartsInfoDetails",
+                "DuplicationIndex": 0,
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          }
+        ]
+      },
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+          "Name": "RowStruct",
+          "DuplicationIndex": 0,
+          "Value": -5
+        }
+      ],
+      "ClassIndex": -1,
+      "SuperIndex": 0,
+      "TemplateIndex": -2,
+      "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
+      "SerialSize": 13773,
+      "SerialOffset": 17432,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "00000000-0000-0000-0000-000000000000",
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": true,
+      "bIsAsset": true,
+      "SerializationBeforeSerializationDependencies": [
+        -5
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -1,
+        -2
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": {
+        "$type": "System.Byte[], mscorlib",
+        "$value": ""
+      },
+      "ObjectName": "DT_InnerList_Male",
+      "OuterIndex": 0
+    }
+  ],
+  "DependsMap": [
+    []
+  ],
+  "SoftPackageReferenceList": [],
+  "AssetRegistryData": [],
+  "WorldTileInfo": null,
+  "Generations": [
+    {
+      "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
+      "ExportCount": 1,
+      "NameCount": 232
+    }
+  ],
+  "PackageGuid": "3e5864a9-3a47-44f7-8c76-7a95e17c6d86",
+  "RecordedEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "RecordedCompatibleWithEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "ChunkIDs": [],
+  "PackageFlags": "PKG_FilterEditorOnly",
+  "PackageSource": 1114810732,
+  "FolderName": "None",
+  "GatherableTextDataCount": 0,
+  "GatherableTextDataOffset": 0,
+  "SearchableNamesOffset": 0,
+  "ThumbnailTableOffset": 0,
+  "CompressionFlags": 0,
+  "doWeHaveDependsMap": true,
+  "doWeHaveSoftPackageReferences": false,
+  "doWeHaveAssetRegistryData": true,
+  "doWeHaveWorldTileInfo": false,
+  "NameMap": [
+    "/Game/Costumes/Inners/DT_InnerList_Male",
+    "/Game/Costumes/Inners/Inner_Male1/Meshes/SK_Inner_Male1",
+    "/Game/Costumes/Inners/Inner_Male1/Meshes/SK_Inner_Male1.SK_Inner_Male1",
+    "/Game/Costumes/Inners/Inner_Male2/Meshes/SK_Inner_Male2",
+    "/Game/Costumes/Inners/Inner_Male2/Meshes/SK_Inner_Male2.SK_Inner_Male2",
+    "/Game/Costumes/Inners/Inner_Male3/Meshes/SK_Inner_Male3",
+    "/Game/Costumes/Inners/Inner_Male3/Meshes/SK_Inner_Male3.SK_Inner_Male3",
+    "/Game/Costumes/Inners/Inner_Male4/Meshes/SK_Inner_Male4",
+    "/Game/Costumes/Inners/Inner_Male4/Meshes/SK_Inner_Male4.SK_Inner_Male4",
+    "/Game/Costumes/Inners/Inner_Male5/Meshes/SK_Inner_Male5",
+    "/Game/Costumes/Inners/Inner_Male5/Meshes/SK_Inner_Male5.SK_Inner_Male5",
+    "/Game/Costumes/Inners/Inner_Male6/Meshes/SK_Inner_Male6",
+    "/Game/Costumes/Inners/Inner_Male6/Meshes/SK_Inner_Male6.SK_Inner_Male6",
+    "/Game/Costumes/Inners/Inner_Male7/Meshes/SK_Inner_Male7",
+    "/Game/Costumes/Inners/Inner_Male7/Meshes/SK_Inner_Male7.SK_Inner_Male7",
+    "/Game/Costumes/Inners/Inner_Male8/Meshes/SK_Inner_Male8",
+    "/Game/Costumes/Inners/Inner_Male8/Meshes/SK_Inner_Male8.SK_Inner_Male8",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007.T_Thumb_AvatarCustomize_Inner_007",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007_PartsA",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007_PartsA.T_Thumb_AvatarCustomize_Inner_007_PartsA",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007_PartsB",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007_PartsB.T_Thumb_AvatarCustomize_Inner_007_PartsB",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007_PartsC",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007_PartsC.T_Thumb_AvatarCustomize_Inner_007_PartsC",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007_PartsD",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007_PartsD.T_Thumb_AvatarCustomize_Inner_007_PartsD",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007_PartsE",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007_PartsE.T_Thumb_AvatarCustomize_Inner_007_PartsE",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007_PartsF",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_007_PartsF.T_Thumb_AvatarCustomize_Inner_007_PartsF",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008.T_Thumb_AvatarCustomize_Inner_008",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsA",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsA.T_Thumb_AvatarCustomize_Inner_008_PartsA",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsB",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsB.T_Thumb_AvatarCustomize_Inner_008_PartsB",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsC",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsC.T_Thumb_AvatarCustomize_Inner_008_PartsC",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsD",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsD.T_Thumb_AvatarCustomize_Inner_008_PartsD",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsE",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsE.T_Thumb_AvatarCustomize_Inner_008_PartsE",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsF",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsF.T_Thumb_AvatarCustomize_Inner_008_PartsF",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsG",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsG.T_Thumb_AvatarCustomize_Inner_008_PartsG",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsH",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_AvatarCustomize_Inner_008_PartsH.T_Thumb_AvatarCustomize_Inner_008_PartsH",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001.T_Thumb_Inner_Male001",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsA",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsA.T_Thumb_Inner_Male001_PartsA",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsC",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsC.T_Thumb_Inner_Male001_PartsC",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsD",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsD.T_Thumb_Inner_Male001_PartsD",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsE",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsE.T_Thumb_Inner_Male001_PartsE",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsF",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsF.T_Thumb_Inner_Male001_PartsF",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsG",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsG.T_Thumb_Inner_Male001_PartsG",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsH",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsH.T_Thumb_Inner_Male001_PartsH",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsI",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male001_PartsI.T_Thumb_Inner_Male001_PartsI",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002.T_Thumb_Inner_Male002",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsA",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsA.T_Thumb_Inner_Male002_PartsA",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsB",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsB.T_Thumb_Inner_Male002_PartsB",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsC",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsC.T_Thumb_Inner_Male002_PartsC",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsD",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsD.T_Thumb_Inner_Male002_PartsD",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsE",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsE.T_Thumb_Inner_Male002_PartsE",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsF",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsF.T_Thumb_Inner_Male002_PartsF",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsG",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male002_PartsG.T_Thumb_Inner_Male002_PartsG",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003.T_Thumb_Inner_Male003",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsA",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsA.T_Thumb_Inner_Male003_PartsA",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsB",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsB.T_Thumb_Inner_Male003_PartsB",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsC",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsC.T_Thumb_Inner_Male003_PartsC",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsD",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsD.T_Thumb_Inner_Male003_PartsD",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsE",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsE.T_Thumb_Inner_Male003_PartsE",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsF",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsF.T_Thumb_Inner_Male003_PartsF",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsG",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male003_PartsG.T_Thumb_Inner_Male003_PartsG",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male004",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male004.T_Thumb_Inner_Male004",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male004_PartsA",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male004_PartsA.T_Thumb_Inner_Male004_PartsA",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male004_PartsB",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male004_PartsB.T_Thumb_Inner_Male004_PartsB",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male004_PartsC",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male004_PartsC.T_Thumb_Inner_Male004_PartsC",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male004_PartsD",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male004_PartsD.T_Thumb_Inner_Male004_PartsD",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male004_PartsE",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male004_PartsE.T_Thumb_Inner_Male004_PartsE",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005.T_Thumb_Inner_Male005",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsA",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsA.T_Thumb_Inner_Male005_PartsA",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsB",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsB.T_Thumb_Inner_Male005_PartsB",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsC",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsC.T_Thumb_Inner_Male005_PartsC",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsD",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsD.T_Thumb_Inner_Male005_PartsD",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsE",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsE.T_Thumb_Inner_Male005_PartsE",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsF",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsF.T_Thumb_Inner_Male005_PartsF",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsG",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male005_PartsG.T_Thumb_Inner_Male005_PartsG",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male006",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/Inner/T_Thumb_Inner_Male006.T_Thumb_Inner_Male006",
+    "/Script/CoreUObject",
+    "/Script/Engine",
+    "/Script/Extensions",
+    "001_01",
+    "ArrayProperty",
+    "AvatarCustomizeDataTableInnerColor",
+    "AvatarCustomizeDataTableInnerHidePartsInfoDetail",
+    "AvatarCustomizeDataTableInnerList",
+    "BoolProperty",
+    "CheckFlagSymbol",
+    "Class",
+    "ColorName",
+    "ColorPaletteRowName",
+    "Colors",
+    "DataTable",
+    "Default__DataTable",
+    "DT_InnerList_Male",
+    "HidePartsA",
+    "HidePartsB",
+    "HidePartsC",
+    "HidePartsD",
+    "HidePartsE",
+    "HidePartsF",
+    "HidePartsG",
+    "HidePartsH",
+    "HidePartsInfoDetails",
+    "HidePartsName",
+    "Inner_Male1",
+    "Inner_Male2",
+    "Inner_Male3",
+    "Inner_Male4",
+    "Inner_Male5",
+    "Inner_Male6",
+    "Inner_Male7",
+    "Inner_Male8",
+    "InnerColorA",
+    "InnerColorB",
+    "InnerColorC",
+    "InnerColorD",
+    "InnerColorE",
+    "InnerColorF",
+    "InnerColorG",
+    "IsSpecialColor",
+    "Mesh",
+    "NameProperty",
+    "None",
+    "ObjectProperty",
+    "Package",
+    "palette_preset_inner_A01",
+    "palette_preset_inner_A11",
+    "palette_preset_inner_A21",
+    "palette_preset_inner_A31",
+    "palette_preset_inner_A41",
+    "palette_preset_inner_A51",
+    "palette_preset_inner_A61",
+    "palette_preset_inner_B11",
+    "palette_preset_inner_B21",
+    "palette_preset_inner_B31",
+    "palette_preset_inner_B41",
+    "palette_preset_inner_B51",
+    "palette_preset_inner_B61",
+    "palette_preset_inner_C01",
+    "palette_preset_inner_C11",
+    "palette_preset_inner_C21",
+    "palette_preset_inner_C31",
+    "palette_preset_inner_C41",
+    "palette_preset_inner_C51",
+    "palette_preset_inner_C61",
+    "palette_preset_inner_D01",
+    "palette_preset_inner_D11",
+    "palette_preset_inner_D21",
+    "palette_preset_inner_D31",
+    "palette_preset_inner_D41",
+    "palette_preset_inner_D61",
+    "palette_preset_inner_E01",
+    "palette_preset_inner_E11",
+    "palette_preset_inner_E21",
+    "palette_preset_inner_E31",
+    "palette_preset_inner_E41",
+    "palette_preset_inner_E51",
+    "palette_preset_inner_E61",
+    "palette_preset_inner_F02",
+    "palette_preset_inner_F31",
+    "palette_preset_inner_F41",
+    "palette_preset_inner_F52",
+    "palette_preset_inner_F70",
+    "palette_preset_inner_G12",
+    "palette_preset_inner_G22",
+    "palette_preset_inner_G41",
+    "palette_preset_inner_G51",
+    "palette_preset_inner_G61",
+    "palette_stg_monotone00",
+    "palette_stg_monotone40",
+    "palette_stg_yellowgreen31",
+    "Plaid2",
+    "RowStruct",
+    "ScriptStruct",
+    "SoftObjectProperty",
+    "StandardColor_Gray1",
+    "StandardColor_Yellow3",
+    "StrProperty",
+    "StructProperty",
+    "Thumbnail"
+  ]
+}

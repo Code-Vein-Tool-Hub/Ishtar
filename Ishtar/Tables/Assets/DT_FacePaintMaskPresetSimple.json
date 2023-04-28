@@ -1,0 +1,4712 @@
+{
+  "$type": "QueenIO.Relic, QueenIO",
+  "Info": "Serialized with UAssetAPI 1.0.0.0",
+  "UseSeparateBulkDataFiles": true,
+  "EngineVersion": "VER_UE4_ADDED_SOFT_OBJECT_PATH",
+  "LegacyFileVersion": -7,
+  "IsUnversioned": true,
+  "FileVersionLicenseeUE4": 0,
+  "CustomVersionContainer": [],
+  "Imports": [
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "ObjectName": "DataTable",
+      "OuterIndex": -3
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "DataTable",
+      "ObjectName": "Default__DataTable",
+      "OuterIndex": -3
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Engine",
+      "OuterIndex": 0
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "ObjectName": "/Script/Extensions",
+      "OuterIndex": 0
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "ScriptStruct",
+      "ObjectName": "AvatarCustomizeDataTableFacePaintMaskPreset",
+      "OuterIndex": -4
+    }
+  ],
+  "Exports": [
+    {
+      "$type": "UAssetAPI.DataTableExport, UAssetAPI",
+      "Table": {
+        "$type": "UAssetAPI.UDataTable, UAssetAPI",
+        "Data": [
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Nothing",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "None"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "None"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "None"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/BasicAssets/Textures/T_Black_sRGB.T_Black_sRGB"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskSimple004",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_037.T_Thumb_AvatarCustomize_Mask_037"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask033.T_Mask033"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.10000000149011612,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.23208299279212952,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.21958300471305847,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskSimpleHeart2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_142.T_Thumb_AvatarCustomize_Mask_142"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask136.T_Mask136"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.10000000149011612,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.22875000536441803,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.20000000298023224,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskBrokenHeart",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_084.T_Thumb_AvatarCustomize_Mask_084"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask081.T_Mask081"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.10000000149011612,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.22875000536441803,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.20000000298023224,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskSimple003",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_005.T_Thumb_AvatarCustomize_Mask_005"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask005.T_Mask005"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.10000000149011612,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.22875000536441803,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.20000000298023224,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskSimpleHeartB",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_071.T_Thumb_AvatarCustomize_Mask_071"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask066.T_Mask066"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.10000000149011612,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.22875000536441803,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.20000000298023224,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskSimple005",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_038.T_Thumb_AvatarCustomize_Mask_038"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask034.T_Mask034"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.11874999850988388,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.22875000536441803,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.075000002980232239,
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.23958300054073334,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskTriJewel",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_066.T_Thumb_AvatarCustomize_Mask_066"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "Metal_FacePaint2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "002_04"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask061.T_Mask061"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.11874999850988388,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24031199514865875,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.31110000610351562,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskCrystal",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_082.T_Thumb_AvatarCustomize_Mask_082"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "Metal_FacePaint2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "002_04"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask093.T_Mask093"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.14499999582767487,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24324999749660492,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.40000000596046448,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask4Thorn",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_140.T_Thumb_AvatarCustomize_Mask_140"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask134.T_Mask134"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.10000000149011612,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.22875000536441803,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.125,
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.23958300054073334,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskSimplePie",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_133.T_Thumb_AvatarCustomize_Mask_133"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask133.T_Mask133"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.10000000149011612,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.22875000536441803,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.2199999988079071,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskSimpleHexagon",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_138.T_Thumb_AvatarCustomize_Mask_138"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask132.T_Mask132"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.10000000149011612,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.22875000536441803,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.23958300054073334,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskSimple007",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_040.T_Thumb_AvatarCustomize_Mask_040"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask036.T_Mask036"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.10000000149011612,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.23208299279212952,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.23958300054073334,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskSimple002",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_002.T_Thumb_AvatarCustomize_Mask_002"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask002.T_Mask002"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.10000000149011612,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.23208299279212952,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.23958300054073334,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskStarNega",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_083.T_Thumb_AvatarCustomize_Mask_083"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask075.T_Mask075"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.10000000149011612,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.23208299279212952,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.23958300054073334,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskSimpleNineStar2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_169.T_Thumb_AvatarCustomize_Mask_169"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "KiraKira"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "001_01"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.60000002384185791,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask155.T_Mask155"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.12583300471305847,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.28895801305770874,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.30625000596046448,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskSimpleNineStar",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_053.T_Thumb_AvatarCustomize_Mask_053"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "KiraKira"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "001_01"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.60000002384185791,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask048.T_Mask048"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.12583300471305847,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.28895801305770874,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.30625000596046448,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskSimpleNineStarWrap",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_052.T_Thumb_AvatarCustomize_Mask_052"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "Metal_FacePaint2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "002_02"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.60000002384185791,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask003.T_Mask003"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.19630199670791626,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.064530998468399048,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.94093698263168335,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskBarMaru",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_125.T_Thumb_AvatarCustomize_Mask_125"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "Metal_FacePaint2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "002_04"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask119.T_Mask119"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.0637499988079071,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.41999998688697815,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskBarMaruCurve",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_130.T_Thumb_AvatarCustomize_Mask_130"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "Metal_FacePaint2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "002_04"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask124.T_Mask124"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.071405999362468719,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.29734399914741516,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.44999998807907104,
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.40000000596046448,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskBarMaruU",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_129.T_Thumb_AvatarCustomize_Mask_129"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "Metal_FacePaint2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "002_04"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask123.T_Mask123"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.11999999731779099,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.30375000834465027,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.30000001192092896,
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.5841670036315918,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MakeShopKuchibiru",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_108.T_Thumb_AvatarCustomize_Mask_108"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask100.T_Mask100"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.10000000149011612,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.23999999463558197,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.125,
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.45541799068450928,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MakeYu1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_106.T_Thumb_AvatarCustomize_Mask_106"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask098.T_Mask098"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.10000000149011612,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.23199999332427979,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.40000000596046448,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MakeYu2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_107.T_Thumb_AvatarCustomize_Mask_107"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask099.T_Mask099"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.10000000149011612,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.23199999332427979,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.40000000596046448,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MakeShopKuchibiruNega",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_100.T_Thumb_AvatarCustomize_Mask_100"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "Glow"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "003_02"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.60000002384185791,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask063.T_Mask063"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.10000000149011612,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.23999999463558197,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.125,
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.45541799068450928,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MakeYu1Nega",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_073.T_Thumb_AvatarCustomize_Mask_073"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "Glow"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "003_02"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.60000002384185791,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask068.T_Mask068"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.10000000149011612,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.23199999332427979,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.40000000596046448,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MakeYu2Nega",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_079.T_Thumb_AvatarCustomize_Mask_079"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "Glow"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "003_02"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.60000002384185791,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask076.T_Mask076"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.10000000149011612,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.23199999332427979,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.40000000596046448,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskRose",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_034.T_Thumb_AvatarCustomize_Mask_034"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "PresetColor_Makeup3"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_preset_makeup302"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask083.T_Mask083"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.14499999582767487,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24324999749660492,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.30000001192092896,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask_3Head_Beta",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_027.T_Thumb_AvatarCustomize_Mask_027"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask037.T_Mask037"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.14499999582767487,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24324999749660492,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.40000000596046448,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskSimple006",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_039.T_Thumb_AvatarCustomize_Mask_039"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask035.T_Mask035"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.11874999850988388,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24031199514865875,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.31177499890327454,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskRoseNega",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_035.T_Thumb_AvatarCustomize_Mask_035"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.89999997615814209,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask084.T_Mask084"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.14499999582767487,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24324999749660492,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.30000001192092896,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask_3Head",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_028.T_Thumb_AvatarCustomize_Mask_028"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask024.T_Mask024"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.14499999582767487,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24324999749660492,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.40000000596046448,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "MaskButterfly",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_070.T_Thumb_AvatarCustomize_Mask_070"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.800000011920929,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask065.T_Mask065"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.11874999850988388,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24031199514865875,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.31177499890327454,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask_DLC_Sakura",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_172.T_Thumb_AvatarCustomize_Mask_172"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "PastelColor4"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_st_pastel_451"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask038.T_Mask038"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.14499999582767487,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24324999749660492,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.33000001311302185,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": "BNF_FacePaint_Sakura"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask_DLC_Bi",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_173.T_Thumb_AvatarCustomize_Mask_173"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask039.T_Mask039"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.14499999582767487,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24324999749660492,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.33000001311302185,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": "BNF_FacePaint_Bi"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask_DLC_Yu",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_174.T_Thumb_AvatarCustomize_Mask_174"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask120.T_Mask120"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.14499999582767487,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24324999749660492,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.33000001311302185,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": "BNF_FacePaint_Yu"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask_DLC_Hikari",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_078.T_Thumb_AvatarCustomize_Mask_078"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "Glow"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "003_02"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask089.T_Mask089"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.14499999582767487,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24324999749660492,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.33000001311302185,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": "BNF_FacePaint_Hikari"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask_DLC_Yami",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_077.T_Thumb_AvatarCustomize_Mask_077"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask097.T_Mask097"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.14499999582767487,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24324999749660492,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.33000001311302185,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": "BNF_FacePaint_Yami"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask_DLC_Zan",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_086.T_Thumb_AvatarCustomize_Mask_086"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Mask095.T_Mask095"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.14499999582767487,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24324999749660492,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.33000001311302185,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": "BNF_FacePaint_Zan"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask_DLC_YG-15thLOGO1",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC008.T_Thumb_AvatarCustomize_Mask_DLC008"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_YG-15thLOGO_A2.T_Thumb_AvatarCustomize_Mask_DLC_YG-15thLOGO_A2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.15000000596046448,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.2800000011920929,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.40000000596046448,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": "Collabo_FacePaint_YG"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask_DLC_YG-15thLOGO2",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC007.T_Thumb_AvatarCustomize_Mask_DLC007"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Gray1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_monotone00"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_YG-15thLOGO_A1.T_Thumb_AvatarCustomize_Mask_DLC_YG-15thLOGO_A1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.15000000596046448,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.2800000011920929,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.40000000596046448,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": "Collabo_FacePaint_YG"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask_DLC_YG-15thLOGO3",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC009.T_Thumb_AvatarCustomize_Mask_DLC009"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Red2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_red00"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_YG-15thLOGO_A3.T_Thumb_AvatarCustomize_Mask_DLC_YG-15thLOGO_A3"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.15000000596046448,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.2800000011920929,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.40000000596046448,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": "Collabo_FacePaint_YG"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask_DLC_GE001",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE001.T_Thumb_AvatarCustomize_Mask_DLC_GE001"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "Metal_FacePaint2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "002_04"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE001.T_Thumb_AvatarCustomize_Mask_DLC_GE001"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.15399999916553497,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24699999392032623,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.37999999523162842,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask_DLC_GE002",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE002.T_Thumb_AvatarCustomize_Mask_DLC_GE002"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "Metal_FacePaint2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "002_04"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE002.T_Thumb_AvatarCustomize_Mask_DLC_GE002"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.15399999916553497,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24699999392032623,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.37999999523162842,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask_DLC_GE003",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE003.T_Thumb_AvatarCustomize_Mask_DLC_GE003"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "Metal_FacePaint2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "002_04"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE003.T_Thumb_AvatarCustomize_Mask_DLC_GE003"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.15399999916553497,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24699999392032623,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.37999999523162842,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask_DLC_GE004",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE004.T_Thumb_AvatarCustomize_Mask_DLC_GE004"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "Metal_FacePaint2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "002_04"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE004.T_Thumb_AvatarCustomize_Mask_DLC_GE004"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.15399999916553497,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24699999392032623,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.37999999523162842,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask_DLC_GE005",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE005.T_Thumb_AvatarCustomize_Mask_DLC_GE005"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "Metal_FacePaint2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "002_04"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE005.T_Thumb_AvatarCustomize_Mask_DLC_GE005"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.15399999916553497,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24699999392032623,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.37999999523162842,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask_DLC_GE006",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE006.T_Thumb_AvatarCustomize_Mask_DLC_GE006"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "Metal_FacePaint2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "002_04"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE006.T_Thumb_AvatarCustomize_Mask_DLC_GE006"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.15399999916553497,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24699999392032623,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.37999999523162842,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask_DLC_GE009",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE009.T_Thumb_AvatarCustomize_Mask_DLC_GE009"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Red2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_red31"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.5,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE009.T_Thumb_AvatarCustomize_Mask_DLC_GE009"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.15399999916553497,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24699999392032623,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.75,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask_DLC_GE007",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE007.T_Thumb_AvatarCustomize_Mask_DLC_GE007"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "StandardColor_Red2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "palette_stg_red72"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE007.T_Thumb_AvatarCustomize_Mask_DLC_GE007"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.15399999916553497,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.24699999392032623,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.75,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.StructTypes.StructPropertyData, UAssetAPI",
+            "StructType": "AvatarCustomizeDataTableFacePaintMaskPreset",
+            "SerializeNone": true,
+            "StructGUID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mask_DLC_GE008",
+            "DuplicationIndex": 0,
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Thumbnail",
+                "DuplicationIndex": 0,
+                "Value": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE008.T_Thumb_AvatarCustomize_Mask_DLC_GE008"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "IsSpecialColor",
+                "DuplicationIndex": 0,
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorPaletteRowName",
+                "DuplicationIndex": 0,
+                "Value": "Glow2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.NamePropertyData, UAssetAPI",
+                "Name": "ColorName",
+                "DuplicationIndex": 0,
+                "Value": "003_01"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "Opacity",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.SoftObjectPropertyData, UAssetAPI",
+                "ID": 0,
+                "Name": "Texture",
+                "DuplicationIndex": 0,
+                "Value": "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE008.T_Thumb_AvatarCustomize_Mask_DLC_GE008"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": -0.1379999965429306,
+                "Name": "OffsetV",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.2370000034570694,
+                "Name": "OffsetU",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": "+0",
+                "Name": "Rotate",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.FloatPropertyData, UAssetAPI",
+                "Value": 0.75,
+                "Name": "Scale",
+                "DuplicationIndex": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.BoolPropertyData, UAssetAPI",
+                "Name": "Symmetry",
+                "DuplicationIndex": 0,
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.StrPropertyData, UAssetAPI",
+                "Name": "CheckFlagSymbol",
+                "DuplicationIndex": 0,
+                "Value": null
+              }
+            ]
+          }
+        ]
+      },
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.ObjectPropertyData, UAssetAPI",
+          "Name": "RowStruct",
+          "DuplicationIndex": 0,
+          "Value": -5
+        }
+      ],
+      "ClassIndex": -1,
+      "SuperIndex": 0,
+      "TemplateIndex": -2,
+      "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
+      "SerialSize": 19703,
+      "SerialOffset": 20061,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "00000000-0000-0000-0000-000000000000",
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": true,
+      "bIsAsset": true,
+      "SerializationBeforeSerializationDependencies": [
+        -5
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -1,
+        -2
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": {
+        "$type": "System.Byte[], mscorlib",
+        "$value": ""
+      },
+      "ObjectName": "DT_FacePaintMaskPresetSimple",
+      "OuterIndex": 0
+    }
+  ],
+  "DependsMap": [
+    []
+  ],
+  "SoftPackageReferenceList": [],
+  "AssetRegistryData": [],
+  "WorldTileInfo": null,
+  "Generations": [
+    {
+      "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
+      "ExportCount": 1,
+      "NameCount": 290
+    }
+  ],
+  "PackageGuid": "3310a700-9b12-4956-aa17-0db58afe7b8d",
+  "RecordedEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "RecordedCompatibleWithEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "ChunkIDs": [],
+  "PackageFlags": "PKG_FilterEditorOnly",
+  "PackageSource": 3922505324,
+  "FolderName": "None",
+  "GatherableTextDataCount": 0,
+  "GatherableTextDataOffset": 0,
+  "SearchableNamesOffset": 0,
+  "ThumbnailTableOffset": 0,
+  "CompressionFlags": 0,
+  "doWeHaveDependsMap": true,
+  "doWeHaveSoftPackageReferences": false,
+  "doWeHaveAssetRegistryData": true,
+  "doWeHaveWorldTileInfo": false,
+  "NameMap": [
+    "/Game/BasicAssets/Textures/T_Black_sRGB",
+    "/Game/BasicAssets/Textures/T_Black_sRGB.T_Black_sRGB",
+    "/Game/Costumes/FacePaints/DT_FacePaintMaskPresetSimple",
+    "/Game/Costumes/FacePaints/T_Mask002",
+    "/Game/Costumes/FacePaints/T_Mask002.T_Mask002",
+    "/Game/Costumes/FacePaints/T_Mask003",
+    "/Game/Costumes/FacePaints/T_Mask003.T_Mask003",
+    "/Game/Costumes/FacePaints/T_Mask005",
+    "/Game/Costumes/FacePaints/T_Mask005.T_Mask005",
+    "/Game/Costumes/FacePaints/T_Mask024",
+    "/Game/Costumes/FacePaints/T_Mask024.T_Mask024",
+    "/Game/Costumes/FacePaints/T_Mask033",
+    "/Game/Costumes/FacePaints/T_Mask033.T_Mask033",
+    "/Game/Costumes/FacePaints/T_Mask034",
+    "/Game/Costumes/FacePaints/T_Mask034.T_Mask034",
+    "/Game/Costumes/FacePaints/T_Mask035",
+    "/Game/Costumes/FacePaints/T_Mask035.T_Mask035",
+    "/Game/Costumes/FacePaints/T_Mask036",
+    "/Game/Costumes/FacePaints/T_Mask036.T_Mask036",
+    "/Game/Costumes/FacePaints/T_Mask037",
+    "/Game/Costumes/FacePaints/T_Mask037.T_Mask037",
+    "/Game/Costumes/FacePaints/T_Mask038",
+    "/Game/Costumes/FacePaints/T_Mask038.T_Mask038",
+    "/Game/Costumes/FacePaints/T_Mask039",
+    "/Game/Costumes/FacePaints/T_Mask039.T_Mask039",
+    "/Game/Costumes/FacePaints/T_Mask048",
+    "/Game/Costumes/FacePaints/T_Mask048.T_Mask048",
+    "/Game/Costumes/FacePaints/T_Mask061",
+    "/Game/Costumes/FacePaints/T_Mask061.T_Mask061",
+    "/Game/Costumes/FacePaints/T_Mask063",
+    "/Game/Costumes/FacePaints/T_Mask063.T_Mask063",
+    "/Game/Costumes/FacePaints/T_Mask065",
+    "/Game/Costumes/FacePaints/T_Mask065.T_Mask065",
+    "/Game/Costumes/FacePaints/T_Mask066",
+    "/Game/Costumes/FacePaints/T_Mask066.T_Mask066",
+    "/Game/Costumes/FacePaints/T_Mask068",
+    "/Game/Costumes/FacePaints/T_Mask068.T_Mask068",
+    "/Game/Costumes/FacePaints/T_Mask075",
+    "/Game/Costumes/FacePaints/T_Mask075.T_Mask075",
+    "/Game/Costumes/FacePaints/T_Mask076",
+    "/Game/Costumes/FacePaints/T_Mask076.T_Mask076",
+    "/Game/Costumes/FacePaints/T_Mask081",
+    "/Game/Costumes/FacePaints/T_Mask081.T_Mask081",
+    "/Game/Costumes/FacePaints/T_Mask083",
+    "/Game/Costumes/FacePaints/T_Mask083.T_Mask083",
+    "/Game/Costumes/FacePaints/T_Mask084",
+    "/Game/Costumes/FacePaints/T_Mask084.T_Mask084",
+    "/Game/Costumes/FacePaints/T_Mask089",
+    "/Game/Costumes/FacePaints/T_Mask089.T_Mask089",
+    "/Game/Costumes/FacePaints/T_Mask093",
+    "/Game/Costumes/FacePaints/T_Mask093.T_Mask093",
+    "/Game/Costumes/FacePaints/T_Mask095",
+    "/Game/Costumes/FacePaints/T_Mask095.T_Mask095",
+    "/Game/Costumes/FacePaints/T_Mask097",
+    "/Game/Costumes/FacePaints/T_Mask097.T_Mask097",
+    "/Game/Costumes/FacePaints/T_Mask098",
+    "/Game/Costumes/FacePaints/T_Mask098.T_Mask098",
+    "/Game/Costumes/FacePaints/T_Mask099",
+    "/Game/Costumes/FacePaints/T_Mask099.T_Mask099",
+    "/Game/Costumes/FacePaints/T_Mask100",
+    "/Game/Costumes/FacePaints/T_Mask100.T_Mask100",
+    "/Game/Costumes/FacePaints/T_Mask119",
+    "/Game/Costumes/FacePaints/T_Mask119.T_Mask119",
+    "/Game/Costumes/FacePaints/T_Mask120",
+    "/Game/Costumes/FacePaints/T_Mask120.T_Mask120",
+    "/Game/Costumes/FacePaints/T_Mask123",
+    "/Game/Costumes/FacePaints/T_Mask123.T_Mask123",
+    "/Game/Costumes/FacePaints/T_Mask124",
+    "/Game/Costumes/FacePaints/T_Mask124.T_Mask124",
+    "/Game/Costumes/FacePaints/T_Mask132",
+    "/Game/Costumes/FacePaints/T_Mask132.T_Mask132",
+    "/Game/Costumes/FacePaints/T_Mask133",
+    "/Game/Costumes/FacePaints/T_Mask133.T_Mask133",
+    "/Game/Costumes/FacePaints/T_Mask134",
+    "/Game/Costumes/FacePaints/T_Mask134.T_Mask134",
+    "/Game/Costumes/FacePaints/T_Mask136",
+    "/Game/Costumes/FacePaints/T_Mask136.T_Mask136",
+    "/Game/Costumes/FacePaints/T_Mask155",
+    "/Game/Costumes/FacePaints/T_Mask155.T_Mask155",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE001",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE001.T_Thumb_AvatarCustomize_Mask_DLC_GE001",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE002",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE002.T_Thumb_AvatarCustomize_Mask_DLC_GE002",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE003",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE003.T_Thumb_AvatarCustomize_Mask_DLC_GE003",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE004",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE004.T_Thumb_AvatarCustomize_Mask_DLC_GE004",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE005",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE005.T_Thumb_AvatarCustomize_Mask_DLC_GE005",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE006",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE006.T_Thumb_AvatarCustomize_Mask_DLC_GE006",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE007",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE007.T_Thumb_AvatarCustomize_Mask_DLC_GE007",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE008",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE008.T_Thumb_AvatarCustomize_Mask_DLC_GE008",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE009",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_GE009.T_Thumb_AvatarCustomize_Mask_DLC_GE009",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_YG-15thLOGO_A1",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_YG-15thLOGO_A1.T_Thumb_AvatarCustomize_Mask_DLC_YG-15thLOGO_A1",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_YG-15thLOGO_A2",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_YG-15thLOGO_A2.T_Thumb_AvatarCustomize_Mask_DLC_YG-15thLOGO_A2",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_YG-15thLOGO_A3",
+    "/Game/Costumes/FacePaints/T_Thumb_AvatarCustomize_Mask_DLC_YG-15thLOGO_A3.T_Thumb_AvatarCustomize_Mask_DLC_YG-15thLOGO_A3",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_002",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_002.T_Thumb_AvatarCustomize_Mask_002",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_005",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_005.T_Thumb_AvatarCustomize_Mask_005",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_027",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_027.T_Thumb_AvatarCustomize_Mask_027",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_028",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_028.T_Thumb_AvatarCustomize_Mask_028",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_034",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_034.T_Thumb_AvatarCustomize_Mask_034",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_035",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_035.T_Thumb_AvatarCustomize_Mask_035",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_037",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_037.T_Thumb_AvatarCustomize_Mask_037",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_038",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_038.T_Thumb_AvatarCustomize_Mask_038",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_039",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_039.T_Thumb_AvatarCustomize_Mask_039",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_040",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_040.T_Thumb_AvatarCustomize_Mask_040",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_052",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_052.T_Thumb_AvatarCustomize_Mask_052",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_053",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_053.T_Thumb_AvatarCustomize_Mask_053",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_066",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_066.T_Thumb_AvatarCustomize_Mask_066",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_070",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_070.T_Thumb_AvatarCustomize_Mask_070",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_071",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_071.T_Thumb_AvatarCustomize_Mask_071",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_073",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_073.T_Thumb_AvatarCustomize_Mask_073",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_077",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_077.T_Thumb_AvatarCustomize_Mask_077",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_078",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_078.T_Thumb_AvatarCustomize_Mask_078",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_079",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_079.T_Thumb_AvatarCustomize_Mask_079",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_082",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_082.T_Thumb_AvatarCustomize_Mask_082",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_083",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_083.T_Thumb_AvatarCustomize_Mask_083",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_084",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_084.T_Thumb_AvatarCustomize_Mask_084",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_086",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_086.T_Thumb_AvatarCustomize_Mask_086",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_100.T_Thumb_AvatarCustomize_Mask",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_106.T_Thumb_AvatarCustomize_Mask",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_107.T_Thumb_AvatarCustomize_Mask",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_108.T_Thumb_AvatarCustomize_Mask",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_125.T_Thumb_AvatarCustomize_Mask",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_129.T_Thumb_AvatarCustomize_Mask",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_130.T_Thumb_AvatarCustomize_Mask",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_133.T_Thumb_AvatarCustomize_Mask",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_138.T_Thumb_AvatarCustomize_Mask",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_140.T_Thumb_AvatarCustomize_Mask",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_142.T_Thumb_AvatarCustomize_Mask",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_169.T_Thumb_AvatarCustomize_Mask",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_172.T_Thumb_AvatarCustomize_Mask",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_173.T_Thumb_AvatarCustomize_Mask",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_174.T_Thumb_AvatarCustomize_Mask",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC007",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC007.T_Thumb_AvatarCustomize_Mask_DLC007",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC008",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC008.T_Thumb_AvatarCustomize_Mask_DLC008",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC009",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC009.T_Thumb_AvatarCustomize_Mask_DLC009",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE001",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE001.T_Thumb_AvatarCustomize_Mask_DLC_GE001",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE002",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE002.T_Thumb_AvatarCustomize_Mask_DLC_GE002",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE003",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE003.T_Thumb_AvatarCustomize_Mask_DLC_GE003",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE004",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE004.T_Thumb_AvatarCustomize_Mask_DLC_GE004",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE005",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE005.T_Thumb_AvatarCustomize_Mask_DLC_GE005",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE006",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE006.T_Thumb_AvatarCustomize_Mask_DLC_GE006",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE007",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE007.T_Thumb_AvatarCustomize_Mask_DLC_GE007",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE008",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE008.T_Thumb_AvatarCustomize_Mask_DLC_GE008",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE009",
+    "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_Mask_DLC_GE009.T_Thumb_AvatarCustomize_Mask_DLC_GE009",
+    "/Script/CoreUObject",
+    "/Script/Engine",
+    "/Script/Extensions",
+    "001_01",
+    "002_02",
+    "002_04",
+    "003_01",
+    "003_02",
+    "AvatarCustomizeDataTableFacePaintMaskPreset",
+    "BoolProperty",
+    "CheckFlagSymbol",
+    "Class",
+    "ColorName",
+    "ColorPaletteRowName",
+    "DataTable",
+    "Default__DataTable",
+    "DT_FacePaintMaskPresetSimple",
+    "FloatProperty",
+    "Glow",
+    "Glow2",
+    "IsSpecialColor",
+    "KiraKira",
+    "MakeShopKuchibiru",
+    "MakeShopKuchibiruNega",
+    "MakeYu1",
+    "MakeYu1Nega",
+    "MakeYu2",
+    "MakeYu2Nega",
+    "Mask4Thorn",
+    "Mask_3Head",
+    "Mask_3Head_Beta",
+    "Mask_DLC_Bi",
+    "Mask_DLC_GE001",
+    "Mask_DLC_GE002",
+    "Mask_DLC_GE003",
+    "Mask_DLC_GE004",
+    "Mask_DLC_GE005",
+    "Mask_DLC_GE006",
+    "Mask_DLC_GE007",
+    "Mask_DLC_GE008",
+    "Mask_DLC_GE009",
+    "Mask_DLC_Hikari",
+    "Mask_DLC_Sakura",
+    "Mask_DLC_Yami",
+    "Mask_DLC_YG-15thLOGO1",
+    "Mask_DLC_YG-15thLOGO2",
+    "Mask_DLC_YG-15thLOGO3",
+    "Mask_DLC_Yu",
+    "Mask_DLC_Zan",
+    "MaskBarMaru",
+    "MaskBarMaruCurve",
+    "MaskBarMaruU",
+    "MaskBrokenHeart",
+    "MaskButterfly",
+    "MaskCrystal",
+    "MaskRose",
+    "MaskRoseNega",
+    "MaskSimple002",
+    "MaskSimple003",
+    "MaskSimple004",
+    "MaskSimple005",
+    "MaskSimple006",
+    "MaskSimple007",
+    "MaskSimpleHeart2",
+    "MaskSimpleHeartB",
+    "MaskSimpleHexagon",
+    "MaskSimpleNineStar",
+    "MaskSimpleNineStar2",
+    "MaskSimpleNineStarWrap",
+    "MaskSimplePie",
+    "MaskStarNega",
+    "MaskTriJewel",
+    "Metal_FacePaint2",
+    "NameProperty",
+    "None",
+    "Nothing",
+    "ObjectProperty",
+    "OffsetU",
+    "OffsetV",
+    "Opacity",
+    "Package",
+    "palette_preset_makeup302",
+    "palette_st_pastel",
+    "palette_stg_monotone00",
+    "palette_stg_monotone72",
+    "palette_stg_red00",
+    "palette_stg_red31",
+    "palette_stg_red72",
+    "PastelColor4",
+    "PresetColor_Makeup3",
+    "Rotate",
+    "RowStruct",
+    "Scale",
+    "ScriptStruct",
+    "SoftObjectProperty",
+    "StandardColor_Gray1",
+    "StandardColor_Red2",
+    "StrProperty",
+    "Symmetry",
+    "Texture",
+    "Thumbnail"
+  ]
+}
